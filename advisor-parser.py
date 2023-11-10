@@ -96,15 +96,19 @@ def export_to_file(data):
 
 
 # Example usage:
-tickers = ['Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option',
-           'Tata-Small-Cap-Fund-Regular-Plan-Growth', 
-           'Edelweiss-Mid-Cap-Fund-Regular-Plan-Growth-Option']
+tickers = [
+           'Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option',
+           'Tata-Large-Cap-Fund-Direct-Plan-Growth-Option',
+           'SBI-Blue-Chip-Fund-Regular-Plan-Growth',
+           'Kotak-Bluechip-Fund-Growth',
+           'ICICI-Prudential-Bluechip-Fund-Growth',
+           'HDFC-Top-100-Fund-Growth-Option-Regular-Plan',
+           'Canara-Robeco-Blue-Chip-Equity-Fund-Regular-Plan-Growth-Option',
+           'Aditya-Birla-Sun-Life-Frontline-Equity-Fund-Growth',
+           'Edelweiss-Mid-Cap-Fund-Regular-Plan-Growth-Option'
+]
 
 extracted_data = get_stock_prices(tickers)
 # print(extracted_data)
 
 export_to_file(extracted_data)
-
-
-
-
