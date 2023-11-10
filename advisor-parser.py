@@ -1,15 +1,16 @@
-import requests
 import csv
 import re
+import requests
 from bs4 import BeautifulSoup
+from datetime import datetime
 
 def get_stock_prices(tickers):
-    trendDetails = {}
+    trendDetails = list()
     for count in range(len(tickers)):
       ticker=tickers[count]
       # for ticker in tickers:
       print(count+1, ticker)  
-      trendDetails[ticker]=get_stock_info(ticker)
+      trendDetails.append(get_stock_info(ticker))
     return trendDetails
 
 def get_stock_info(symbol):
@@ -30,6 +31,7 @@ def get_stock_info(symbol):
         # (similar to the previous examples)
 
         valueDict = {}
+        valueDict['Fund']=symbol
         
         cagr_mapping = {'scheme_inception_returns':'CAGR Since Inception',
                         'scheme_1yr_returns':'1 Year CAGR',
@@ -99,7 +101,6 @@ def get_stock_info(symbol):
 
         # print(table_within_ra_tab1)
 
-
         return valueDict
 
     else:
@@ -117,7 +118,8 @@ def extract_using_regex(input_string, key):
 # exporting data to file
 def export_to_file(data):
   # Specify the CSV file path
-  csv_file_path = 'output.csv'
+  timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
+  csv_file_path = f"fund-stats_{timestamp}.csv"
 
   # Define the order of columns
   column_order = ['Fund', 
@@ -138,16 +140,22 @@ def export_to_file(data):
                   'Large Cap', 
                   'Others']
 
-  rows = []
-  for fund, fund_data in data.items():
-      fund_data['Fund']=fund
-      rows.append([fund_data.get(column, '') for column in column_order])
+  fundsByType={}
+  for fund_data in data:
+      category=fund_data.get('Category')
+      fundStats=[]
+      if category in fundsByType:
+         fundStats=fundsByType.get(category)
+      fundStats.append([fund_data.get(column, '') for column in column_order])
+      fundsByType[category]=fundStats
 
   # Write to CSV
   with open(csv_file_path, 'w', newline='') as csv_file:
       writer = csv.writer(csv_file)
       writer.writerow(column_order)  # Writing header
-      writer.writerows(rows)  # Writing data rows
+      for category, fundStats in fundsByType.items():
+         writer.writerow([category])
+         writer.writerows(fundStats)  # Writing data rows
 
 
 # Example usage:
