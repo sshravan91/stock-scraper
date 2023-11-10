@@ -77,7 +77,7 @@ def get_stock_info(symbol):
 
 def export_to_file(data):
   # Specify the CSV file path
-  csv_file_path = '/Users/shrasrir/Downloads/output.csv'
+  csv_file_path = 'output.csv'
 
   # Define the order of columns
   column_order = ['Fund', 'Category', 'Asset Class', 'TER', 'Alpha', 'Beta', 'Standard Deviation',
