@@ -50,8 +50,9 @@ def get_stock_info(symbol):
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
-        context_mapping = {'Category: ':'Category', 
+        context_mapping = {'Category: ':'Category',
                    'TER:':'TER', 
+                   'Launch Date:': 'Launch Date',
                    'Asset Class: ':'Asset Class', 
                    'Standard Deviation':'Standard Deviation', 
                    'Alpha':'Alpha', 
@@ -69,7 +70,7 @@ def get_stock_info(symbol):
               valueDict[category]=percentage
 
         # extract-1
-        sch_over_table_keys = {'Category: ', 'Asset Class: ', 'TER:'}
+        sch_over_table_keys = {'Category: ', 'Asset Class: ', 'TER:', 'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
         for index, table in enumerate(tables, start=1):
           rows = table.find_all('tr')
@@ -105,7 +106,7 @@ def get_stock_info(symbol):
         return valueDict
 
     else:
-        print(f"Failed to retrieve data. Status code: {response.status_code}")
+        print(f"Failed for {url}")
 
 # extract CAGR using regex
 def extract_using_regex(input_string, key):
@@ -126,6 +127,7 @@ def export_to_file(data):
   column_order = ['Fund', 
                   'Category', 
                   'Asset Class', 
+                  'Launch Date',
                   'TER', 
                   'CAGR Since Inception', 
                   '1 Year CAGR', 
@@ -143,12 +145,15 @@ def export_to_file(data):
 
   fundsByType={}
   for fund_data in data:
-      category=fund_data.get('Category')
-      fundStats=[]
-      if category in fundsByType:
-         fundStats=fundsByType.get(category)
-      fundStats.append([fund_data.get(column, '') for column in column_order])
-      fundsByType[category]=fundStats
+      if 'Category' in fund_data:
+        category=fund_data.get('Category')
+        fundStats=[]
+        if category in fundsByType:
+          fundStats=fundsByType.get(category)
+        fundStats.append([fund_data.get(column, '') for column in column_order])
+        fundsByType[category]=fundStats
+      else:
+         print("No category for fund " + fund_data + " hence")
 
   # Write to CSV
   with open(csv_file_path, 'w', newline='') as csv_file:
@@ -164,7 +169,7 @@ def export_to_file(data):
 # - Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option
 # - Tata-Large-Cap-Fund-Direct-Plan-Growth-Option
 def extract_funds_from_yaml():
-  with open('fundlist.yaml', 'r') as file:
+  with open('fundslist.yaml', 'r') as file:
       data = yaml.safe_load(file)
 
   return data['funds']
