@@ -1,3 +1,4 @@
+import concurrent.futures
 import csv
 import re
 import requests
@@ -7,11 +8,26 @@ from datetime import datetime
 
 def get_stock_prices(tickers):
     trendDetails = list()
-    for count in range(len(tickers)):
-      ticker=tickers[count]
-      # for ticker in tickers:
-      print(count+1, ticker)  
-      trendDetails.append(get_stock_info(ticker))
+    futures=list()
+
+    # Number of processes in the process pool
+    num_processes = 8  # You can adjust this based on your system resources
+
+    # Using ProcessPoolExecutor for parallel execution
+    with concurrent.futures.ProcessPoolExecutor(max_workers=num_processes) as executor:
+      # Submit tasks and get Future objects
+      for count in range(len(tickers)):
+        ticker=tickers[count]
+        print(count+1, ticker)
+        futures.append(executor.submit(get_stock_info, ticker))
+
+      # Wait for all futures to complete
+      concurrent.futures.wait(futures)
+
+      # Retrieve results from completed futures
+      for future in futures:
+         trendDetails.append(future.result())
+
     return trendDetails
 
 def get_stock_info(symbol):
@@ -102,7 +118,7 @@ def get_stock_info(symbol):
         # table_within_ra_tab1 = ra_tab1_div.find('table', {'class': 'adv-table table'})
 
         # print(table_within_ra_tab1)
-
+        print("Finished parsing " + url)
         return valueDict
 
     else:
