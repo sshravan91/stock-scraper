@@ -69,7 +69,7 @@ def get_stock_info(symbol):
         context_mapping = {'Category: ':'Category',
                    'TER:':'TER', 
                    'Launch Date:': 'Launch Date',
-                   'Asset Class: ':'Asset Class', 
+                   #  'Asset Class: ':'Asset Class', 
                    'Standard Deviation':'Standard Deviation', 
                    'Alpha':'Alpha', 
                    'Beta':'Beta',
@@ -86,7 +86,10 @@ def get_stock_info(symbol):
               valueDict[category]=percentage
 
         # extract-1
-        sch_over_table_keys = {'Category: ', 'Asset Class: ', 'TER:', 'Launch Date:'}
+        sch_over_table_keys = {'Category: ',
+                              #  'Asset Class: ',
+                               'TER:',
+                               'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
         for index, table in enumerate(tables, start=1):
           rows = table.find_all('tr')
@@ -135,6 +138,7 @@ def extract_using_regex(input_string, key):
 
 # exporting data to file
 def export_to_file(data):
+  print(data)
   # Specify the CSV file path
   timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
   csv_file_path = f"fund-stats_{timestamp}.csv"
@@ -142,7 +146,7 @@ def export_to_file(data):
   # Define the order of columns
   column_order = ['Fund', 
                   'Category', 
-                  'Asset Class', 
+                  # 'Asset Class', 
                   'Launch Date',
                   'TER', 
                   'CAGR Since Inception', 
@@ -169,7 +173,7 @@ def export_to_file(data):
         fundStats.append([fund_data.get(column, '') for column in column_order])
         fundsByType[category]=fundStats
       else:
-         print("No category for fund " + fund_data + " hence")
+         print("No category for fund " + fund_data + " hence skipping.")
 
   # Write to CSV
   with open(csv_file_path, 'w', newline='') as csv_file:
@@ -200,5 +204,7 @@ if __name__ == "__main__":
   extracted_data = get_stock_prices(funds)
   # print(extracted_data)
 
+  data_sorted_by_alpha=sorted(extracted_data, key=lambda x: float(x['Alpha']) if x['Alpha'] else 0, reverse=True)
+
   # export to file
-  export_to_file(extracted_data)
+  export_to_file(data_sorted_by_alpha)
