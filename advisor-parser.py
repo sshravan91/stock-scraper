@@ -26,7 +26,9 @@ def get_stock_prices(tickers):
 
       # Retrieve results from completed futures
       for future in futures:
-         trendDetails.append(future.result())
+        valueDict=future.result()
+        if bool(valueDict):
+          trendDetails.append(valueDict)
 
     return trendDetails
 
@@ -48,7 +50,6 @@ def get_stock_info(symbol):
         # (similar to the previous examples)
 
         valueDict = {}
-        valueDict['Fund']=symbol
         
         cagr_mapping = {'scheme_inception_returns':'CAGR Since Inception',
                         'scheme_1yr_returns':'1 Year CAGR',
@@ -87,7 +88,7 @@ def get_stock_info(symbol):
 
         # extract-1
         sch_over_table_keys = {'Category: ',
-                              #  'Asset Class: ',
+                               #  'Asset Class: ',
                                'TER:',
                                'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
@@ -122,7 +123,12 @@ def get_stock_info(symbol):
 
         # print(table_within_ra_tab1)
         print("Finished parsing " + url)
-        return valueDict
+
+        if bool(valueDict):
+          valueDict['Fund']=symbol
+          return valueDict
+        else:
+           print(f"{symbol} has no data")
 
     else:
         print(f"Failed for {url}")
@@ -138,7 +144,7 @@ def extract_using_regex(input_string, key):
 
 # exporting data to file
 def export_to_file(data):
-  print(data)
+  # print(data)
   # Specify the CSV file path
   timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
   csv_file_path = f"fund-stats_{timestamp}.csv"
@@ -204,7 +210,7 @@ if __name__ == "__main__":
   extracted_data = get_stock_prices(funds)
   # print(extracted_data)
 
-  data_sorted_by_alpha=sorted(extracted_data, key=lambda x: float(x['Alpha']) if x['Alpha'] else 0, reverse=True)
+  data_sorted_by_alpha=sorted(extracted_data, key=lambda x: (print(x) or float(x['Alpha'])) if x['Alpha'] and x['Alpha'] != '-' else float('-inf'), reverse=True)
 
   # export to file
   export_to_file(data_sorted_by_alpha)
