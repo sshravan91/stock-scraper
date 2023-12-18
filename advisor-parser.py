@@ -169,6 +169,36 @@ def export_to_file(data):
                   'Large Cap', 
                   'Others']
 
+
+  category_order=['Equity: Large Cap',
+                  'Equity: Focused',
+                  'Equity: Large and Mid Cap',
+                  'Equity: Mid Cap',
+                  'Equity: Small Cap',
+                  'Equity: Contra',
+                  'Equity: Value',
+                  'Equity: Flexi Cap',
+                  'Equity: Multi Cap',
+                  'Hybrid: Multi Asset Allocation',
+                  'Hybrid: Dynamic Asset Allocation',
+                  'Hybrid: Aggressive',
+                  'Hybrid: Conservative',
+                  'Equity: ELSS',
+                  'Hybrid: Arbitrage', 
+                  'Hybrid: Equity Savings', 
+                  'Equity: Sectoral-Pharma and Healthcare', 
+                  'Equity: Sectoral-FMCG',
+                  'Equity: Thematic-Consumption',
+                  'Equity: Thematic-ESG',
+                  'Equity: Thematic-Others',
+                  'Equity: Sectoral-Infrastructure',
+                  'Equity: Dividend Yield', 
+                  'Equity: Thematic-Manufacturing', 
+                  'Equity: Sectoral-Banking and Financial Services', 
+                  'Equity: Thematic-PSU', 
+                  'Equity: Thematic-MNC', 
+                  'Equity: Thematic-International']
+
   fundsByType={}
   for fund_data in data:
       if 'Category' in fund_data:
@@ -185,9 +215,11 @@ def export_to_file(data):
   with open(csv_file_path, 'w', newline='') as csv_file:
       writer = csv.writer(csv_file)
       writer.writerow(column_order)  # Writing header
-      for category, fundStats in fundsByType.items():
-         writer.writerow([category])
-         writer.writerows(fundStats)  # Writing data rows
+
+      for category in category_order:
+        if category in fundsByType.keys():
+          writer.writerow([category])
+          writer.writerows(fundsByType[category])
 
 
 # extract funds from yaml file with the following format
