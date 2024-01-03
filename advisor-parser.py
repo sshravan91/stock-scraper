@@ -69,6 +69,7 @@ def get_stock_info(symbol):
 
         context_mapping = {'Category: ':'Category',
                    'TER:':'TER', 
+                   'Total Assets:':'Total Assets (in Cr)',
                    'Launch Date:': 'Launch Date',
                    #  'Asset Class: ':'Asset Class', 
                    'Standard Deviation':'Standard Deviation', 
@@ -90,6 +91,7 @@ def get_stock_info(symbol):
         sch_over_table_keys = {'Category: ',
                                #  'Asset Class: ',
                                'TER:',
+                               'Total Assets:',
                                'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
         for index, table in enumerate(tables, start=1):
@@ -100,6 +102,8 @@ def get_stock_info(symbol):
               if key in subrow:
                 if key=='TER:':
                   valueDict[context_mapping[key]]=subrow.replace(key, '').strip().split(" As on ")[0]
+                elif key=='Total Assets:':
+                  valueDict[context_mapping[key]]=subrow.replace(key, '').strip().split(" Cr As on ")[0]
                 else:
                   valueDict[context_mapping[key]]=subrow.replace(key, '').strip()
 
@@ -139,7 +143,7 @@ def extract_using_regex(input_string, key):
   if match:
       return match.group(1)
   else:
-    print("no match")
+    # print("no match")
     return None
 
 # exporting data to file
@@ -154,6 +158,7 @@ def export_to_file(data):
                   'Category', 
                   # 'Asset Class', 
                   'Launch Date',
+                  'Total Assets (in Cr)',
                   'TER', 
                   'CAGR Since Inception', 
                   '1 Year CAGR', 
@@ -169,35 +174,7 @@ def export_to_file(data):
                   'Large Cap', 
                   'Others']
 
-
-  category_order=['Equity: Large Cap',
-                  'Equity: Focused',
-                  'Equity: Large and Mid Cap',
-                  'Equity: Mid Cap',
-                  'Equity: Small Cap',
-                  'Equity: Contra',
-                  'Equity: Value',
-                  'Equity: Flexi Cap',
-                  'Equity: Multi Cap',
-                  'Hybrid: Multi Asset Allocation',
-                  'Hybrid: Dynamic Asset Allocation',
-                  'Hybrid: Aggressive',
-                  'Hybrid: Conservative',
-                  'Equity: ELSS',
-                  'Hybrid: Arbitrage', 
-                  'Hybrid: Equity Savings', 
-                  'Equity: Sectoral-Pharma and Healthcare', 
-                  'Equity: Sectoral-FMCG',
-                  'Equity: Thematic-Consumption',
-                  'Equity: Thematic-ESG',
-                  'Equity: Thematic-Others',
-                  'Equity: Sectoral-Infrastructure',
-                  'Equity: Dividend Yield', 
-                  'Equity: Thematic-Manufacturing', 
-                  'Equity: Sectoral-Banking and Financial Services', 
-                  'Equity: Thematic-PSU', 
-                  'Equity: Thematic-MNC', 
-                  'Equity: Thematic-International']
+  category_order=extract_data_from_yaml('categories')
 
   fundsByType={}
   for fund_data in data:
@@ -226,17 +203,18 @@ def export_to_file(data):
 # funds:
 # - Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option
 # - Tata-Large-Cap-Fund-Direct-Plan-Growth-Option
-def extract_funds_from_yaml():
+def extract_data_from_yaml(property):
   with open('fundslist.yaml', 'r') as file:
       data = yaml.safe_load(file)
 
-  return data['funds']
+  return data[property]
+
 
 
 if __name__ == "__main__":
   
   # extract fund names
-  funds = extract_funds_from_yaml()
+  funds = extract_data_from_yaml('funds')
 
   # extract data for funds
   extracted_data = get_stock_prices(funds)

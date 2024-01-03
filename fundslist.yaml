@@ -103,7 +103,7 @@ funds:
 - Aditya-Birla-Sun-Life-Equity-Advantage-Fund-Regular-Growth
 - LIC-MF-Large-Mid-Cap-Fund-Regular-Plan-Growth
 - Canara-Robeco-Emerging-Equities-Regular-Plan-Growth-Option
-#Equity:Large-Cap
+# Equity:Large-Cap
 - Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option
 - HDFC-Top-100-Fund-Growth-Option-Regular-Plan
 - ICICI-Prudential-Bluechip-Fund-Growth
@@ -353,25 +353,25 @@ funds:
 - SBI-Equity-Hybrid-Fund-Regular-Plan-Growth
 - Axis-Equity-Hybrid-Fund-Regular-Plan-Growth-Option
 - Quant-Absolute-Fund-Growth-Option-Regular-Plan
-#Hybrid:Arbitrage
+# #Hybrid:Arbitrage
 # - SBI-Arbitrage-Opportunities-Fund-Regular-Plan-Growth
-- Kotak-Equity-Arbitrage-Fund-Growth
-- Invesco-India-Arbitrage-Fund-Growth-Option
-- BARODA-BNP-PARIBAS-ARBITRAGE-FUND-REGULAR-PLAN-GROWTH-OPTION
-- HDFC-Arbitrage-Fund-Wholesale-Growth-Option
-- Edelweiss-Arbitrage-Fund-Regular-Plan-Growth-Option
-- UTI-Arbitrage-Fund-Regular-Plan-Growth-Option
-- ICICI-Prudential-Equity-Arbitrage-Fund-Growth
-- BANDHAN-Arbitrage-Fund-Regular-Plan-Growth
-- Aditya-Birla-Sun-Life-Arbitrage-Fund-Regular-Plan-Growth
-- HSBC-Arbitrage-Fund-Regular-Growth
-- Nippon-India-Arbitrage-Fund-Growth-Plan-Growth-Option
-- Mirae-Asset-Arbitrage-Fund-Regular-Growth
-- Axis-Arbitrage-Fund-Regular-Plan-Growth
-- LIC-MF-Arbitrage-Fund-Regular-Plan-Growth
-- HDFC-Arbitrage-Fund-Retail-Growth-Option
-- ITI-Arbitrage-Fund-Regular-Plan-Growth-Option
-- Mahindra-Manulife-Arbitrage-Fund-Regular-Plan-Growth
+# - Kotak-Equity-Arbitrage-Fund-Growth
+# - Invesco-India-Arbitrage-Fund-Growth-Option
+# - BARODA-BNP-PARIBAS-ARBITRAGE-FUND-REGULAR-PLAN-GROWTH-OPTION
+# - HDFC-Arbitrage-Fund-Wholesale-Growth-Option
+# - Edelweiss-Arbitrage-Fund-Regular-Plan-Growth-Option
+# - UTI-Arbitrage-Fund-Regular-Plan-Growth-Option
+# - ICICI-Prudential-Equity-Arbitrage-Fund-Growth
+# - BANDHAN-Arbitrage-Fund-Regular-Plan-Growth
+# - Aditya-Birla-Sun-Life-Arbitrage-Fund-Regular-Plan-Growth
+# - HSBC-Arbitrage-Fund-Regular-Growth
+# - Nippon-India-Arbitrage-Fund-Growth-Plan-Growth-Option
+# - Mirae-Asset-Arbitrage-Fund-Regular-Growth
+# - Axis-Arbitrage-Fund-Regular-Plan-Growth
+# - LIC-MF-Arbitrage-Fund-Regular-Plan-Growth
+# - HDFC-Arbitrage-Fund-Retail-Growth-Option
+# - ITI-Arbitrage-Fund-Regular-Plan-Growth-Option
+# - Mahindra-Manulife-Arbitrage-Fund-Regular-Plan-Growth
 #Hybrid:Conservative
 - HDFC-Hybrid-Debt-Fund-Growth-Plan
 - SBI-Conservative-Hybrid-Fund-Regular-Plan-Growth
@@ -443,3 +443,44 @@ funds:
 - WhiteOak-Capital-Multi-Asset-Allocation-Fund-Regular-Plan-Growth
 - Edelweiss-Multi-Asset-Allocation-Fund-Regular-Plan-Growth
 - Kotak-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option
+#Equity:Sectoral-Technology
+- Franklin-India-Technology-Fund-Growth
+- Aditya-Birla-Sun-Life-Digital-India-Fund-Growth-Regular-Plan
+- ICICI-Prudential-Technology-Fund-Growth
+- SBI-Technology-Opportunities-Fund-Regular-Plan-Growth
+- HDFC-Technology-Fund-Growth-Option
+- quant-Teck-Fund-Growth-Option-Regular-Plan
+- Tata-Digital-India-Fund-Regular-Plan-Growth
+
+
+
+categories:
+- 'Equity: Large Cap'
+- 'Equity: Focused'
+- 'Equity: Large and Mid Cap'
+- 'Equity: Mid Cap'
+- 'Equity: Small Cap'
+- 'Equity: Contra'
+- 'Equity: Value'
+- 'Equity: Flexi Cap'
+- 'Equity: Multi Cap'
+- 'Hybrid: Multi Asset Allocation'
+- 'Hybrid: Dynamic Asset Allocation'
+- 'Hybrid: Aggressive'
+- 'Hybrid: Conservative'
+- 'Equity: ELSS'
+- 'Equity: Sectoral-Technology'
+- 'Hybrid: Arbitrage'
+- 'Hybrid: Equity Savings'
+- 'Equity: Sectoral-Pharma and Healthcare'
+- 'Equity: Sectoral-FMCG'
+- 'Equity: Thematic-Consumption'
+- 'Equity: Thematic-ESG'
+- 'Equity: Thematic-Others'
+- 'Equity: Sectoral-Infrastructure'
+- 'Equity: Dividend Yield'
+- 'Equity: Thematic-Manufacturing'
+- 'Equity: Sectoral-Banking and Financial Services'
+- 'Equity: Thematic-PSU'
+- 'Equity: Thematic-MNC'
+- 'Equity: Thematic-International'
