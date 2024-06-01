@@ -55,7 +55,8 @@ def get_stock_info(symbol):
                         'scheme_1yr_returns':'1 Year CAGR',
                         'scheme_3yr_returns':'3 Years CAGR',
                         'scheme_5yr_returns':'5 Years CAGR',
-                        'scheme_10yr_returns':'10 Years CAGR'}
+                        'scheme_10yr_returns':'10 Years CAGR',
+                        'scheme_nav':'NAV'}
 
         # We extract CAGR using regex. This is a simpler brute approach.
         # We do this because currently there is a java script executed to populate table.
@@ -161,6 +162,7 @@ def export_to_file(data):
                   'Total Assets (in Cr)',
                   'TER', 
                   'CAGR Since Inception', 
+                  'NAV',
                   '1 Year CAGR', 
                   '3 Years CAGR', 
                   '5 Years CAGR', 
@@ -209,7 +211,12 @@ def extract_data_from_yaml(property):
 
   return data[property]
 
+#def get_portfolio_analysis():
+  #curl -X POST -H "Content-Type: application/x-www-form-urlencoded; charset=UTF-8" -d "scheme_amfi=Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option" https://www.advisorkhoj.com/mutual-funds-research/getPortfolioAnalysis
 
+#def get_related_funds():
+  #curl https://www.advisorkhoj.com/mutual-funds-research/getRelatedfunds 
+  #provide "scheme_category":"Equity: Multi Cap" in header for POST call to get relevant funds 
 
 if __name__ == "__main__":
   
