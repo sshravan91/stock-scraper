@@ -11,7 +11,7 @@ def get_stock_prices(tickers):
     futures=list()
 
     # Number of processes in the process pool
-    num_processes = 8  # You can adjust this based on your system resources
+    num_processes = 1000  # You can adjust this based on your system resources
 
     # Using ProcessPoolExecutor for parallel execution
     with concurrent.futures.ProcessPoolExecutor(max_workers=num_processes) as executor:

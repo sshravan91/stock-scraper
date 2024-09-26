@@ -79,8 +79,8 @@ funds:
 - Kotak-Focused-Equity-Fund-Regular-plan-Growth-Option
 - Aditya-Birla-Sun-Life-Focused-Equity-Fund-Growth-Option
 - Mirae-Asset-Focused-Fund-Regular-Plan-Growth
-- LIC-MF-Focused-30-Equity-Fund-Regular-Plan-Growth
-- Axis-Focused-25-Fund-Regular-Plan-Growth-Option
+- LIC-MF-Focused-Fund-Regular-Plan-Growth
+- Axis-Focused-Fund-Regular-Plan-Growth-Option
 - ITI-Focused-Equity-Fund-Regular-Plan-Growth
 #Equity:Large-and-Mid-Cap
 - Motilal-Oswal-Large-and-Midcap-Fund-Regular-Plan-Growth
@@ -103,6 +103,7 @@ funds:
 - Aditya-Birla-Sun-Life-Equity-Advantage-Fund-Regular-Growth
 - LIC-MF-Large-Mid-Cap-Fund-Regular-Plan-Growth
 - Canara-Robeco-Emerging-Equities-Regular-Plan-Growth-Option
+- Bajaj-Finserv-Large-and-Mid-Cap-Fund-Regular-Plan-Growth
 # Equity:Large-Cap
 - Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option
 - HDFC-Top-100-Fund-Growth-Option-Regular-Plan
@@ -451,7 +452,235 @@ funds:
 - HDFC-Technology-Fund-Growth-Option
 - quant-Teck-Fund-Growth-Option-Regular-Plan
 - Tata-Digital-India-Fund-Regular-Plan-Growth
+#Retirement Fund
+- Aditya-Birla-Sun-Life-Retirement-Fund-The-30s-Plan-Regular-Growth
+- Aditya-Birla-Sun-Life-Retirement-Fund-The-40s-Plan-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Retirement-Fund-The-50s-Plan-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Retirement-Fund-The-50s-Plus-Debt-Plan-Regular-Plan-Growth
+- Franklin-India-Pension-Plan-Growth
+- HDFC-Retirement-Savings-Fund-Equity-Plan-Regular-Plan
+- HDFC-Retirement-Savings-Fund-Hybrid-Debt-Plan-Regular-Plan
+- HDFC-Retirement-Savings-Fund-Hybrid-Equity-Plan-Regular-Plan
+- ICICI-Prudential-Retirement-Fund-Hybrid-Aggressive-Growth-Option
+- ICICI-Prudential-Retirement-Fund-Hybrid-Conservative-Growth-Option
+- ICICI-Prudential-Retirement-Fund-Pure-Debt-Growth-Option
+- ICICI-Prudential-Retirement-Fund-Pure-Equity-Growth-Option
+- Nippon-India-Retirement-Fund-Income-Generation-Scheme-Growth-Plan-Growth-Option
+- Nippon-India-Retirement-Fund-Wealth-Creation-Scheme-Growth-Plan-Growth-Option
 
+#Index fund
+- Aditya-Birla-Sun-Life-Index-Fund-Growth-Regular-Plan
+- Bandhan-Nifty-Fund-Regular-Plan-Growth
+- DSP-Equal-Nifty-50-Fund-Regular-Plan-Growth
+- DSP-Nifty-50-Index-Fund-Regular-Plan-Growth
+- DSP-Nifty-Next-50-Index-Fund-Regular-Plan-Growth
+- Franklin-India-Index-Fund-Nifty-Plan-Growth
+- HDFC-Index-FundSensex-Plan-FV-Rs-32-161
+- HDFC-Index-Fund-Nifty-50-Plan-Growth-Plan
+- ICICI-Prudential-Sensex-Index-Fund-Cumulative-Option
+- ICICI-Prudential-Nifty-Index-Fund-Cumulative-Option
+- ICICI-Prudential-Nifty-Next-50-Index-Fund-Growth
+- LIC-MF-Index-Fund-Sensex-Plan-Regular-Plan-Growth
+- LIC-MF-Index-Fund-Nifty-Plan-Regular-Plan-Growth
+- Motilal-Oswal-Nifty-500-Fund-Regular-Plan
+- Motilal-Oswal-Nifty-Bank-Index-Regular-Plan
+- Motilal-Oswal-Nifty-Midcap-150-Index-Fund-Regular-Plan
+- Motilal-Oswal-Nifty-Smallcap-250-Index-Regular-Plan
+- Nippon-India-Index-Fund-Sensex-Plan-Growth-Plan-Growth-Option
+- Nippon-India-Index-Fund-Nifty-Plan-Growth-Plan-Growth-Option
+- SBI-NIFTY-INDEX-FUND-REGULAR-PLAN-GROWTH
+- Tata-Index-Fund-Nifty-Regular-Plan
+- Tata-Index-Fund-Sensex-Regular-Plan
+- UTI-NIFTY-Index-Fund-Regular-Plan-Growth-Option
+- UTI-NIFTY-Index-Fund-Regular-Plan-Income-Option
+- UTI-Nifty-Next-50-Index-Fund-Regular-Plan-Growth-Option
+
+#ETFs
+- Aditya-Birla-Sun-Life-Gold-ETF
+- ADITYA-BIRLA-SUN-LIFE-BANKING-ETF
+- Aditya-Birla-Sun-Life-Nifty-ETF
+- Aditya-Birla-Sunlife-Nifty-Next-50-ETF
+- Axis-Gold-ETF
+- Axis-Nifty-ETF
+- Bandhan-Sensex-ETF
+- Bandhan-Nifty-ETF
+- BHARAT-22-ETF
+- CPSE-ETF
+- DSP-Liquid-ETF-Daily-Dividend-Reinvest
+- HDFC-Sensex-ETF-Growth-option
+- HDFC-Gold-Exchange-Traded-Fund
+- HDFC-Nifty-50-ETF-Growth-Option
+- ICICI-Prudential-S-P-BSE-500-ETF
+- ICICI-Prudential-Liquid-ETF
+- ICICI-Prudential-Midcap-Select-ETF
+- ICICI-Prudential-Sensex-ETF
+- ICICI-Prudential-Gold-ETF
+- ICICI-Prudential-Nifty-100-ETF
+- ICICI-Prudential-Nifty-Low-Vol-30-ETF
+- ICICI-Prudential-Nifty-ETF
+- ICICI-Prudential-Bank-ETF
+- ICICI-Prudential-Nifty-Next-50-ETF
+- ICICI-Prudential-Private-Banks-ETF
+- ICICI-Prudential-NV20-ETF
+- Invesco-India-Gold-Exchange-Traded-Fund
+- Invesco-India-Nifty-Exchange-Traded-Fund
+- Kotak-Sensex-ETF
+- KOTAK-GOLD-ETF
+- Kotak-Nifty-ETF
+- Kotak-NV-20-ETF-Dividend
+- Kotak-Banking-ETF
+- Kotak-PSU-Bank-ETF
+- LIC-MF-Exchange-Traded-Fund-Sensex
+- LIC-MF-Exchange-Traded-Fund-Nifty-100
+- LIC-MF-Exchange-Traded-Fund-Nifty-50
+- LIC-MF-G-Sec-Long-Term-Exchange-Traded-Fund
+- Mirae-Asset-Nifty-50-ETF-MAN50ETF
+
+#Debt: Overnight
+- Axis-Overnight-Fund-Regular-Plan-Growth-Option
+- Bandhan-Overnight-Fund-Regular-Plan-Growth
+- Baroda-Overnight-Fund-Regular-Plan-Growth
+- Canara-Robeco-Overnight-Fund-Regular-Plan-Growth-Option
+- DSP-Overnight-Fund-Regular-Plan-Growth
+- Edelweiss-Overnight-Fund-Regular-Plan-Growth
+- Franklin-India-Overnight-fund-Growth
+- Indiabulls-Overnight-Fund-Regular-Plan-Growth-Option
+- HDFC-Overnight-Fund-Growth-Option
+- HSBC-Overnight-Fund-Growth
+- ICICI-Prudential-Overnight-Fund-Growth
+- ITI-Overnight-Fund-Regular-Plan-Growth-Option
+- Kotak-Ovrnight-Fund-Regular-plan-Growth-Option
+- LIC-MF-Overnight-Fund-Regular-Plan-Growth
+- Mahindra-Overnight-Fund-Regular-Plan-Growth
+- Mirae-Asset-Overnight-Fund-Regular-Plan-Growth
+- Nippon-India-Overnight-Fund-Regular-Plan-Growth-Option
+- PGIM-India-Overnight-Fund-Regular-Plan-Growth-Option
+- SBI-OVERNIGHT-FUND-REGULAR-PLAN-GROWTH
+- Sundaram-Overnight-Fund-Regular-Plan-Growth
+- Tata-Overnight-Fund-Regular-Plan-Growth
+- Union-Overnight-Fund-Regular-Plan-Growth-Option
+- UTI-Overnight-Fund-Regular-Plan-Growth-Option
+
+#Debt: Liquid
+- Aditya-Birla-Sun-Life-Liquid-Fund-Growth
+- Aditya-Birla-Sun-Life-Liquid-Fund-Discipline-Advantage-Plan
+- Aditya-Birla-Sun-Life-Liquid-Fund-Retail-Growth
+- Axis-Liquid-Fund-Growth-Option
+- Axis-Liquid-Fund-Retail-Plan-Growth-Option
+- Bandhan-Cash-Fund-Regular-Plan-Growth
+- Bandhan-Cash-Fund-Unclaimed-Redemption-Less-than-Three-Years
+- Bandhan-Cash-Fund-Unclaimed-Redemption-More-than-Three-Years
+- BOI-AXA-Liquid-Fund-Regular-Plan-Growth
+- BARODA-LIQUID-FUND-Plan-A-GROWTH-OPTION
+- BARODA-LIQUID-FUND-Regular-Growth-Option
+- Canara-Robeco-Liquid-Fund-Regular-Plan-Daily-Div-Reinvest
+- Canara-Robeco-Liquid-Fund-Regular-Plan-Growth
+- Canara-Robeco-Liquid-Fund-Regular-Plan-Monthly-Div-Reinvest
+- Canara-Robeco-Liquid-Fund-Regular-Plan-Weekly-Div-Reinvest
+- DSP-Liquidity-Fund-Regular-Plan-Growth
+- Edelweiss-Liquid-Fund-Regular-Plan-Growth-Option
+- Edelweiss-Liquid-Fund-Retail-Plan-Growth-Option
+- Franklin-India-Liquid-Fund-Regular-Plan-Growth
+- Franklin-India-Liquid-Fund-Unclaimed-Redemption-Investor-Education-Plan-Growth
+- Franklin-India-Liquid-Fund-Unclaimed-Redemption-Plan-Growth
+- Indiabulls-Liquid-Fund-Growth-Option
+- HDFC-Liquid-Fund-GROWTH
+- ICICI-Prudential-Liquid-Fund-Growth
+- Invesco-India-Liquid-Fund-Growth
+- Invesco-India-Liquid-Fund-Regular-Growth
+- Invesco-India-Liquid-Fund-Unclaimed-Redemption-Plan-Above-3-Years
+- Invesco-India-Liquid-Fund-Unclaimed-Redemption-Plan-Below-3-years
+- ITI-Liquid-Fund-Regular-Plan-Growth-Option
+- JM-Liquid-Fund-Growth-Option
+- Kotak-Liquid-Regular-Plan-Growth
+- LIC-MF-Liquid-Fund-Regular-Plan-Growth
+- Mahindra-Liquid-Fund-Regular-Plan-Growth
+- Mirae-Asset-Cash-Management-Fund-Growth
+- Motilal-Oswal-Liquid-Fund-Regular-Growth
+- Motilal-Oswal-Liquid-Fund-Unclaimed-Redemption-Upto-3-years
+- Essel-Liquid-Fund-Regular-Plan-Growth-Option
+- Nippon-India-Liquid-Fund-Retail-Option-Growth-Plan
+- Nippon-India-Liquid-Fund-Growth-Plan
+- Parag-Parikh-Liquid-Fund-Regular-Plan-Growth
+- PGIM-India-Insta-Cash-Fund-Growth
+- Quant-Liquid-Plan-Growth-Option
+- Quantum-Liquid-Fund-Regular-Plan-Growth-Option
+- SBI-Liquid-Fund-REGULAR-PLAN-Growth
+- Tata-Liquid-Fund-Regular-Plan-Growth
+- Taurus-Investor-Education-Pool-Unclaimed-Redemption-Growth
+- Taurus-Unclaimed-Redemption-Growth
+- Union-Liquid-Fund-Growth-Option
+- UTI-Liquid-Cash-Plan-Regular-Plan-Growth-Option
+- UTI-Liquid-Cash-Plan-Discontinued-Regular-Plan-Growth
+- YES-Liquid-Fund-Regular-plan-Growth-Option
+
+#Debt: Ultra Short Duration
+- Aditya-Birla-Sun-Life-Savings-Fund-Discipline-Advantage-Plan
+- Aditya-Birla-Sun-Life-Savings-Fund-Growth-Regular-Plan
+- Aditya-Birla-Sun-Life-Savings-Fund-Daily-Dividend-Regular-Plan
+- Aditya-Birla-Sun-Life-Savings-Fund-Retail-Growth
+- Axis-Ultra-Short-Term-Fund-Regular-Plan-Growth
+- Bandhan-ULTRA-SHORT-TERM-FUND-REGULAR-PLAN-GROWTH
+- BOI-AXA-Ultra-Short-Duration-Fund-Regular-Plan-Growth
+- Baroda-Ultra-Short-Duration-Fund-Regular-Plan-Growth
+- Canara-Robeco-Ultra-Short-Term-Fund-Regular-Plan-Growth
+- Canara-Robeco-Ultra-Short-Term-Fund-Regular-Plan-Dividend-payout-option
+- DSP-Ultra-Short-Fund-Regular-Plan-Growth
+- HDFC-Ultra-Short-Term-Fund-Growth-Option
+- ICICI-Prudential-Ultra-Short-Term-Fund-Growth
+- Invesco-India-Ultra-Short-Term-Fund-Growth
+- Kotak-Savings-Fund-Growth
+- Mahindra-Ultra-Short-Term-Yojana-Regular-Plan-Growth
+- Motilal-Oswal-Ultra-Short-Term-Fund-MOFUSTF-Regular-Plan-Growth
+- Nippon-India-Ultra-Short-Duration-Fund-Growth-Option
+- PGIM-India-Ultra-Short-Term-Fund-Growth
+- SBI-MAGNUM-ULTRA-SHORT-DURATION-FUND-REGULAR-PLAN-GROWTH
+- Tata-Ultra-Short-Term-Fund-Regular-Plan-Growth
+
+#Debt: Short Duration
+- Aditya-Birla-Sun-Life-Short-Term-Opportunities-Fund-Growth-Regular-Plan
+- Axis-Short-Term-Fund-Growth-Option
+- Axis-Short-Term-Fund-Retail-Plan-Growth-Option
+- Bandhan-Bond-Fund-Short-Term-Plan-Regular-Plan-Growth
+- BOI-AXA-Short-Term-Income-Fund-Regular-Plan-Growth
+- Baroda-Short-Term-Bond-Fund-Plan-A-Growth-Option
+- Canara-Robeco-Short-Duration-Fund-Regular-Plan-Growth
+- DSP-Short-Term-Fund-Regular-Plan-Growth
+- Franklin-India-Short-Term-Income-Plan-Growth
+- Indiabulls-Short-Term-Fund-Regular-Plan-Growth-Option
+- HDFC-Short-Term-Debt-Fund-Growth-Option
+- ICICI-Prudential-Short-Term-Fund-Growth-Option
+- Invesco-India-Short-Term-Fund-Growth
+- Invesco-India-Short-Term-Fund-Plan-B-Growth
+- Kotak-Bond-Short-Term-Plan-Growth
+- LIC-MF-Short-Term-Debt-Fund-Regular-Plan-Growth
+- Mirae-Asset-Short-Term-Fund-Regular-Plan-Growth
+- Nippon-India-Short-Term-Fund-Growth-Plan
+- SBI-SHORT-HORIZON-DEBT-FUND-SHORT-TERM-FUND-RETAIL-GROWTH
+- SBI-SHORT-TERM-DEBT-FUND-REGULAR-PLAN-GROWTH
+- Tata-Short-Term-Bond-Fund-Regular-Plan-Growth-Option
+
+#Debt: Medium Duration
+- Aditya-Birla-Sun-Life-Medium-Term-Plan-Growth-Regular-Plan
+- Axis-Strategic-Bond-Fund-Growth-Option
+- Bandhan-Bond-Fund-Medium-Term-Plan-Regular-Plan-Growth-Option
+- DSP-Bond-Fund-Growth
+- HDFC-Medium-Term-Debt-Fund-Fortnightly-Option
+- HDFC-Medium-Term-Debt-Fund-Growth-Option
+- ICICI-Prudential-Medium-Term-Bond-Fund-Growth
+- Kotak-Medium-Term-Fund-Growth
+- Nippon-India-Strategic-Debt-Fund-Growth-Option
+- SBI-MAGNUM-MEDIUM-DURATION-FUND-REGULAR-PLAN-GROWTH
+- Sundaram-Medium-Term-Bond-Fund-Regular-Growth
+
+#Childrens Fund
+- Axis-Childrens-Gift-Fund-Lock-in-Growth
+- Axis-Childrens-Gift-Fund-without-Lock-in-Growth
+- HDFC-Childrens-Gift-Fund-Growth-Plan
+- ICICI-Prudential-Child-Care-Fund-Gift-Plan-Cumulative
+- LIC-MF-Childrens-Fund-Regular-Plan-Growth
+- SBI-Magnum-Childrens-Benefit-Fund-REGULAR-PLAN-GROWTH
+- Tata-Young-Citizen-Regular-Plan-Growth
 
 
 categories:
@@ -484,3 +713,12 @@ categories:
 - 'Equity: Thematic-PSU'
 - 'Equity: Thematic-MNC'
 - 'Equity: Thematic-International'
+- 'Debt: Ultra Short Duration'
+- 'Debt: Short Duration'
+- 'Debt: Medium Duration'
+- 'Debt: Liquid'
+- 'Debt: Overnight'
+- 'ETFs'
+- 'Index Fund'
+- 'Retirement Fund'
+- 'Childrens Fund'
