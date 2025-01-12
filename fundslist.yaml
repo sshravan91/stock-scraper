@@ -11,19 +11,28 @@ funds:
 - LIC-MF-Dividend-Yield-Fund-Regular-Plan-Growth
 - Templeton-India-Equity-Income-Fund-Growth-Plan
 - SBI-Dividend-Yield-Fund-Regular-Plan-Growth
+- Tata-Dividend-Yield-Fund-Regular-Plan-Growth
+- Sundaram-Dividend-Yield-Fund-Formerly-Known-as-Principal-Dividend-Yield-Fund-Growth-Plan
 #Equity:ELSS
 - Motilal-Oswal-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- 360-ONE-ELSS-Tax-Saver-Nifty-50-Index-Fund-Regular-Plan-Growth
+- BANK-OF-INDIA-ELSS-Tax-Saver-Regular-Plan-Growth
+- JM-ELSS-Tax-Saver-Fund-Regular-Growth-option
 - SBI-Long-Term-Equity-Fund-Regular-Plan-Growth
 - ITI-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
 - WhiteOak-Capital-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
 - HDFC-ELSS-Tax-saver-Growth-Plan
+- DSP-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
 - Invesco-India-ELSS-Tax-Saver-Fund-Growth
 - BANDHAN-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
 - Franklin-India-Taxshield-Growth
+- Franklin-India-ELSS-Tax-Saver-Fund-Growth
 - HSBC-ELSS-Tax-saver-Fund-Regular-Growth
+- Parag-Parikh-ELSS-Tax-Saver-Fund-Regular-Growth
 - BARODA-BNP-PARIBAS-ELSS-Fund-Regular-Growth-Option
 - LIC-MF-ELSS-Tax-Saver-Regular-Plan-Growth
 - Nippon-India-Tax-Saver-ELSS-Fund-Growth-Plan-Growth-Option
+- Quant-ELSS-Tax-Saver-Fund-Growth-Option-Regular-Plan
 - Quant-Tax-Plan-Growth-Option-Regular-Plan
 - Kotak-Tax-Saver-Scheme-Growth
 - HSBC-Tax-Saver-Equity-Fund-Growth
@@ -36,8 +45,19 @@ funds:
 - CANARA-ROBECO-ELSS-TAX-SAVER-REGULAR-PLAN-GROWTH-OPTION
 - Aditya-Birla-Sun-Life-ELSS-Tax-Relief-96-Growth-Option
 - Samco-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+# Equity:Retirement savings Fund
+- ICICI-Prudential-Retirement-Fund-Pure-Equity-Growth-Option
+- Tata-Retirement-Savings-Fund-Progressive-Plan-Regular-Plan-Growth-Option
+- HDFC-Retirement-Savings-Fund-Equity-Plan-Growth-Option
+- ICICI-Prudential-Retirement-Fund-Hybrid-Aggressive-Growth-Option
+- SBI-Retirement-Benefit-Fund-Aggressive-Plan-Regular-Plan-Growth
+- Nippon-India-Retirement-Fund-Wealth-Creation-Scheme-Growth-Plan-Growth-Option
+- SBI-Retirement-Benefit-Fund-Aggressive-Hybrid-Plan-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Retirement-Fund-The-30s-Plan-Regular-Growth
+- HDFC-Retirement-Savings-Fund-Hybrid-Equity-Plan-Growth-Option
 #Equity:Flexi-Cap
 - Invesco-India-Flexi-Cap-Fund-Growth
+- Shriram-Flexi-Cap-Fund-Regular-Growth
 - Nippon-India-Flexi-Cap-Fund-Regular-Plan-Growth-Plan-Growth-Option
 - HSBC-Flexi-Cap-Fund-Regular-Growth
 - Motilal-Oswal-Flexi-Cap-Fund-Regular-Plan-Growth-Option
@@ -60,6 +80,13 @@ funds:
 - UTI-Flexi-Cap-Fund-Growth-Option
 - ITI-Flexi-Cap-Fund-Regular-Plan-Growth
 - Mirae-Asset-Flexi-Cap-Fund-Regular-Plan-Growth
+- Parag-Parikh-Flexi-Cap-Fund-Regular-Plan-Growth
+- JM-Flexicap-Fund-Regular-Growth-option
+- BANK-OF-INDIA-Flexi-Cap-Fund-Regular-Plan-Growth
+- Union-Flexi-Cap-Fund-Growth-Option
+- DSP-Flexi-Cap-Fund-Regular-Plan-Growth
+- 360-ONE-FLEXICAP-FUND-REGULAR-PLAN-GROWTH
+- Taurus-Flexi-Cap-Fund-Regular-Plan-Growth
 #Equity:Focused
 - Invesco-India-Focused-20-Equity-Fund-Growth
 - HDFC-Focused-30-Fund-GROWTH-PLAN
