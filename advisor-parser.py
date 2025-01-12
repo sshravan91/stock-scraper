@@ -168,12 +168,12 @@ def export_to_file(data):
                   'TER',
                   'Turn over (%)',
                   'CAGR Since Inception', 
-                  'NAV',
                   '1 Year CAGR', 
                   '3 Years CAGR', 
                   '5 Years CAGR', 
                   '10 Years CAGR',
-                  'Alpha', 
+                  'NAV',  
+	   	  'Alpha', 
                   'Beta', 
                   'Standard Deviation',
                   'Sharpe Ratio', 
@@ -194,7 +194,7 @@ def export_to_file(data):
         fundStats.append([fund_data.get(column, '') for column in column_order])
         fundsByType[category]=fundStats
       else:
-         print("No category for fund " + fund_data + " hence skipping.")
+         print("No category for fund " + str(fund_data) + " hence skipping.")
 
   # Write to CSV
   with open(csv_file_path, 'w', newline='') as csv_file:
