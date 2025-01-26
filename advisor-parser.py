@@ -11,7 +11,7 @@ def get_stock_prices(tickers):
     futures=list()
 
     # Number of processes in the process pool
-    num_processes = 1000  # You can adjust this based on your system resources
+    num_processes = 100  # You can adjust this based on your system resources
 
     # Using ProcessPoolExecutor for parallel execution
     with concurrent.futures.ProcessPoolExecutor(max_workers=num_processes) as executor:
@@ -72,6 +72,7 @@ def get_stock_info(symbol):
                    'TER:':'TER', 
                    'Total Assets:':'Total Assets (in Cr)',
                    'Launch Date:': 'Launch Date',
+                   'Turn over:': 'Turn over (%)',
                    #  'Asset Class: ':'Asset Class', 
                    'Standard Deviation':'Standard Deviation', 
                    'Alpha':'Alpha', 
@@ -92,6 +93,7 @@ def get_stock_info(symbol):
         sch_over_table_keys = {'Category: ',
                                #  'Asset Class: ',
                                'TER:',
+                               'Turn over:',
                                'Total Assets:',
                                'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
@@ -105,6 +107,9 @@ def get_stock_info(symbol):
                   valueDict[context_mapping[key]]=subrow.replace(key, '').strip().split(" As on ")[0]
                 elif key=='Total Assets:':
                   valueDict[context_mapping[key]]=subrow.replace(key, '').strip().split(" Cr As on ")[0]
+                elif key=='Turn over:':
+                  result = subrow.replace(key, '').strip().split("|")[0]
+                  valueDict[context_mapping[key]] = result.strip() if result else result  # Apply .strip() only if result is not empty
                 else:
                   valueDict[context_mapping[key]]=subrow.replace(key, '').strip()
 
@@ -133,10 +138,10 @@ def get_stock_info(symbol):
           valueDict['Fund']=symbol
           return valueDict
         else:
-           print(f"{symbol} has no data")
+           print(f"\033[91m{symbol} has no data\033[0m")
 
     else:
-        print(f"Failed for {url}")
+        print(f"\033Failed for {url}\033[0m")
 
 # extract CAGR using regex
 def extract_using_regex(input_string, key):
@@ -160,7 +165,8 @@ def export_to_file(data):
                   # 'Asset Class', 
                   'Launch Date',
                   'Total Assets (in Cr)',
-                  'TER', 
+                  'TER',
+                  'Turn over (%)',
                   'CAGR Since Inception', 
                   'NAV',
                   '1 Year CAGR', 
