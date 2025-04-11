@@ -56,7 +56,11 @@ def get_stock_info(symbol):
                         'scheme_3yr_returns':'3 Years CAGR',
                         'scheme_5yr_returns':'5 Years CAGR',
                         'scheme_10yr_returns':'10 Years CAGR',
-                        'scheme_nav':'NAV'}
+                        'category_1yr_returns':'1 Year Baseline CAGR',
+                        'category_3yr_returns':'3 Years Baseline CAGR',
+                        'category_5yr_returns':'5 Years Baseline CAGR',
+                        'category_10yr_returns':'10 Years Baseline CAGR'}
+
 
         # We extract CAGR using regex. This is a simpler brute approach.
         # We do this because currently there is a java script executed to populate table.
@@ -65,6 +69,9 @@ def get_stock_info(symbol):
           value=extract_using_regex(response.text, key)
           if value:
             valueDict[index]=value
+            #if key in cagr_baseline_key_mapping:
+            #  value=extract_using_regex(response.text, cagr_baseline_key_mapping[key])
+            #  valueDict[]=value
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
@@ -169,11 +176,15 @@ def export_to_file(data):
                   'Turn over (%)',
                   'CAGR Since Inception', 
                   '1 Year CAGR', 
-                  '3 Years CAGR', 
-                  '5 Years CAGR', 
+                  '1 Year Baseline CAGR',
+                  '3 Years CAGR',
+                  '3 Years Baseline CAGR',
+                  '5 Years CAGR',
+                  '5 Years Baseline CAGR', 
                   '10 Years CAGR',
-                  'NAV',  
-	   	  'Alpha', 
+                  '10 Years Baseline CAGR',
+                  'NAV',
+                  'Alpha',
                   'Beta', 
                   'Standard Deviation',
                   'Sharpe Ratio', 
