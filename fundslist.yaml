@@ -316,12 +316,12 @@ funds:
 - ICICI-Prudential-FMCG-Fund-Growth
 #Equity:Sectoral-Infrastructure
 - HDFC-Infrastructure-Fund-Growth-Plan
-- DSP-India-T-I-G-E-R-Fund-Regular-Plan-Growth
+#- DSP-India-T-I-G-E-R-Fund-Regular-Plan-Growth
 - BANK-OF-INDIA-Manufacturing-Infrastructure-Fund-Growth
 - Taurus-Infrastructure-Fund-Regular-Plan-Growth
 - Motilal-Oswal-Infrastructure-Fund-Regular-Growth
 - Sundaram-Infrastructure-Advantage-Fund-Regular-Plan-Growth
-- DSP-India-T-I-G-E-R-Fund-Regular-Plan-Growth
+#- DSP-India-T-I-G-E-R-Fund-Regular-Plan-Growth
 - Nippon-India-Power-Infra-Fund-Growth-Plan-Growth-Option
 - DSP-Natural-Resources-And-New-Energy-Fund-Regular-Growth
 - SBI-Infrastructure-Fund-Regular-Plan-Growth
@@ -603,7 +603,6 @@ funds:
 - HSBC-Conservative-Hybrid-Fund-Regular-Growth
 - Sundaram-Conservative-Hybrid-Fund-Formerly-Known-as-Sundaram-Debt-Oriented-Hybrid-Fund-Regular-Plan-Growth
 - Nippon-India-Hybrid-Bond-Fund-Growth-Plan
-- UTI-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option
 - Franklin-India-Debt-Hybrid-Fund-Growth
 - BARODA-BNP-PARIBAS-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option
 - Canara-Robeco-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option
