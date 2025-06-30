@@ -1,10 +1,12 @@
 import concurrent.futures
 import csv
-import re
 import requests
 import yaml
 from bs4 import BeautifulSoup
 from datetime import datetime
+from collections import defaultdict
+import threading
+import re
 
 funds_with_no_data = []
 
@@ -16,19 +18,13 @@ def get_stock_prices(tickers):
     # Number of processes in the process pool
     num_processes = 100  # You can adjust this based on your system resources
 
-    # Using ProcessPoolExecutor for parallel execution
-    with concurrent.futures.ProcessPoolExecutor(max_workers=num_processes) as executor:
-        # Submit tasks and get Future objects
-        for count in range(len(tickers)):
-            ticker = tickers[count]
+    # Use ThreadPoolExecutor for I/O-bound web requests
+    with concurrent.futures.ThreadPoolExecutor(max_workers=min(16, len(tickers))) as executor:
+        for count, ticker in enumerate(tickers):
             print(count + 1, ticker)
             futures.append(executor.submit(get_stock_info, ticker))
 
-        # Wait for all futures to complete
-        concurrent.futures.wait(futures)
-
-        # Retrieve results from completed futures
-        for future in futures:
+        for future in concurrent.futures.as_completed(futures):
             has_data, value = future.result()
             if has_data:
                 trendDetails.append(value)
