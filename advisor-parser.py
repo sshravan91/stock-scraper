@@ -41,7 +41,7 @@ def get_stock_info(symbol):
     base_url = "https://www.advisorkhoj.com/mutual-funds-research/"
     url = f"{base_url}{symbol}"
 
-    response = requests.get(url)
+    response = requests.get(url, headers={}, timeout=20)
 
     if response.status_code == 200:
         valueDict = {}
@@ -56,7 +56,7 @@ def get_stock_info(symbol):
                         'category_5yr_returns': '5 Years Baseline CAGR',
                         'category_10yr_returns': '10 Years Baseline CAGR',
                         'scheme_nav': 'NAV',
-                        'benchmark': 'Benchmark Type'}
+                        'scheme_benchmark': 'Benchmark Type'}
 
         for key, index in cagr_mapping.items():
             value = extract_using_regex(response.text, key)
@@ -65,11 +65,20 @@ def get_stock_info(symbol):
 
         soup = BeautifulSoup(response.text, 'html.parser')
 
+        # Fallback: extract NAV from DOM if not found via JS vars
+        if 'NAV' not in valueDict:
+            nav_label = soup.find('div', class_='nav-cagr-label')
+            if nav_label and 'NAV as on' in nav_label.get_text():
+                nav_value = nav_label.find_next('h4')
+                if nav_value:
+                    valueDict['NAV'] = nav_value.get_text(strip=True).replace('₹', '').replace(',', '')
+
         context_mapping = {'Category: ': 'Category',
                            'TER:': 'TER',
                            'Total Assets:': 'Total Assets (in Cr)',
                            'Launch Date:': 'Launch Date',
                            'Turn over:': 'Turn over (%)',
+                           'Benchmark:': 'Benchmark Type',
                            'Standard Deviation': 'Standard Deviation',
                            'Alpha': 'Alpha',
                            'Beta': 'Beta',
@@ -78,16 +87,20 @@ def get_stock_info(symbol):
         # retrieve market cap distributions
         mkt_cap_dist_types = ['Small Cap', 'Others', 'Large Cap', 'Mid Cap']
         for mkt_cap_div in soup.find_all('div', class_='flex-div'):
-            div = mkt_cap_div.find_next('p', class_='font12 text-left')
-            if div:
-                category = div.text.strip()
-                if category in mkt_cap_dist_types:
-                    percentage = div.find_next('div', {'style': 'width:70%'}).div['title']
-                    valueDict[category] = percentage
+            label_p = mkt_cap_div.find('p', class_='font12 text-left')
+            if not label_p:
+                continue
+            category = label_p.get_text(strip=True)
+            if category in mkt_cap_dist_types:
+                # the bar container has a style like "width:12.85%" and inner div with title="12.85%"
+                bar_container = mkt_cap_div.find('div', style=re.compile(r'width:\s*\d'))
+                if bar_container and bar_container.div and bar_container.div.has_attr('title'):
+                    valueDict[category] = bar_container.div['title'].strip()
 
         sch_over_table_keys = {'Category: ',
                                'TER:',
                                'Turn over:',
+                               'Benchmark:',
                                'Total Assets:',
                                'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
@@ -116,7 +129,7 @@ def get_stock_info(symbol):
                 if subrow:
                     cleanedsubrow = subrow.text.strip()
                     for key in adv_table_keys:
-                        if key in subrow:
+                        if key in cleanedsubrow:
                             valueDict[context_mapping[key]] = row.find_next('td', {'class': 'text-center'}).text.strip()
 
         print("Finished parsing " + url)
@@ -133,11 +146,12 @@ def get_stock_info(symbol):
         return (False, symbol)
 
 def extract_using_regex(input_string, key):
-    match = re.search(f"{key}='(.*?)'", input_string)
+    # Match JS assignments like: var key = 'value'; or key="value"
+    pattern = rf"\b{re.escape(key)}\s*=\s*['\"]([^'\"]+)['\"]"
+    match = re.search(pattern, input_string)
     if match:
-        return match.group(1)
-    else:
-        return None
+        return match.group(1).strip()
+    return None
 
 def export_to_file(data):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
