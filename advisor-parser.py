@@ -51,19 +51,24 @@ def get_stock_info(symbol):
                         'scheme_3yr_returns': '3 Years CAGR',
                         'scheme_5yr_returns': '5 Years CAGR',
                         'scheme_10yr_returns': '10 Years CAGR',
-                        'category_1yr_returns': '1 Year Baseline CAGR',
-                        'category_3yr_returns': '3 Years Baseline CAGR',
-                        'category_5yr_returns': '5 Years Baseline CAGR',
-                        'category_10yr_returns': '10 Years Baseline CAGR',
+                        'category_1yr_returns': '1 Year Category CAGR',
+                        'category_3yr_returns': '3 Years Category CAGR',
+                        'category_5yr_returns': '5 Years Category CAGR',
+                        'category_10yr_returns': '10 Years Category CAGR',
+                        'benchmark_1yr_returns': '1 Year Benchmark CAGR',
+                        'benchmark_3yr_returns': '3 Years Benchmark CAGR',
+                        'benchmark_5yr_returns': '5 Years Benchmark CAGR',
+                        'benchmark_10yr_returns': '10 Years Benchmark CAGR',
                         'scheme_nav': 'NAV',
                         'scheme_benchmark': 'Benchmark Type'}
 
+        response_txt = response.text
         for key, index in cagr_mapping.items():
-            value = extract_using_regex(response.text, key)
+            value = extract_using_regex(response_txt, key)
             if value:
                 valueDict[index] = value
 
-        soup = BeautifulSoup(response.text, 'html.parser')
+        soup = BeautifulSoup(response_txt, 'html.parser')
 
         # Fallback: extract NAV from DOM if not found via JS vars
         if 'NAV' not in valueDict:
@@ -78,7 +83,6 @@ def get_stock_info(symbol):
                            'Total Assets:': 'Total Assets (in Cr)',
                            'Launch Date:': 'Launch Date',
                            'Turn over:': 'Turn over (%)',
-                           'Benchmark:': 'Benchmark Type',
                            'Standard Deviation': 'Standard Deviation',
                            'Alpha': 'Alpha',
                            'Beta': 'Beta',
@@ -100,7 +104,6 @@ def get_stock_info(symbol):
         sch_over_table_keys = {'Category: ',
                                'TER:',
                                'Turn over:',
-                               'Benchmark:',
                                'Total Assets:',
                                'Launch Date:'}
         tables = soup.find_all('table', class_='sch_over_table')
@@ -165,13 +168,17 @@ def export_to_file(data):
                    'Turn over (%)',
                    'CAGR Since Inception',
                    '1 Year CAGR',
-                   '1 Year Baseline CAGR',
+                   '1 Year Category CAGR',
+                   '1 Year Benchmark CAGR',
                    '3 Years CAGR',
-                   '3 Years Baseline CAGR',
+                   '3 Years Category CAGR',
+                   '3 Years Benchmark CAGR',
                    '5 Years CAGR',
-                   '5 Years Baseline CAGR',
+                   '5 Years Category CAGR',
+                   '5 Years Benchmark CAGR',
                    '10 Years CAGR',
-                   '10 Years Baseline CAGR',
+                   '5 Years Category CAGR',
+                   '10 Years Benchmark CAGR',
                    'Benchmark Type',
                    'NAV',
                    'Alpha',
