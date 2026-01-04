@@ -2,6 +2,7 @@ import concurrent.futures
 import csv
 import requests
 import yaml
+import json
 from bs4 import BeautifulSoup
 from datetime import datetime
 from collections import defaultdict
@@ -38,12 +39,17 @@ def get_stock_prices(tickers):
     return trendDetails
 
 def get_stock_info(symbol):
-    base_url = "https://www.advisorkhoj.com/mutual-funds-research/"
-    url = f"{base_url}{symbol}"
+    ak_base_url = "https://www.advisorkhoj.com/mutual-funds-research/"
+    # symbol can be of the form "DisplayName:slug". Extract both parts.
+    sym0 = symbol
+    sym1 = None
+    if ':' in symbol:
+        sym0, sym1 = symbol.split(':', 1)
+    url = f"{ak_base_url}{sym0}"
 
-    response = requests.get(url, headers={}, timeout=20)
+    ak_response = requests.get(url, headers={}, timeout=20)
 
-    if response.status_code == 200:
+    if ak_response.status_code == 200:
         valueDict = {}
 
         cagr_mapping = {'scheme_inception_returns': 'CAGR Since Inception',
@@ -62,13 +68,13 @@ def get_stock_info(symbol):
                         'scheme_nav': 'NAV',
                         'scheme_benchmark': 'Benchmark Type'}
 
-        response_txt = response.text
+        ak_response_txt = ak_response.text
         for key, index in cagr_mapping.items():
-            value = extract_using_regex(response_txt, key)
+            value = extract_using_regex(ak_response_txt, key)
             if value:
                 valueDict[index] = value
 
-        soup = BeautifulSoup(response_txt, 'html.parser')
+        soup = BeautifulSoup(ak_response_txt, 'html.parser')
 
         # Fallback: extract NAV from DOM if not found via JS vars
         if 'NAV' not in valueDict:
@@ -138,15 +144,36 @@ def get_stock_info(symbol):
         print("Finished parsing " + url)
 
         if bool(valueDict):
-            valueDict['Fund'] = symbol
-            return (True, valueDict)
+            valueDict['Fund'] = sym0
+            if sym1 is None:
+                return (True, valueDict)
         else:
-            print(f"\033[91m{symbol} has no data\033[0m")
-            return (False, symbol)
-
+            print(f"\033[91m{sym0} has no data\033[0m")
+            return (False, sym0)
     else:
         print(f"\033Failed for {url}\033[0m")
-        return (False, symbol)
+        return (False, sym0)
+
+    grow_base_url = "https://groww.in/v1/api/data/mf/web/v4/scheme/search/"
+    grow_url = f"{grow_base_url}{sym1}"
+
+    try:
+        grow_response = requests.get(grow_url)
+        if grow_response.status_code == 200:
+            try:
+                data = json.loads(grow_response.text)
+                return_stats = data.get("return_stats") or []
+                for item in return_stats:
+                    if item["scheme_code"] is not None:
+                        valueDict['Sortino Ratio'] = "{:.4f}".format(item.get("sortino_ratio"))
+                        valueDict['Information Ratio'] = "{:.4f}".format(item.get("information_ratio"))
+            except Exception:
+                # Ignore Groww parsing failures silently to avoid breaking overall flow
+                pass
+    except Exception:
+        pass
+
+    return (True, valueDict)
 
 def extract_using_regex(input_string, key):
     # Match JS assignments like: var key = 'value'; or key="value"
@@ -155,6 +182,7 @@ def extract_using_regex(input_string, key):
     if match:
         return match.group(1).strip()
     return None
+
 
 def export_to_file(data):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
@@ -185,6 +213,9 @@ def export_to_file(data):
                    'Beta',
                    'Standard Deviation',
                    'Sharpe Ratio',
+                   'Sortino Ratio',
+                   'Information Ratio'
+                   'P/E Ratio',
                    'Small Cap',
                    'Mid Cap',
                    'Large Cap',
