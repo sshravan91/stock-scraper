@@ -167,11 +167,24 @@ def get_stock_info(symbol):
                     if item["scheme_code"] is not None:
                         valueDict['Sortino Ratio'] = "{:.4f}".format(item.get("sortino_ratio"))
                         valueDict['Information Ratio'] = "{:.4f}".format(item.get("information_ratio"))
+                        valueDict['Scheme Code'] = item["scheme_code"]
             except Exception:
                 # Ignore Groww parsing failures silently to avoid breaking overall flow
                 pass
     except Exception:
         pass
+
+    if sym1 and valueDict['scheme_code'] is not None:
+        try:
+            groww_page_url = f"https://groww.in/v1/api/data/mf/web/v1/scheme/portfolio/{valueDict['Scheme Code']}/stats"
+            gp_resp = requests.get(groww_page_url, timeout=20)
+            if gp_resp.status_code == 200:
+                data = json.loads(gp_resp.text)
+                valueDict['P/E Ratio'] = data.get("pe")
+                valueDict['P/B Ratio'] = data.get("pb")
+        except Exception:
+            # Do not fail overall parsing if Groww page structure changes
+            pass
 
     return (True, valueDict)
 
@@ -183,13 +196,13 @@ def extract_using_regex(input_string, key):
         return match.group(1).strip()
     return None
 
-
 def export_to_file(data):
     timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
     csv_file_path = f"fund-stats_{timestamp}.csv"
 
     column_order = ['Fund',
                    'Category',
+                   'Scheme Code',
                    'Launch Date',
                    'Total Assets (in Cr)',
                    'TER',
@@ -214,8 +227,9 @@ def export_to_file(data):
                    'Standard Deviation',
                    'Sharpe Ratio',
                    'Sortino Ratio',
-                   'Information Ratio'
+                   'Information Ratio',
                    'P/E Ratio',
+                   'P/B Ratio',
                    'Small Cap',
                    'Mid Cap',
                    'Large Cap',

@@ -1,5 +1,5 @@
 funds:
-#Equity:Contra
+# Equity:Contra
 - SBI-Contra-Fund-Regular-Plan-Growth
 - Kotak-India-EQ-Contra-Fund-Growth
 - Invesco-India-Contra-Fund-Growth
@@ -256,21 +256,21 @@ funds:
 - Sundaram-Mid-Cap-Fund-Regular-Plan-Growth
 - Tata-Mid-Cap-Growth-Fund-Regular-Plan-Growth-Option
 #Equity:Multi-Cap
-- HDFC-Multi-Cap-Fund-Growth-Option
+- HDFC-Multi-Cap-Fund-Growth-Option:hdfc-multi-cap-fund-direct-growth
 - DSP-Multicap-Fund-Regular-Growth
-- Nippon-India-Multi-Cap-Fund-Growth-Plan-Growth-Option
-- Kotak-Multicap-Fund-Regular-Plan-Growth
+- Nippon-India-Multi-Cap-Fund-Growth-Plan-Growth-Option:nippon-india-multi-cap-fund-direct-growth
+- Kotak-Multicap-Fund-Regular-Plan-Growth:kotak-multicap-fund-direct-growth
 - ITI-Multi-Cap-Fund-Regular-Plan-Growth-Option
-- Axis-Multicap-Fund-Regular-Plan-Growth
+- Axis-Multicap-Fund-Regular-Plan-Growth:axis-multicap-fund-direct-growth
 - Mahindra-Manulife-Multi-Cap-Fund-Regular-Plan-Growth
 - Invesco-India-Multicap-Fund-Growth-Option
-- ICICI-Prudential-Multicap-Fund-Growth
+- ICICI-Prudential-Multicap-Fund-Growth:icici-prudential-multicap-fund-direct-growth
 - Baroda-BNP-Paribas-MULTI-CAP-FUND-Regular-Plan-Growth-Option
 - LIC-MF-Multi-Cap-Fund-Regular-Growth
 - BANDHAN-MULTI-CAP-FUND-GROWTH-REGULAR-PLAN
 - Bank-of-India-Multi-Cap-Fund-Regular-Plan-Growth
 - Aditya-Birla-Sun-Life-Multi-Cap-Fund-Regular-Growth
-- SBI-Multicap-Fund-Regular-Plan-Growth-Option
+- SBI-Multicap-Fund-Regular-Plan-Growth-Option:sbi-multicap-fund-direct-growth
 - Quant-Active-Fund-GROWTH-OPTION-Regular-Plan
 - HSBC-Multi-Cap-Fund-Regular-Growth
 - Canara-Robeco-Multi-Cap-Fund-Regular-Plan-Growth-Option
@@ -286,7 +286,7 @@ funds:
 - PGIM-India-Multi-Cap-Fund-Regular-Plan-Growth-Option
 - Samco-Multi-Cap-Fund-Regular-Plan-Growth
 - Tata-Multicap-Fund-Regular-Plan-Growth
-- Union-Multicap-Fund-Regular-Plan-Growth-Option
+- Union-Multicap-Fund-Regular-Plan-Growth-Option:union-multicap-fund-direct-growth
 - UTI-Multi-Cap-Fund-Regular-Plan-Growth-Option
 #Equity:Sectoral-Banking-and-Financial-Services
 - Invesco-India-Financial-Services-Fund-Retail-Growth
