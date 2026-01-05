@@ -165,8 +165,8 @@ def get_stock_info(symbol):
                 return_stats = data.get("return_stats") or []
                 for item in return_stats:
                     if item["scheme_code"] is not None:
-                        valueDict['Sortino Ratio'] = "{:.4f}".format(item.get("sortino_ratio"))
-                        valueDict['Information Ratio'] = "{:.4f}".format(item.get("information_ratio"))
+                        #valueDict['Sortino Ratio'] = "{:.4f}".format(item.get("sortino_ratio"))
+                        #valueDict['Information Ratio'] = "{:.4f}".format(item.get("information_ratio"))
                         valueDict['Scheme Code'] = item["scheme_code"]
             except Exception:
                 # Ignore Groww parsing failures silently to avoid breaking overall flow
@@ -174,7 +174,7 @@ def get_stock_info(symbol):
     except Exception:
         pass
 
-    if sym1 and valueDict['scheme_code'] is not None:
+    if sym1 and valueDict['Scheme Code'] is not None:
         try:
             groww_page_url = f"https://groww.in/v1/api/data/mf/web/v1/scheme/portfolio/{valueDict['Scheme Code']}/stats"
             gp_resp = requests.get(groww_page_url, timeout=20)
@@ -226,8 +226,8 @@ def export_to_file(data):
                    'Beta',
                    'Standard Deviation',
                    'Sharpe Ratio',
-                   'Sortino Ratio',
-                   'Information Ratio',
+                  # 'Sortino Ratio',
+                  # 'Information Ratio',
                    'P/E Ratio',
                    'P/B Ratio',
                    'Small Cap',
