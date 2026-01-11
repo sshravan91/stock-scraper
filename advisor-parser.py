@@ -174,7 +174,7 @@ def get_stock_info(symbol):
     except Exception:
         pass
 
-    if sym1 and valueDict['Scheme Code'] is not None:
+    if sym1 and valueDict.get('Scheme Code') is not None:
         try:
             groww_page_url = f"https://groww.in/v1/api/data/mf/web/v1/scheme/portfolio/{valueDict['Scheme Code']}/stats"
             gp_resp = requests.get(groww_page_url, timeout=20)
@@ -264,6 +264,45 @@ def extract_data_from_yaml(property):
 
     return data[property]
 
+def build_fund_records_from_yaml():
+    """
+    Build seed fund records from fundslist.yaml where each entry may be in the form:
+      "AK-Display-Name" or "AK-Display-Name:groww-slug"
+    Returns a list of dicts: [{akKey, growwKey, amfiKey}, ...]
+    """
+    funds_list = extract_data_from_yaml('funds')
+    records = []
+    for item in funds_list:
+        ak_key = item
+        groww_key = None
+        if ':' in item:
+            ak_key, groww_key = item.split(':', 1)
+        records.append({'akKey': ak_key, 'growwKey': groww_key, 'amfiKey': None})
+    return records
+
+def enrich_fund_records_with_amfi(records, parsed_fund_data):
+    """
+    For each parsed fund data item, if it has a Scheme Code, attach it as amfiKey
+    to the corresponding record matched by akKey (valueDict['Fund']).
+    """
+    index = {rec['akKey']: rec for rec in records}
+    for fd in parsed_fund_data:
+        ak = fd.get('Fund')
+        amfi = fd.get('Scheme Code')
+        if ak and amfi and ak in index:
+            index[ak]['amfiKey'] = amfi
+
+def export_funds_categories_json(records, categories, output_path='funds_and_categories.json'):
+    """
+    Export the required JSON with top-level keys 'funds' and 'categories'.
+    """
+    payload = {
+        'funds': records,
+        'categories': categories
+    }
+    with open(output_path, 'w') as f:
+        json.dump(payload, f, indent=2)
+
 if __name__ == "__main__":
     # extract fund names
     funds = extract_data_from_yaml('funds')
@@ -274,5 +313,11 @@ if __name__ == "__main__":
     data_sorted_by_alpha = sorted(extracted_data, key=lambda x: (print(x) or float(x['Alpha'])) if x['Alpha'] and x['Alpha'] != '-' else float('-inf'), reverse=True)
     print(f"\033[91m{len(funds_with_no_data)} funds have no data. These are, {funds_with_no_data}.\033[0m")
 
-    # export to file
+    # export CSV file (existing behavior)
     export_to_file(data_sorted_by_alpha)
+
+    # build and export funds/categories JSON
+    categories = extract_data_from_yaml('categories')
+    fund_records = build_fund_records_from_yaml()
+    enrich_fund_records_with_amfi(fund_records, extracted_data)
+    export_funds_categories_json(fund_records, categories)
