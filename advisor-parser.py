@@ -218,7 +218,7 @@ def export_to_file(data):
                    '5 Years Category CAGR',
                    '5 Years Benchmark CAGR',
                    '10 Years CAGR',
-                   '5 Years Category CAGR',
+                   '10 Years Category CAGR',
                    '10 Years Benchmark CAGR',
                    'Benchmark Type',
                    'NAV',
