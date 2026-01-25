@@ -6,7 +6,7 @@ funds:
 #Equity:Dividend-Yield
 - Aditya-Birla-Sun-Life-Dividend-Yield-Fund-Growth-Regular-Plan:birla-sun-life-dividend-yield-plus-direct-growth
 - Baroda-BNP-Paribas-Dividend-Yield-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-dividend-yield-fund-direct-growth
-- HSBC-Asia-Pacific-Ex-Japan-Dividend-Yield-Fund-Growth:
+- HSBC-Asia-Pacific-Ex-Japan-Dividend-Yield-Fund-Growth
 - HDFC-Dividend-Yield-Fund-Growth-Plan:hdfc-dividend-yield-fund-direct-growth
 - ICICI-Prudential-Dividend-Yield-Equity-Fund-Growth-Option:icici-prudential-dividend-yield-equity-fund-direct-growth
 - UTI-Dividend-Yield-Fund-Growth:uti-dividend-yield-fund-regular-plan-growth
@@ -337,7 +337,7 @@ funds:
 - HDFC-Pharma-and-Healthcare-Fund-Growth-Option:hdfc-pharma-and-healthcare-fund-direct-growth
 - Tata-India-Pharma-Healthcare-Fund-Regular-Plan-Growth:tata-india-pharma-and-healthcare-fund-direct-growth
 - DSP-Healthcare-Fund-Regular-Plan-Growth:dsp-healthcare-fund-direct-growth
-- ICICI-Prudential-Nifty-Pharma-Index-Fund-Growth: icici-prudential-pharma-healthcare-and-diagnostics-(p.h.d)-fund-direct-growth
+- ICICI-Prudential-Nifty-Pharma-Index-Fund-Growth:icici-prudential-pharma-healthcare-and-diagnostics-(p.h.d)-fund-direct-growth
 #Equity:Sectoral-Technology
 - Franklin-India-Technology-Fund-Growth
 - Invesco-India-Technology-Fund-Regular-Growth
@@ -567,7 +567,7 @@ funds:
 - BANDHAN-Balanced-Advantage-Fund-Regular-Plan-Growth:idfc-dynamic-equity-fund-direct-growth
 - Edelweiss-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:edelweiss-absolute-return-fund-direct-growth
 - PGIM-India-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:pgim-india-balanced-advantage-fund-direct-growth
-- LIC-MF-Balanced-Advantage-Fund-Regular-Plan-Growth:
+- LIC-MF-Balanced-Advantage-Fund-Regular-Plan-Growth
 - Sundaram-Balanced-Advantage-Fund-Formerly-Known-as-Principal-Balanced-Advantage-Fund-Growth-Option:sundaram-balanced-advantage-fund-direct-growth
 - Mahindra-Manulife-Balanced-Advantage-Fund-Regular-Plan-Growth:mahindra-manulife-balanced-advantage-fund-direct-growth
 - ITI-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:iti-balanced-advantage-fund-direct-growth

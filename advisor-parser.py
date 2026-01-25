@@ -285,12 +285,19 @@ def enrich_fund_records_with_amfi(records, parsed_fund_data):
     For each parsed fund data item, if it has a Scheme Code, attach it as amfiKey
     to the corresponding record matched by akKey (valueDict['Fund']).
     """
-    index = {rec['akKey']: rec for rec in records}
-    for fd in parsed_fund_data:
-        ak = fd.get('Fund')
-        amfi = fd.get('Scheme Code')
-        if ak and amfi and ak in index:
-            index[ak]['amfiKey'] = amfi
+    try:
+        # index = {rec['akKey']: rec for rec in records}
+        index = {}
+        for rec in records:
+            index[rec['akKey']] = rec
+
+        for fd in parsed_fund_data:
+            ak = fd.get('Fund')
+            amfi = fd.get('Scheme Code')
+            if ak and amfi and ak in index:
+                index[ak]['amfiKey'] = amfi
+    except Exception as ex:
+        print(ex)
 
 def export_funds_categories_json(records, categories, output_path='funds_and_categories.json'):
     """
