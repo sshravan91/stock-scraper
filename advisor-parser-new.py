@@ -11,10 +11,7 @@ import re
 import argparse
 import os
 from openpyxl import load_workbook
-try:
-    import xlrd  # for legacy .xls files
-except Exception:
-    xlrd = None
+import xlrd  # for legacy .xls files
 
 funds_with_no_data = []
 
@@ -51,7 +48,7 @@ def load_mftools_mapping(json_path):
 def load_risk_ratios(path):
     try:
         ext = os.path.splitext(path)[1].lower()
-        required = ["Volatility", "Sharpe Ratio", "Beta", "Alpha", "Mean", "Sortino Ratio", "Up Market Capture Ratio", "Down Market Capture Ratio", "Maximum Drawdown", "R-Squared", "Information Ratio"]
+        required = ["Volatility", "Sharpe Ratio", "Beta", "Alpha", "Mean", "Sortino Ratio", "Up Market Capture\nRatio", "Down Market Capture\nRatio", "Maximum Drawdown", "R-Squared", "Information Ratio"]
         if ext == ".xls":
             if xlrd is None:
                 raise RuntimeError("xlrd is required to read .xls files. Install with 'pip install xlrd'.")
@@ -208,17 +205,17 @@ def get_stock_info(symbol):
                            'Standard Deviation': 'Standard Deviation'}
 
         # retrieve market cap distributions
-        mkt_cap_dist_types = ['Small Cap', 'Others', 'Large Cap', 'Mid Cap']
-        for mkt_cap_div in soup.find_all('div', class_='flex-div'):
-            label_p = mkt_cap_div.find('p', class_='font12 text-left')
-            if not label_p:
-                continue
-            category = label_p.get_text(strip=True)
-            if category in mkt_cap_dist_types:
-                # the bar container has a style like "width:12.85%" and inner div with title="12.85%"
-                bar_container = mkt_cap_div.find('div', style=re.compile(r'width:\s*\d'))
-                if bar_container and bar_container.div and bar_container.div.has_attr('title'):
-                    valueDict[category] = bar_container.div['title'].strip()
+        # mkt_cap_dist_types = ['Small Cap', 'Others', 'Large Cap', 'Mid Cap']
+        # for mkt_cap_div in soup.find_all('div', class_='flex-div'):
+        #     label_p = mkt_cap_div.find('p', class_='font12 text-left')
+        #     if not label_p:
+        #         continue
+        #     category = label_p.get_text(strip=True)
+        #     if category in mkt_cap_dist_types:
+        #         # the bar container has a style like "width:12.85%" and inner div with title="12.85%"
+        #         bar_container = mkt_cap_div.find('div', style=re.compile(r'width:\s*\d'))
+        #         if bar_container and bar_container.div and bar_container.div.has_attr('title'):
+        #             valueDict[category] = bar_container.div['title'].strip()
 
         sch_over_table_keys = {'Category: ',
                                'TER:',
@@ -318,17 +315,14 @@ def export_to_file(data):
                    "Volatility",
                    "Mean",
                    "Sortino Ratio", 
-                   "Up Market Capture Ratio", 
-                   "Down Market Capture Ratio", 
+                   "Up Market Capture\nRatio", 
+                   "Down Market Capture\nRatio", 
                    "Maximum Drawdown", 
                    "R-Squared",
                    "Information Ratio",
                    'P/E Ratio',
-                   'P/B Ratio',
-                   'Small Cap',
-                   'Mid Cap',
-                   'Large Cap',
-                   'Others']
+                   'P/B Ratio'
+                   ]
 
     category_order = MFT_CATEGORIES or []
 
