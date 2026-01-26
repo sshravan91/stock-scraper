@@ -54,19 +54,44 @@ def load_risk_ratios(path):
                 raise RuntimeError("xlrd is required to read .xls files. Install with 'pip install xlrd'.")
             wb = xlrd.open_workbook(path)
             sh = wb.sheet_by_index(0)
+            # autodetect header row by scanning first 200 rows for a row that contains expected header cues
+            header_row_idx = None
             headers = []
-            for c in range(sh.ncols):
-                val = sh.cell_value(0, c)
-                headers.append(str(val).strip() if val is not None else "")
-            h_idx = {h: i for i, h in enumerate(headers)}
-            for r in range(1, sh.nrows):
+            for rr in range(min(sh.nrows, 200)):
+                row_vals = []
+                for cc in range(sh.ncols):
+                    val = sh.cell_value(rr, cc)
+                    row_vals.append(str(val).strip() if val is not None else "")
+                joined = " ".join(v.lower() for v in row_vals)
+                if "scheme name" in joined and "category" in joined:
+                    header_row_idx = rr
+                    headers = row_vals
+                    break
+            if header_row_idx is None:
+                header_row_idx = 0
+                headers = []
+                for c in range(sh.ncols):
+                    headers.append(str(sh.cell_value(0, c)).strip() if sh.cell_value(0, c) is not None else "")
+            # build fuzzy header index mapping
+            lower_headers = [h.lower() for h in headers]
+            h_idx = {}
+            for k in required:
+                lk = k.lower()
+                idx = None
+                for i, hv in enumerate(lower_headers):
+                    if lk in hv or hv in lk:
+                        idx = i
+                        break
+                if idx is not None:
+                    h_idx[k] = idx
+            # iterate rows after detected header
+            for r in range(header_row_idx + 1, sh.nrows):
                 key = sh.cell_value(r, 0)
                 if key in (None, ""):
                     continue
                 key = str(key).strip()
                 metrics = {}
-                for k in required:
-                    idx = h_idx.get(k)
+                for k, idx in h_idx.items():
                     if idx is not None and idx < sh.ncols:
                         metrics[k] = sh.cell_value(r, idx)
                 if key:
@@ -74,43 +99,73 @@ def load_risk_ratios(path):
         else:
             wb = load_workbook(filename=path, data_only=True, read_only=True)
             ws = wb.active
-            rows = ws.iter_rows(values_only=True)
-            headers = [str(h).strip() if h is not None else "" for h in next(rows)]
-            h_idx = {h: i for i, h in enumerate(headers)}
-            for r in rows:
+            # buffer first 200 rows to locate header row
+            buffered = []
+            it = ws.iter_rows(values_only=True)
+            for _ in range(200):
+                try:
+                    buffered.append(next(it))
+                except StopIteration:
+                    break
+            header_row = None
+            header_row_idx = None
+            for i, row in enumerate(buffered):
+                if not row:
+                    continue
+                joined = " ".join((str(v).strip().lower() if v is not None else "") for v in row)
+                if "volatility" in joined and "sharpe" in joined:
+                    header_row = row
+                    header_row_idx = i
+                    break
+            if header_row is None:
+                if buffered:
+                    header_row = buffered[0]
+                    header_row_idx = 0
+                else:
+                    header_row = []
+                    header_row_idx = 0
+            headers = [str(h).strip() if h is not None else "" for h in header_row]
+            lower_headers = [h.lower() for h in headers]
+            h_idx = {}
+            for k in required:
+                lk = k.lower()
+                idx = None
+                for i, hv in enumerate(lower_headers):
+                    if lk in hv or hv in lk:
+                        idx = i
+                        break
+                if idx is not None:
+                    h_idx[k] = idx
+            # process buffered rows after header
+            for r in buffered[header_row_idx + 1:]:
+                if not r:
+                    continue
                 key = r[0]
-                if key is None:
+                if key is None or str(key).strip() == "":
                     continue
                 key = str(key).strip()
                 metrics = {}
-                for k in required:
-                    idx = h_idx.get(k)
+                for k, idx in h_idx.items():
+                    if idx is not None and idx < len(r):
+                        metrics[k] = r[idx]
+                if key:
+                    RISK_METRICS_BY_MFTOOLS_KEY[key] = metrics
+            # continue with the rest of rows from iterator
+            for r in it:
+                if not r:
+                    continue
+                key = r[0]
+                if key is None or str(key).strip() == "":
+                    continue
+                key = str(key).strip()
+                metrics = {}
+                for k, idx in h_idx.items():
                     if idx is not None and idx < len(r):
                         metrics[k] = r[idx]
                 if key:
                     RISK_METRICS_BY_MFTOOLS_KEY[key] = metrics
     except Exception as ex:
         print(f"Failed to load risk ratios from {path}: {ex}")
-
-
-def enrich_from_groww(valueDict, ak_name):
-    # Resolve scheme code via amfiKey mapping from mftools JSON (no web search)
-    scheme_code = MFT_AK_TO_AMFI.get(ak_name)
-    if isinstance(scheme_code, str) and scheme_code.strip():
-        valueDict['Scheme Code'] = scheme_code.strip()
-
-    scheme_code = valueDict.get('Scheme Code')
-    if isinstance(scheme_code, str) and scheme_code.strip():
-        try:
-            groww_page_url = f"https://groww.in/v1/api/data/mf/web/v1/scheme/portfolio/{scheme_code}/stats"
-            gp_resp = requests.get(groww_page_url, timeout=20)
-            if gp_resp.status_code == 200:
-                data = json.loads(gp_resp.text)
-                valueDict['P/E Ratio'] = data.get("pe")
-                valueDict['P/B Ratio'] = data.get("pb")
-        except Exception:
-            # Do not fail overall parsing if Groww page structure changes
-            pass
 
 def enrich_from_mftools(valueDict, ak_name):
     try:
@@ -202,7 +257,10 @@ def get_stock_info(symbol):
                            'Total Assets:': 'Total Assets (in Cr)',
                            'Launch Date:': 'Launch Date',
                            'Turn over:': 'Turn over (%)',
-                           'Standard Deviation': 'Standard Deviation'}
+                           'Standard Deviation': 'Standard Deviation',
+                           'Alpha': 'Alpha',
+                           'Beta': 'Beta',
+                           'Sharpe Ratio': 'Sharpe Ratio'}
 
         # retrieve market cap distributions
         # mkt_cap_dist_types = ['Small Cap', 'Others', 'Large Cap', 'Mid Cap']
@@ -239,7 +297,7 @@ def get_stock_info(symbol):
                         else:
                             valueDict[context_mapping[key]] = subrow.replace(key, '').strip()
 
-        adv_table_keys = {'Standard Deviation'}
+        adv_table_keys = {'Standard Deviation', 'Sharpe Ratio', 'Alpha', 'Beta'}
         tables = soup.find_all('table', class_='adv-table table table-striped')
         for index, table in enumerate(tables, start=1):
             rows = table.find_all('tr')
@@ -257,7 +315,6 @@ def get_stock_info(symbol):
             valueDict['Fund'] = sym0
             # Enrich with mftools risk ratios if available before potential early return
             enrich_from_mftools(valueDict, sym0)
-            enrich_from_groww(valueDict, sym0)
             # if sym1 is None:
             #     return (True, valueDict)
         else:
@@ -267,11 +324,26 @@ def get_stock_info(symbol):
         print(f"\033Failed for {url}\033[0m")
         return (False, sym0)
 
+    # Resolve scheme code via amfiKey mapping from mftools JSON (no web search)
+    scheme_code = MFT_AK_TO_AMFI.get(sym0)
+    if isinstance(scheme_code, str) and scheme_code.strip():
+        valueDict['Scheme Code'] = scheme_code.strip()
 
+    scheme_code = valueDict.get('Scheme Code')
+    if isinstance(scheme_code, str) and scheme_code.strip():
+        try:
+            groww_page_url = f"https://groww.in/v1/api/data/mf/web/v1/scheme/portfolio/{scheme_code}/stats"
+            gp_resp = requests.get(groww_page_url, timeout=20)
+            if gp_resp.status_code == 200:
+                data = json.loads(gp_resp.text)
+                valueDict['P/E Ratio'] = data.get("pe")
+                valueDict['P/B Ratio'] = data.get("pb")
+        except Exception:
+            # Do not fail overall parsing if Groww page structure changes
+            pass
 
     # Final enrichment with risk metrics (if not already applied)
     enrich_from_mftools(valueDict, sym0)
-    enrich_from_groww(valueDict, sym0)
     return (True, valueDict)
 
 def extract_using_regex(input_string, key):
@@ -347,12 +419,67 @@ def export_to_file(data):
                 writer.writerow([category])
                 writer.writerows(fundsByType[category])
 
+def extract_data_from_yaml(property):
+    with open('fundslist.yaml', 'r') as file:
+        data = yaml.safe_load(file)
+
+    return data[property]
+
+def build_fund_records_from_yaml():
+    """
+    Build seed fund records from fundslist.yaml where each entry may be in the form:
+      "AK-Display-Name" or "AK-Display-Name:groww-slug"
+    Returns a list of dicts: [{akKey, growwKey, amfiKey}, ...]
+    """
+    funds_list = extract_data_from_yaml('funds')
+    records = []
+    for item in funds_list:
+        ak_key = item
+        groww_key = None
+        if ':' in item:
+            ak_key, groww_key = item.split(':', 1)
+        records.append({'akKey': ak_key, 'growwKey': groww_key, 'amfiKey': None})
+    return records
+
+def enrich_fund_records_with_amfi(records, parsed_fund_data):
+    """
+    For each parsed fund data item, if it has a Scheme Code, attach it as amfiKey
+    to the corresponding record matched by akKey (valueDict['Fund']).
+    """
+    try:
+        # index = {rec['akKey']: rec for rec in records}
+        index = {}
+        for rec in records:
+            index[rec['akKey']] = rec
+
+        for fd in parsed_fund_data:
+            ak = fd.get('Fund')
+            amfi = fd.get('Scheme Code')
+            category = fd.get('Category')
+            if ak and amfi and ak in index:
+                index[ak]['amfiKey'] = amfi
+                index[ak]['category'] = category
+        return index
+    except Exception as ex:
+        print(ex)
+
+def export_funds_categories_json(records, categories, output_path='funds_and_categories.json'):
+    """
+    Export the required JSON with top-level keys 'funds' and 'categories'.
+    """
+    payload = {
+        'funds': records,
+        'categories': categories
+    }
+    with open(output_path, 'w') as f:
+        json.dump(payload, f, indent=2)
+
 if __name__ == "__main__":
     # parse arguments
     parser = argparse.ArgumentParser(description="Advisor parser with risk ratios enrichment")
     script_dir = os.path.dirname(os.path.abspath(__file__))
     default_mftools_json = os.path.join(script_dir, "funds_and_categories_with_mftools.json")
-    default_riskratios = os.path.join(script_dir, "Risk-Ratios.xls")
+    default_riskratios = os.path.join(script_dir, "risk-ratios.xls")
     parser.add_argument("--risk-ratios", default=default_riskratios, help="Path to risk ratios Excel (.xls or .xlsx)")
     parser.add_argument("--mftools-json", default=default_mftools_json, help="Path to funds_and_categories_with_mftools.json (defaults to file alongside this script)")
     args = parser.parse_args()
@@ -366,10 +493,9 @@ if __name__ == "__main__":
 
     # extract data for funds
     extracted_data = get_stock_prices(funds)
-    export_to_file(extracted_data)
 
     # data_sorted_by_alpha = sorted(extracted_data, key=lambda x: (print(x) or float(x['Alpha'])) if x['Alpha'] and x['Alpha'] != '-' else float('-inf'), reverse=True)
     print(f"\033[91m{len(funds_with_no_data)} funds have no data. These are, {funds_with_no_data}.\033[0m")
 
     # export CSV file (existing behavior)
-    export_to_file(extracted_data)
+    export_to_file(data_sorted_by_alpha)
