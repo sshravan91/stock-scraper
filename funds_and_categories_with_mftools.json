@@ -1,0 +1,4767 @@
+{
+  "funds": [
+    {
+      "akKey": "SBI-Contra-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-contra-fund-direct-growth",
+      "amfiKey": "119835",
+      "mftools_key": "SBI Contra Fund Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Contra-Fund-Regular-Plan-Growth",
+      "growwKey": "kotak-contra-fund-direct-growth",
+      "amfiKey": "119769",
+      "mftools_key": "Kotak Contra Fund Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-Contra-Fund-Growth",
+      "growwKey": "invesco-india-contra-fund-direct-growth",
+      "amfiKey": "120348",
+      "mftools_key": "Invesco India Contra Fund Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Dividend-Yield-Fund-Growth-Regular-Plan",
+      "growwKey": "birla-sun-life-dividend-yield-plus-direct-growth",
+      "amfiKey": "119507",
+      "mftools_key": "ABSL Dividend Yield Gr Reg"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Dividend-Yield-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-dividend-yield-fund-direct-growth",
+      "amfiKey": "152810",
+      "mftools_key": "Baroda BNP Paribas Dividend Yield Fund Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Asia-Pacific-Ex-Japan-Dividend-Yield-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Dividend-Yield-Fund-Growth-Plan",
+      "growwKey": "hdfc-dividend-yield-fund-direct-growth",
+      "amfiKey": "148609",
+      "mftools_key": "HDFC Dividend Yield Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Dividend-Yield-Equity-Fund-Growth-Option",
+      "growwKey": "icici-prudential-dividend-yield-equity-fund-direct-growth",
+      "amfiKey": "129312",
+      "mftools_key": "ICICI Pru Dividend Yield Equity Gr"
+    },
+    {
+      "akKey": "UTI-Dividend-Yield-Fund-Growth",
+      "growwKey": "uti-dividend-yield-fund-regular-plan-growth",
+      "amfiKey": "103026",
+      "mftools_key": "UTI Dividend Yield Gr"
+    },
+    {
+      "akKey": "LIC-MF-Dividend-Yield-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-dividend-yield-fund-direct-growth",
+      "amfiKey": "152022",
+      "mftools_key": "LIC MF Dividend Yield Fund Reg Gr"
+    },
+    {
+      "akKey": "Franklin-India-Dividend-Yield-Fund-Growth-Plan",
+      "growwKey": "franklin-india-dividend-yield-fund-direct-growth",
+      "amfiKey": "118527",
+      "mftools_key": "Franklin India Dividend Yield Fund Gr Plan"
+    },
+    {
+      "akKey": "SBI-Dividend-Yield-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-dividend-yield-fund-direct-growth",
+      "amfiKey": "151478",
+      "mftools_key": "SBI Dividend Yield Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-Dividend-Yield-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-dividend-yield-fund-direct-growth",
+      "amfiKey": "148947",
+      "mftools_key": "Tata Dividend Yield Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Dividend-Yield-Fund-Formerly-Known-as-Principal-Dividend-Yield-Fund-Growth-Plan",
+      "growwKey": "sundaram-dividend-yield-fund-direct-growth",
+      "amfiKey": "149700",
+      "mftools_key": "Sundaram Dividend Yield Fund Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Motilal Oswal ELSS Tax Saver Fund Reg Gr"
+    },
+    {
+      "akKey": "360-ONE-ELSS-Tax-Saver-Nifty-50-Index-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BAJAJ-FINSERV-ELSS-TAX-SAVER-FUND-REGULAR-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "BAJAJ FINSERV ELSS TAX SAVER FUND REG GR"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-ELSS-Tax-Saver-Fund-Regular-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "BARODA BNP PARIBAS ELSS Tax Saver Gr"
+    },
+    {
+      "akKey": "Edelweiss-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Edelweiss ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Groww-ELSS-Tax-Saver-Fund-formerly-known-as-Indiabulls-Tax-Savings-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Groww ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mahindra Manulife ELSS Tax Saver Reg Gr"
+    }
+    ,
+    {
+      "akKey": "Navi-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Navi ELSS Tax Saver Fund Reg Gr"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-ELSS-Tax-Saver-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "BANK OF INDIA ELSS Tax Saver  ECO Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-ELSS-Tax-Saver-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL ELSS Tax Saver Gr"
+    },
+    {
+      "akKey": "NJ-ELSS-Tax-Saver-Scheme-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "NJ ELSS Tax Saver Scheme Reg Gr"
+    },
+    {
+      "akKey": "PGIM-India-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "PGIM India ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Quantum-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quantum ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Taurus-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Taurus ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Union-ELSS-Tax-Saver-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Union ELSS Tax Saver Gr"
+    },
+    {
+      "akKey": "Shriram-ELSS-Tax-Saver-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Shriram ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-ELSS-Tax-Saver-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Sundaram ELSS Tax Saver Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-ELSS-Tax-Saver-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "JM-ELSS-Tax-Saver-Fund-Regular-Growth-option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "JM ELSS Tax Saver Fund Gr"
+    },
+    {
+      "akKey": "SBI-ELSS-Tax-Saver-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI ELSS Tax Saver FUND Reg PLAN Gr"
+    },
+    {
+      "akKey": "ITI-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ITI ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "WhiteOak-Capital-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "WhiteOak Capital ELSS Tax Saver Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-ELSS-Tax-saver-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC ELSS Tax saver Gr"
+    },
+    {
+      "akKey": "DSP-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "DSP ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-ELSS-Tax-Saver-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Invesco India ELSS Tax Saver Fund Gr"
+    },
+    {
+      "akKey": "BANDHAN-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "BANDHAN ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Franklin-India-ELSS-Tax-Saver-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Franklin India ELSS Tax Saver Gr"
+    },
+    {
+      "akKey": "HSBC-ELSS-Tax-saver-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HSBC ELSS Tax saver Fund Reg Growth"
+    },
+    {
+      "akKey": "Parag-Parikh-ELSS-Tax-Saver-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Parag Parikh ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-ELSS-Fund-Regular-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-ELSS-Tax-Saver-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "LIC MF ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Tax-Saver-ELSS-Fund-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Nippon India Tax Saver (ELSS) Gr Gr"
+    },
+    {
+      "akKey": "Quant-ELSS-Tax-Saver-Fund-Growth-Option-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quant ELSS Tax Saver Gr"
+    },
+    {
+      "akKey": "Kotak-Tax-Saver-Scheme-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak ELSS Tax Saver Gr"
+    },
+    {
+      "akKey": "HSBC-Tax-Saver-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HSBC Tax Saver Equity Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mirae Asset ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mahindra Manulife ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Axis-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Axis ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-ELSS-Tax-Saver-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Prudential ELSS Tax Saver Fund Gr"
+    },
+    {
+      "akKey": "Edelweiss-Long-Term-Equity-Fund-Tax-Savings-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "UTI ELSS Tax Saver Fund Reg Gr"
+    },
+    {
+      "akKey": "Axis-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Axis ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "CANARA-ROBECO-ELSS-TAX-SAVER-REGULAR-PLAN-GROWTH-OPTION",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Canara Robeco ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "Samco-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Samco ELSS Tax Saver Fund Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-ELSS-Tax-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mirae Asset ELSS Tax Saver Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Retirement-Fund-Pure-Equity-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Retirement-Savings-Fund-Progressive-Plan-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Retirement-Savings-Fund-Equity-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Retirement-Fund-Hybrid-Aggressive-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Retirement-Benefit-Fund-Aggressive-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Retirement-Fund-Wealth-Creation-Scheme-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Retirement-Benefit-Fund-Aggressive-Hybrid-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Retirement-Fund-The-30s-Plan-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Retirement-Savings-Fund-Hybrid-Equity-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Helios-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "helios-flexi-cap-fund-direct-growth",
+      "amfiKey": "152135",
+      "mftools_key": "Helios Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Flexi-Cap-Fund-Growth-Plan",
+      "growwKey": "hdfc-equity-fund-direct-growth",
+      "amfiKey": "118955",
+      "mftools_key": "HDFC Flexi Cap Gr"
+    },
+    {
+      "akKey": "Kotak-Flexicap-Fund-Growth",
+      "growwKey": "kotak-select-focus-fund-direct-growth",
+      "amfiKey": "120166",
+      "mftools_key": "Kotak Flexi Cap Gr"
+    },
+    {
+      "akKey": "Parag-Parikh-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "parag-parikh-long-term-value-fund-direct-growth",
+      "amfiKey": "122639",
+      "mftools_key": "Parag Parikh Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-flexi-cap-fund-direct-growth",
+      "amfiKey": "151412",
+      "mftools_key": "Mirae Asset Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Flexicap-Fund-Growth",
+      "growwKey": "icici-prudential-flexicap-fund-direct-growth",
+      "amfiKey": "148990",
+      "mftools_key": "ICICI Pru Flexicap Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Flexi-Cap-Fund-Growth-Regular-Plan",
+      "growwKey": "birla-sun-life-equity-fund-direct-growth",
+      "amfiKey": "120564",
+      "mftools_key": "ABSL Flexi Cap Gr Reg"
+    },
+    {
+      "akKey": "Bajaj-Finserv-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bajaj-finserv-flexi-cap-fund-direct-growth",
+      "amfiKey": "151895",
+      "mftools_key": "Bajaj Finserv Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-flexi-cap-fund-direct-growth",
+      "amfiKey": "150346",
+      "mftools_key": "WhiteOak Capital Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Flexicap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-equity-diversified-direct-growth",
+      "amfiKey": "118275",
+      "mftools_key": "Canara Robeco Flexi Cap Reg  Gr"
+    },
+    {
+      "akKey": "BANDHAN-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "idfc-premier-equity-fund-direct-growth",
+      "amfiKey": "118424",
+      "mftools_key": "Bandhan Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "PGIM-India-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "pgim-india-flexi-cap-fund-direct-growth",
+      "amfiKey": "133839",
+      "mftools_key": "PGIM India Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Flexicap-Fund-Regular-Growth",
+      "growwKey": "sundaram-flexi-cap-fund-direct-growth",
+      "amfiKey": "150571",
+      "mftools_key": "Sundaram Flexicap Fund Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-Flexi-Cap-Fund-Growth",
+      "growwKey": "invesco-india-flexi-cap-fund-direct-growth",
+      "amfiKey": "149763",
+      "mftools_key": "Invesco India Flexi Cap Fund Gr"
+    },
+    {
+      "akKey": "Axis-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-flexi-cap-fund-direct-growth",
+      "amfiKey": "141925",
+      "mftools_key": "Axis Flexi Cap Reg  Gr"
+    },
+    {
+      "akKey": "Tata-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-flexi-cap-fund-direct-growth",
+      "amfiKey": "144546",
+      "mftools_key": "Tata Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-flexi-cap-fund-direct-growth",
+      "amfiKey": "149104",
+      "mftools_key": "Mahindra Manulife Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "motilal-oswal-most-focused-multicap-35-fund-direct-growth",
+      "amfiKey": "129046",
+      "mftools_key": "Motilal Oswal Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Union-Flexi-Cap-Fund-Growth-Option",
+      "growwKey": "union-equity-fund-direct-growth",
+      "amfiKey": "119292",
+      "mftools_key": "Union Flexi Cap Gr"
+    },
+    {
+      "akKey": "Franklin-India-Flexi-Cap-Fund-Growth",
+      "growwKey": "franklin-india-prima-plus-direct-growth",
+      "amfiKey": "118535",
+      "mftools_key": "Franklin India Flexi Cap Gr"
+    },
+    {
+      "akKey": "HSBC-Flexi-Cap-Fund-Regular-Growth",
+      "growwKey": "hsbc-india-opportunities-fund-direct-growth",
+      "amfiKey": "120046",
+      "mftools_key": "HSBC Flexi Cap Gr"
+    },
+    {
+      "akKey": "UTI-Flexi-Cap-Fund-Growth-Option",
+      "growwKey": "uti-equity-fund-direct-growth",
+      "amfiKey": "120662",
+      "mftools_key": "UTI Flexi Cap Gr"
+    },
+    {
+      "akKey": "SBI-Flexicap-Fund-REGULAR-PLAN-Growth-Option",
+      "growwKey": "sbi-flexicap-fund-direct-growth",
+      "amfiKey": "119718",
+      "mftools_key": "SBI Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "edelweiss-economic-resurgence-fund-direct-growth",
+      "amfiKey": "140353",
+      "mftools_key": "Edelweiss Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "LIC-MF-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-equity-fund-direct-growth",
+      "amfiKey": "120264",
+      "mftools_key": "LICMF Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "Navi-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "navi-flexi-cap-fund-direct-growth",
+      "amfiKey": "143793",
+      "mftools_key": "Navi Flexi Cap Reg  Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-flexi-cap-fund-direct-growth",
+      "amfiKey": "150387",
+      "mftools_key": "Baroda BNP Paribas Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Flexi-Cap-Fund-Regular-Plan-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-flexi-cap-fund-direct-growth",
+      "amfiKey": "149094",
+      "mftools_key": "Nippon India Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "360-ONE-FLEXICAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "360-one-flexicap-fund-direct-growth",
+      "amfiKey": "151796",
+      "mftools_key": "360 One Flexi Cap Fund Reg GR"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bank-of-india-flexi-cap-fund-direct-growth",
+      "amfiKey": "148404",
+      "mftools_key": "Bank of India Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "ITI-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "iti-flexi-cap-fund-direct-growth",
+      "amfiKey": "151379",
+      "mftools_key": "ITI Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Taurus-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "taurus-flexi-cap-fund-direct-growth",
+      "amfiKey": "118883",
+      "mftools_key": "Taurus Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "TRUSTMF-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "trustmf-flexi-cap-fund-direct-growth",
+      "amfiKey": "152584",
+      "mftools_key": "TRUSTMF Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Quant-Flexi-Cap-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-flexi-cap-fund-direct-growth",
+      "amfiKey": "120843",
+      "mftools_key": "Quant Flexi Cap Gr"
+    },
+    {
+      "akKey": "JM-Flexicap-Fund-Regular-Growth-option",
+      "growwKey": "jm-multi-strategy-fund-direct-growth",
+      "amfiKey": "120492",
+      "mftools_key": "JM Flexi Cap Gr"
+    },
+    {
+      "akKey": "Shriram-Flexi-Cap-Fund-Regular-Growth",
+      "growwKey": "shriram-flexi-cap-fund-direct-growth",
+      "amfiKey": "144905",
+      "mftools_key": "Shriram Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "NJ-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "nj-flexi-cap-fund-direct-growth",
+      "amfiKey": "151917",
+      "mftools_key": "NJ Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Samco-Flexi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "samco-flexi-cap-fund-direct-growth",
+      "amfiKey": "149450",
+      "mftools_key": "Samco Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "CAPITALMIND-FLEXI-CAP-FUND-REGULAR-GROWTH",
+      "growwKey": "capitalmind-flexi-cap-fund-direct-growth",
+      "amfiKey": "153738",
+      "mftools_key": "CAPITALMIND FLEXI CAP FUND Reg Gr"
+    },
+    {
+      "akKey": "DSP-Flexi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-blackrock-equity-fund-direct-growth",
+      "amfiKey": "119076",
+      "mftools_key": "DSP Flexi Cap Reg Gr"
+    },
+    {
+      "akKey": "THE-WEALTH-COMPANY-FLEXI-CAP-FUND-REGULAR-GROWTH",
+      "growwKey": "the-wealth-company-flexi-cap-fund-direct-growth",
+      "amfiKey": "153872",
+      "mftools_key": "THE WEALTH COMPANY FLEXI CAP FUND Reg Gr"
+    },
+    {
+      "akKey": "Unifi-Flexi-Cap-Fund-Regular-Growth",
+      "growwKey": "unifi-flexi-cap-fund-direct-growth",
+      "amfiKey": "153543",
+      "mftools_key": "Unifi Flexi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "SBI-FOCUSED-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "sbi-focused-fund-direct-plan-growth",
+      "amfiKey": "119727",
+      "mftools_key": "SBI FOCUSED FUND Reg PLAN Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Focused-Equity-Fund-Growth",
+      "growwKey": "icici-prudential-select-large-cap-fund-direct-growth",
+      "amfiKey": "120722",
+      "mftools_key": "ICICI Pru Focused Equity Gr"
+    },
+    {
+      "akKey": "HDFC-Focused-Fund-GROWTH-PLAN",
+      "growwKey": "hdfc-focused-fund-direct-growth",
+      "amfiKey": "118950",
+      "mftools_key": "HDFC Focused Fund GR"
+    },
+    {
+      "akKey": "Kotak-Focused-Fund-Regular-plan-Growth-Option",
+      "growwKey": "kotak-focused-fund-direct-growth",
+      "amfiKey": "147473",
+      "mftools_key": "Kotak Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Focused-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-focused-fund-direct-growth",
+      "amfiKey": "148883",
+      "mftools_key": "Canara Robeco Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "ITI-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "iti-focused-fund-direct-growth",
+      "amfiKey": "151777",
+      "mftools_key": "ITI Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Focused-Fund-Growth-Option",
+      "growwKey": "birla-sun-life-top-100-fund-direct-growth",
+      "amfiKey": "119564",
+      "mftools_key": "ABSL Focused Gr"
+    },
+    {
+      "akKey": "Nippon-India-Focused-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-focused-fund-direct-growth",
+      "amfiKey": "118692",
+      "mftools_key": "Nippon India Focused Fund Gr Plan Gr"
+    },
+    {
+      "akKey": "Axis-Focused-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "axis-focused-direct-plan-growth",
+      "amfiKey": "120468",
+      "mftools_key": "Axis Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Bandhan-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "bandhan-focused-fund-direct-growth",
+      "amfiKey": "118421",
+      "mftools_key": "Bandhan Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Union-Focused-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-focused-fund-direct-growth",
+      "amfiKey": "147492",
+      "mftools_key": "Union Focused Reg Gr"
+    },
+    {
+      "akKey": "Franklin-India-Focused-Equity-Fund-Growth-Plan",
+      "growwKey": "franklin-india-high-growth-companies-fund-direct-growth",
+      "amfiKey": "118564",
+      "mftools_key": "Franklin India Focused Equity Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-focused-fund-direct-growth",
+      "amfiKey": "148567",
+      "mftools_key": "Mahindra Manulife Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "DSP-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-focused-direct-plan-growth",
+      "amfiKey": "119096",
+      "mftools_key": "DSP Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "UTI-Focused-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-focused-fund-direct-growth",
+      "amfiKey": "149091",
+      "mftools_key": "UTI Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-focused-fund-direct-growth",
+      "amfiKey": "147206",
+      "mftools_key": "Mirae Asset Focused Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "edelweiss-focused-fund-direct-growth",
+      "amfiKey": "150376",
+      "mftools_key": "Edelweiss Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "LIC-MF-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-focused-fund-direct-growth",
+      "amfiKey": "152010",
+      "mftools_key": "LIC MF Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-Focused-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-focused-fund-direct-growth",
+      "amfiKey": "150264",
+      "mftools_key": "BARODA BNP PARIBAS Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "360-ONE-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "360-one-focused-fund-direct-growth",
+      "amfiKey": "131580",
+      "mftools_key": "360 ONE Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Focused-Fund-Regular-Growth",
+      "growwKey": "hsbc-focused-fund-direct-growth",
+      "amfiKey": "148411",
+      "mftools_key": "HSBC Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Focused-Fund-Formerly-Known-as-Principal-Focused-Multicap-Fund-Growth-Option",
+      "growwKey": "sundaram-focused-fund-direct-growth",
+      "amfiKey": "149533",
+      "mftools_key": "Sundaram Focused Fund Gr"
+    },
+    {
+      "akKey": "Old-Bridge-Focused-Fund-Regular-Growth",
+      "growwKey": "old-bridge-focused-fund-direct-growth",
+      "amfiKey": "152358",
+      "mftools_key": "Old Bridge Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "JM-Focused-Fund-Regular-Growth-Option",
+      "growwKey": "jm-core-11-fund-direct-growth",
+      "amfiKey": "120488",
+      "mftools_key": "JM Focused Fund Reg Gr"
+    },
+    {
+      "akKey": "Quant-Focused-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-focused-fund-direct-growth",
+      "amfiKey": "120834",
+      "mftools_key": "Quant Focused Gr"
+    },
+    {
+      "akKey": "Invesco-India-Focused-Fund-Growth",
+      "growwKey": "invesco-india-focused-fund-direct-growth",
+      "amfiKey": "148481",
+      "mftools_key": "Invesco India Focused Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Focused-25-Fund-MOF25-Regular-Plan-Growth-Option",
+      "growwKey": "motilal-oswal-most-focused-25-fund-direct-growth",
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Focused-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-focused-fund-direct-growth",
+      "amfiKey": "147757",
+      "mftools_key": "Tata Focused FundReg PlanGr"
+    },
+    {
+      "akKey": "Invesco-India-Large-Mid-Cap-Fund-Growth",
+      "growwKey": "invesco-india-large-mid-cap-fund-direct-growth",
+      "amfiKey": "120357",
+      "mftools_key": "Invesco India Large and Mid Cap Gr"
+    },
+    {
+      "akKey": "Helios-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "helios-large-mid-cap-fund-direct-growth",
+      "amfiKey": "152941",
+      "mftools_key": "Helios Large & Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Large-Mid-Cap-Fund-Growth",
+      "growwKey": "icici-prudential-top-100-fund-direct-growth",
+      "amfiKey": "120596",
+      "mftools_key": "ICICI Pru Large & MidCap Gr"
+    },
+    {
+      "akKey": "Whiteoak-Capital-Large-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-large-mid-cap-fund-direct-growth",
+      "amfiKey": "152226",
+      "mftools_key": "Whiteoak Capital Large & Mid Cap Reg Gr"
+    },
+    {
+      "akKey": "Bandhan-Large-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bandhan-large-mid-cap-fund-direct-growth",
+      "amfiKey": "118419",
+      "mftools_key": "Bandhan Large & Mid Cap Reg Gr"
+    },
+    {
+      "akKey": "PGIM-India-Large-and-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "pgim-india-large-and-mid-cap-fund-direct-growth",
+      "amfiKey": "152382",
+      "mftools_key": "PGIM India Midcap Fund Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Large-Midcap-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-large-midcap-fund-direct-growth",
+      "amfiKey": "118834",
+      "mftools_key": "Mirae Asset Large & Midcap Fund  Reg Plan  Gr"
+    },
+    {
+      "akKey": "Franklin-India-Large-Mid-Cap-Fund-Growth-Plan",
+      "growwKey": "franklin-india-large-mid-cap-fund-direct-growth",
+      "amfiKey": "118510",
+      "mftools_key": "Franklin India Large & Mid Cap Fund Gr Plan"
+    },
+    {
+      "akKey": "Nippon-India-Vision-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-vision-large-mid-cap-direct-growth",
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Large-MIDCap-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-magnum-multiplier-fund-direct-growth",
+      "amfiKey": "119721",
+      "mftools_key": "SBI Large & MidCap Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Large-and-Mid-Cap-Fund-Growth-Option",
+      "growwKey": "hdfc-large-and-mid-cap-fund-direct-growth",
+      "amfiKey": "130498",
+      "mftools_key": "HDFC Large and Mid Cap Gr"
+    },
+    {
+      "akKey": "Axis-Large-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-large-mid-cap-fund-direct-growth",
+      "amfiKey": "145110",
+      "mftools_key": "Axis Large & Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Union-Large-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-large-midcap-fund-direct-growth",
+      "amfiKey": "147750",
+      "mftools_key": "Union Large & MidCap Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Large-Midcap-Fund-Growth-Regular",
+      "growwKey": "kotak-large-midcap-fund-direct-growth",
+      "amfiKey": "120158",
+      "mftools_key": "Kotak Large & Midcap Fund Gr Reg"
+    },
+    {
+      "akKey": "CANARA-ROBECO-LARGE-AND-MID-CAP-FUND-REGULAR-PLAN-GROWTH-OPTION",
+      "growwKey": "canara-robeco-large-and-mid-cap-fund-direct-growth",
+      "amfiKey": "118278",
+      "mftools_key": "CANARA ROBECO LARGE AND MID CAP FUND REG GR"
+    },
+    {
+      "akKey": "Sundaram-Large-and-Midcap-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-equity-multiplier-fund-direct-growth",
+      "amfiKey": "119566",
+      "mftools_key": "Sundaram Large and MidCap Gr"
+    },
+    {
+      "akKey": "Bajaj-Finserv-Large-and-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bajaj-finserv-large-and-mid-cap-fund-direct-growth",
+      "amfiKey": "152408",
+      "mftools_key": "Bajaj Finserv Large and Mid Cap Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Large-Mid-Cap-Fund-Regular-Growth",
+      "growwKey": "aditya-birla-sun-life-large-mid-cap-fund-direct-growth",
+      "amfiKey": "119436",
+      "mftools_key": "ABSL Large & Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "UTI-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-large-mid-cap-fund-direct-growth",
+      "amfiKey": "120665",
+      "mftools_key": "UTI Large & Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "DSP-Large-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-large-mid-cap-fund-direct-plan-growth",
+      "amfiKey": "119218",
+      "mftools_key": "DSP Large & Mid Cap Reg Gr"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Large-Mid-Cap-Fund-Eco-Plan-Growth",
+      "growwKey": "bank-of-india-large-mid-cap-fund-direct-growth",
+      "amfiKey": "119350",
+      "mftools_key": "BANK OF INDIA Large & Mid Cap Fund Eco Plan Gr"
+    },
+    {
+      "akKey": "Edelweiss-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "edelweiss-equity-opportunities-fund-direct-growth",
+      "amfiKey": "140175",
+      "mftools_key": "Edelweiss Large & MidCap Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Large-Mid-Cap-Fund-Regular-Growth",
+      "growwKey": "hsbc-large-and-mid-cap-fund-direct-growth",
+      "amfiKey": "146772",
+      "mftools_key": "HSBC Large and Mid Cap Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Large-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-large-mid-cap-fund-direct-growth",
+      "amfiKey": "147840",
+      "mftools_key": "Mahindra Manulife Large & Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Navi-Large-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "navi-large-midcap-fund-direct-growth",
+      "amfiKey": "135677",
+      "mftools_key": "Navi Large & MidCap Reg Gr"
+    },
+    {
+      "akKey": "LIC-MF-Large-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-large-midcap-fund-direct-growth",
+      "amfiKey": "133710",
+      "mftools_key": "LIC MF Large & MidCap Reg Gr"
+    },
+    {
+      "akKey": "ITI-LARGE-MIDCAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "iti-large-mid-cap-fund-direct-growth",
+      "amfiKey": "152821",
+      "mftools_key": "ITI LARGE & MIDCAP FUND Reg Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Large-and-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-large-mid-cap-fund-direct-growth",
+      "amfiKey": "148474",
+      "mftools_key": "Baroda BNP Paribas Large and MidCap Reg Gr"
+    },
+    {
+      "akKey": "Tata-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "tata-equity-opportunities-fund-direct-growth",
+      "amfiKey": "119202",
+      "mftools_key": "Tata Large & MidCap Reg Gr"
+    },
+    {
+      "akKey": "Quant-Large-Mid-Cap-Fund-Growth-Option",
+      "growwKey": "quant-large-and-mid-cap-fund-direct-growth",
+      "amfiKey": "120826",
+      "mftools_key": "Quant Large & MidCap Gr"
+    },
+    {
+      "akKey": "JM-Large-Mid-Cap-Fund-Regular-Growth-Option",
+      "growwKey": "jm-large-mid-cap-fund-direct-growth",
+      "amfiKey": "153629",
+      "mftools_key": "JM Large & Mid Cap Fund (Reg) Gr"
+    },
+    {
+      "akKey": "Samco-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "samco-large-mid-cap-fund-direct-growth",
+      "amfiKey": "153534",
+      "mftools_key": "Samco Large & Mid Cap Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Large-and-Midcap-Fund-Regular-Plan-Growth",
+      "growwKey": "motilal-oswal-large-and-midcap-fund-direct-growth",
+      "amfiKey": "147704",
+      "mftools_key": "Motilal Oswal Large and MidCap Reg Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Large-Cap-Regular-Plan-Growth",
+      "growwKey": "motilal-oswal-large-cap-fund-direct-growth",
+      "amfiKey": "152354",
+      "mftools_key": "Motilal Oswal Large Cap Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-large-cap-fund-direct-growth",
+      "amfiKey": "118632",
+      "mftools_key": "Nippon India Large Cap  Fund Gr Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Large-Cap-Fund-Growth-Plan",
+      "growwKey": "mirae-asset-large-cap-fund-direct-growth",
+      "amfiKey": "118825",
+      "mftools_key": "Mirae Asset Large Cap Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Large-Cap-Fund-erstwhile-Bluechip-Fund-Growth",
+      "growwKey": "icici-prudential-large-cap-fund-direct-growth",
+      "amfiKey": "120586",
+      "mftools_key": "ICICI Pru Large Cap Fund Gr"
+    },
+    {
+      "akKey": "PGIM-India-Large-Cap-Fund-Growth",
+      "growwKey": "pgim-india-large-cap-fund-direct-growth",
+      "amfiKey": "138312",
+      "mftools_key": "PGIM India Large Cap Gr"
+    },
+    {
+      "akKey": "BANDHAN-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "idfc-equity-fund-direct-growth",
+      "amfiKey": "118479",
+      "mftools_key": "Bandhan Large Cap Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Large-Cap-Fund-Growth",
+      "growwKey": "kotak-large-cap-fund-direct-growth",
+      "amfiKey": "120152",
+      "mftools_key": "Kotak Large Cap Fund Gr"
+    },
+    {
+      "akKey": "Invesco-India-Largecap-Fund-Growth",
+      "growwKey": "invesco-india-business-leaders-fund-direct-growth",
+      "amfiKey": "120392",
+      "mftools_key": "Invesco India Large Cap Gr"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-large-cap-fund-direct-growth",
+      "amfiKey": "150797",
+      "mftools_key": "WhiteOak Capital Large Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "CANARA-ROBECO-LARGE-CAP-FUND-REGULAR-PLAN-GROWTH-OPTION",
+      "growwKey": "canara-robeco-large-cap-fund-direct-growth",
+      "amfiKey": "118269",
+      "mftools_key": "CANARA ROBECO LARGE CAP FUND REG GR"
+    },
+    {
+      "akKey": "Axis-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-large-cap-fund-direct-growth",
+      "amfiKey": "120465",
+      "mftools_key": "Axis Large Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Large-Cap-Fund-Growth",
+      "growwKey": "aditya-birla-sun-life-large-cap-direct-fund-growth",
+      "amfiKey": "119528",
+      "mftools_key": "ABSL Large Cap Fund Gr"
+    },
+    {
+      "akKey": "Franklin-India-Large-Cap-Fund-Growth",
+      "growwKey": "franklin-india-large-cap-fund-direct-growth",
+      "amfiKey": "118531",
+      "mftools_key": "Franklin India Large Cap Fund Gr"
+    },
+    {
+      "akKey": "UTI-Large-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-unit-scheme-1986-mastershare-direct-growth",
+      "amfiKey": "120656",
+      "mftools_key": "UTI Large Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-Large-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "tata-large-cap-fund-direct-growth",
+      "amfiKey": "119160",
+      "mftools_key": "Tata Large Cap Reg Gr"
+    },
+    {
+      "akKey": "SBI-Large-Cap-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "sbi-large-cap-direct-plan-growth",
+      "amfiKey": "119598",
+      "mftools_key": "SBI Large Cap FUND Reg PLAN Gr"
+    },
+    {
+      "akKey": "BAJAJ-FINSERV-LARGE-CAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "bajaj-finserv-large-cap-fund-direct-growth",
+      "amfiKey": "152783",
+      "mftools_key": "BAJAJ FINSERV LARGE CAP FUND Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-large-cap-fund-direct-growth",
+      "amfiKey": "146549",
+      "mftools_key": "Mahindra Manulife Large Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Groww-Largecap-Fund-formerly-known-as-Indiabulls-Blue-Chip-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "groww-large-cap-fund-direct-growth",
+      "amfiKey": "119133",
+      "mftools_key": "Groww Largecap Gr"
+    },
+    {
+      "akKey": "LIC-MF-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-growth-fund-direct-growth",
+      "amfiKey": "120267",
+      "mftools_key": "LIC MF Large Cap Reg Gr"
+    },
+    {
+      "akKey": "Taurus-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "taurus-large-cap-fund-direct-growth",
+      "amfiKey": "118870",
+      "mftools_key": "Taurus Large Cap Reg Gr"
+    },
+    {
+      "akKey": "Union-Largecap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-largecap-fund-direct-growth",
+      "amfiKey": "141248",
+      "mftools_key": "Union Large Cap Reg Gr"
+    },
+    {
+      "akKey": "DSP-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-large-cap-fund-direct-growth",
+      "amfiKey": "119250",
+      "mftools_key": "DSP Large Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Large-Cap-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "hdfc-large-cap-fund-direct-growth",
+      "amfiKey": "119018",
+      "mftools_key": "HDFC Large Cap Fund Gr"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Large-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bank-of-india-large-cap-fund-direct-growth",
+      "amfiKey": "148980",
+      "mftools_key": "BANK OF INDIA Large Cap Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "ITI-Large-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-large-cap-fund-direct-growth",
+      "amfiKey": "148353",
+      "mftools_key": "ITI Large Cap Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Large-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "edelweiss-large-cap-fund-direct-growth",
+      "amfiKey": "118617",
+      "mftools_key": "Edelweiss Large Cap Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Large-Cap-Fund-Formerly-Known-as-Sundaram-Blue-Chip-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-large-cap-fund-direct-growth",
+      "amfiKey": "148507",
+      "mftools_key": "Sundaram Large Cap Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Large-Cap-Fund-Regular-Growth",
+      "growwKey": "hsbc-equity-fund-direct-growth",
+      "amfiKey": "120030",
+      "mftools_key": "HSBC Large Cap Gr"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-LARGE-CAP-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-large-cap-fund-direct-growth",
+      "amfiKey": "150187",
+      "mftools_key": "BARODA BNP PARIBAS LARGE CAP Fund Gr"
+    },
+    {
+      "akKey": "JM-Large-Cap-Fund-Regular-Growth-Option",
+      "growwKey": "jm-equity-direct-growth",
+      "amfiKey": "120490",
+      "mftools_key": "JM Large Cap Gr"
+    },
+    {
+      "akKey": "Quant-Large-Cap-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-large-cap-fund-direct-growth",
+      "amfiKey": "150440",
+      "mftools_key": "Quant Large Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Samco-Large-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "samco-large-cap-fund-direct-growth",
+      "amfiKey": "153239",
+      "mftools_key": "Samco Large Cap Fund  Reg Plan  Gr"
+    },
+    {
+      "akKey": "Invesco-India-Midcap-Fund-Growth-Option",
+      "growwKey": "invesco-india-mid-cap-fund-direct-growth",
+      "amfiKey": "120403",
+      "mftools_key": "Invesco India MidCap Gr"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-mid-cap-fund-direct-growth",
+      "amfiKey": "150584",
+      "mftools_key": "WhiteOak Capital Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-MidCap-Fund-Growth",
+      "growwKey": "icici-prudential-midcap-fund-direct-growth",
+      "amfiKey": "120381",
+      "mftools_key": "ICICI Pru MidCap Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "mirae-asset-midcap-fund-direct-growth",
+      "amfiKey": "147445",
+      "mftools_key": "Mirae Asset MidCap Reg"
+    },
+    {
+      "akKey": "HDFC-Mid-Cap-Fund-Growth-Plan",
+      "growwKey": "hdfc-mid-cap-fund-direct-growth",
+      "amfiKey": "118989",
+      "mftools_key": "HDFC Mid Cap Fund Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-mid-cap-fund-direct-growth",
+      "amfiKey": "150817",
+      "mftools_key": "Canara Robeco Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Union-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-midcap-fund-direct-growth",
+      "amfiKey": "148073",
+      "mftools_key": "Union MidCap Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-select-midcap-direct-growth",
+      "amfiKey": "119581"
+    },
+    {
+      "akKey": "Kotak-Midcap-Fund-Regular-Plan-Growth",
+      "growwKey": "kotak-emerging-equity-scheme-direct-growth",
+      "amfiKey": "119775",
+      "mftools_key": "Kotak Midcap Fund Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "edelweiss-mid-and-small-cap-fund-direct-growth",
+      "amfiKey": "140228",
+      "mftools_key": "Edelweiss MidCap Reg Gr"
+    },
+    {
+      "akKey": "NIPPON-INDIA-GROWTH-MID-CAP-FUND-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-growth-mid-cap-fund-direct-growth",
+      "amfiKey": "118668",
+      "mftools_key": "NIPPON INDIA GROWTH MID CAP FUND Gr Gr"
+    },
+    {
+      "akKey": "Axis-Midcap-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-midcap-fund-direct-growth",
+      "amfiKey": "120505",
+      "mftools_key": "Axis MidCap Reg Gr"
+    },
+    {
+      "akKey": "PGIM-India-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "pgim-india-midcap-fund-direct-growth",
+      "amfiKey": "125307",
+      "mftools_key": "PGIM India Midcap Fund Reg Gr"
+    },
+    {
+      "akKey": "Franklin-India-Mid-Cap-Fund-Growth",
+      "growwKey": "franklin-india-mid-cap-fund-direct-growth",
+      "amfiKey": "118533",
+      "mftools_key": "Franklin India Mid Cap Fund Gr"
+    },
+    {
+      "akKey": "DSP-Midcap-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-blackrock-small-and-midcap-fund-direct-growth",
+      "amfiKey": "119071",
+      "mftools_key": "DSP MidCap Reg Gr"
+    },
+    {
+      "akKey": "BANDHAN-MIDCAP-FUND-GROWTH-REGULAR-PLAN",
+      "growwKey": "bandhan-midcap-fund-direct-growth",
+      "amfiKey": "150404",
+      "mftools_key": "Bandhan Midcap Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "tata-mid-cap-direct-plan-growth",
+      "amfiKey": "119178",
+      "mftools_key": "Tata Mid Cap Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-midcap-fund-direct-growth",
+      "amfiKey": "150212",
+      "mftools_key": "BARODA BNP PARIBAS Mid Cap Fund Gr"
+    },
+    {
+      "akKey": "HSBC-Midcap-Fund-Regular-Growth",
+      "growwKey": "hsbc-midcap-fund-direct-growth",
+      "amfiKey": "151036",
+      "mftools_key": "HSBC Midcap Fund Reg Growth"
+    },
+    {
+      "akKey": "Taurus-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "taurus-mid-cap-fund-direct-growth",
+      "amfiKey": "118872",
+      "mftools_key": "Taurus Mid Cap Reg Gr"
+    },
+    {
+      "akKey": "ITI-Mid-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-mid-cap-fund-direct-growth",
+      "amfiKey": "148733",
+      "mftools_key": "ITI Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-MidCap-Fund-Growth",
+      "growwKey": "birla-sun-life-mid-cap-fund-plan-a-direct-growth",
+      "amfiKey": "119620",
+      "mftools_key": "ABSL MidCap Gr"
+    },
+    {
+      "akKey": "UTI-Mid-Cap-Fund-Growth-Option",
+      "growwKey": "uti-mid-cap-fund-direct-growth",
+      "amfiKey": "120726",
+      "mftools_key": "UTI MidCap Gr"
+    },
+    {
+      "akKey": "LIC-MF-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-midcap-fund-direct-growth",
+      "amfiKey": "152002",
+      "mftools_key": "LIC MF Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-mid-cap-fund-direct-growth",
+      "amfiKey": "142110",
+      "mftools_key": "Mahindra Manulife Mid Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Midcap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "motilal-oswal-most-focused-midcap-30-fund-direct-growth",
+      "amfiKey": "127042",
+      "mftools_key": "Motilal Oswal Midcap Fund Reg Gr"
+    },
+    {
+      "akKey": "JM-Midcap-Fund-Regular-Growth",
+      "growwKey": "jm-midcap-fund-direct-growth",
+      "amfiKey": "150815",
+      "mftools_key": "JM Midcap Fund Reg Gr"
+    },
+    {
+      "akKey": "SBI-MIDCAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "sbi-mid-cap-direct-plan-growth",
+      "amfiKey": "119716",
+      "mftools_key": "SBI MIDCAP FUND Reg PLAN Gr"
+    },
+    {
+      "akKey": "Quant-Mid-Cap-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-mid-cap-fund-direct-growth",
+      "amfiKey": "120841",
+      "mftools_key": "Quant MidCap Gr"
+    },
+    {
+      "akKey": "Bank-of-India-Mid-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bank-of-india-mid-cap-fund-direct-growth",
+      "amfiKey": "153728",
+      "mftools_key": "Bank of India Mid Cap Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "Helios-Mid-Cap-Fund-Regular-Plan-Growth-Plan",
+      "growwKey": "helios-mid-cap-fund-direct-growth",
+      "amfiKey": "153326",
+      "mftools_key": "Helios Mid Cap Fund Reg Plan Gr Plan"
+    },
+    {
+      "akKey": "HDFC-Multi-Cap-Fund-Growth-Option",
+      "growwKey": "hdfc-multi-cap-fund-direct-growth",
+      "amfiKey": "149368",
+      "mftools_key": "HDFC Multi Cap Fund Gr"
+    },
+    {
+      "akKey": "DSP-Multicap-Fund-Regular-Growth",
+      "growwKey": "dsp-multicap-fund-direct-growth",
+      "amfiKey": "152310",
+      "mftools_key": "DSP Multicap Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Multi-Cap-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-multi-cap-fund-direct-growth",
+      "amfiKey": "118650",
+      "mftools_key": "Nippon India Multi Cap Gr Gr"
+    },
+    {
+      "akKey": "Kotak-Multicap-Fund-Regular-Plan-Growth",
+      "growwKey": "kotak-multicap-fund-direct-growth",
+      "amfiKey": "149185",
+      "mftools_key": "Kotak Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "Axis-Multicap-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-multicap-fund-direct-growth",
+      "amfiKey": "149383",
+      "mftools_key": "Axis Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Multicap-Fund-Growth",
+      "growwKey": "icici-prudential-multicap-fund-direct-growth",
+      "amfiKey": "120599",
+      "mftools_key": "ICICI Pru Multi Cap Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-MULTI-CAP-FUND-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-multi-cap-fund-direct-growth",
+      "amfiKey": "150155",
+      "mftools_key": "Baroda BNP Paribas Multi Cap Plan A Gr"
+    },
+    {
+      "akKey": "LIC-MF-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-multi-cap-fund-direct-growth",
+      "amfiKey": "150659",
+      "mftools_key": "LIC MF Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "BANDHAN-MULTI-CAP-FUND-GROWTH-REGULAR-PLAN",
+      "growwKey": "bandhan-multi-cap-fund-direct-growth",
+      "amfiKey": "149303",
+      "mftools_key": "Bandhan Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Bank-of-India-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bank-of-india-multi-cap-fund-direct-growth",
+      "amfiKey": "151443",
+      "mftools_key": "Bank of India Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "SBI-Multicap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "sbi-multicap-fund-direct-growth",
+      "amfiKey": "149882",
+      "mftools_key": "SBI Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "quant-Multi-Cap-Fund-GROWTH-OPTION-Regular-Plan",
+      "growwKey": "quant-multi-cap-fund-direct-growth",
+      "amfiKey": "120823",
+      "mftools_key": "quant Multi Cap Fund Gr Reg Plan"
+    },
+    {
+      "akKey": "Motilal-Oswal-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "motilal-oswal-multi-cap-fund-direct-growth",
+      "amfiKey": "152651",
+      "mftools_key": "Motilal Oswal Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-multi-cap-fund-direct-growth",
+      "amfiKey": "152071",
+      "mftools_key": "WhiteOak Capital Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Multicap-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-multicap-fund-direct-growth",
+      "amfiKey": "151810",
+      "mftools_key": "Mirae Asset Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "Franklin-India-Multi-Cap-Fund-Growth",
+      "growwKey": "franklin-india-multi-cap-fund-direct-growth",
+      "amfiKey": "152739",
+      "mftools_key": "Franklin India Multi Cap Fund Gr"
+    },
+    {
+      "akKey": "Sundaram-Multi-Cap-Fund-Formerly-Known-as-Principal-Multi-Cap-Growth-Fund-Growth-Option",
+      "growwKey": "sundaram-multi-cap-fund-direct-growth",
+      "amfiKey": "149669",
+      "mftools_key": "Sundaram Multi Cap Fund Gr"
+    },
+    {
+      "akKey": "PGIM-India-Multi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "pgim-india-multi-cap-fund-direct-growth",
+      "amfiKey": "152815",
+      "mftools_key": "PGIM India Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Union-Multicap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-multicap-fund-direct-growth",
+      "amfiKey": "150858",
+      "mftools_key": "Union Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-multi-cap-fund-direct-growth",
+      "amfiKey": "141226",
+      "mftools_key": "Mahindra Manulife Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Multi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-multi-cap-fund-direct-growth",
+      "amfiKey": "151824",
+      "mftools_key": "Canara Robeco Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Multi-Cap-Fund-Regular-Growth",
+      "growwKey": "hsbc-multi-cap-fund-direct-growth",
+      "amfiKey": "151290",
+      "mftools_key": "HSBC Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Multi-Cap-Fund-Regular-Growth",
+      "growwKey": "aditya-birla-sun-life-multi-cap-fund-direct-growth",
+      "amfiKey": "148921",
+      "mftools_key": "ABSL Multi-Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "edelweiss-multi-cap-fund-direct-growth",
+      "amfiKey": "152094",
+      "mftools_key": "Edelweiss Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "ITI-Multi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-multi-cap-fund-direct-growth",
+      "amfiKey": "147183",
+      "mftools_key": "ITI Multi Cap Reg Gr"
+    },
+    {
+      "akKey": "Tata-Multicap-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-multicap-fund-direct-growth",
+      "amfiKey": "151232",
+      "mftools_key": "Tata Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-Multicap-Fund-Growth-Option",
+      "growwKey": "invesco-india-mid-n-small-cap-fund-direct-growth",
+      "amfiKey": "120413",
+      "mftools_key": "Invesco India Multi Cap Gr"
+    },
+    {
+      "akKey": "BAJAJ-FINSERV-MULTI-CAP-FUND-REGULAR-GROWTH",
+      "growwKey": "bajaj-finserv-multi-cap-fund-direct-growth",
+      "amfiKey": "153309",
+      "mftools_key": "Bajaj Finserv Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Groww-Multicap-Fund-Regular-Growth",
+      "growwKey": "groww-multicap-fund-direct-growth",
+      "amfiKey": "153034",
+      "mftools_key": "Groww Multicap Fund Reg Gr"
+    },
+    {
+      "akKey": "Samco-Multi-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "samco-multi-cap-fund-direct-growth",
+      "amfiKey": "152847",
+      "mftools_key": "Samco Multi Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "TRUSTMF-MULTI-CAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "trustmf-multi-cap-fund-direct-growth",
+      "amfiKey": "153644",
+      "mftools_key": "TRUSTMF MULTI CAP FUND Reg PLAN GR"
+    },
+    {
+      "akKey": "UTI-Multi-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-multi-cap-fund-direct-growth",
+      "amfiKey": "153515",
+      "mftools_key": "UTI Multi Cap Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "Invesco-India-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "invesco-india-banking-fund-direct-growth",
+      "amfiKey": "120385",
+      "mftools_key": "Invesco India Fin Services Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "DSP-Banking-Financial-Services-Fund-Regular-Growth",
+      "growwKey": "dsp-banking-financial-services-fund-direct-growth",
+      "amfiKey": "152206",
+      "mftools_key": "DSP Banking & Financial Services Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Banking-and-Financial-Services-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-banking-financial-services-fund-direct-growth",
+      "amfiKey": "118589",
+      "mftools_key": "Nippon India Banking and Financial Services Fund Gr Gr"
+    },
+    {
+      "akKey": "Groww-Banking-Financial-Services-Fund-Regular-Growth",
+      "growwKey": "groww-banking-financial-services-fund-direct-growth",
+      "amfiKey": "152254",
+      "mftools_key": "Groww Banking & Financial Services Reg Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-BSE-Financials-ex-Bank-30-Index-Fund-Regular-Growth",
+      "growwKey": "motilal-oswal-bse-financials-ex-bank-30-index-fund-direct-growth",
+      "amfiKey": "150443"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Banking-Financial-Services-Fund-Regular-Growth",
+      "growwKey": "whiteoak-capital-banking-financial-services-fund-direct-growth",
+      "amfiKey": "152321",
+      "mftools_key": "WhiteOak Capital Banking & Financial Services Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Financial-Services-Opportunities-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-financial-services-opportunities-fund-direct-growth",
+      "amfiKey": "119597",
+      "mftools_key": "Sundaram Fin Services Opp Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Banking-and-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "birla-sun-life-banking-and-financial-services-fund-direct-growth",
+      "amfiKey": "125597",
+      "mftools_key": "ABSL Banking and Fin Services Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Banking-Financial-Services-Fund-Growth-Option",
+      "growwKey": "hdfc-banking-financial-services-fund-direct-growth",
+      "amfiKey": "148986",
+      "mftools_key": "HDFC Banking & Fin Services Fund Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Banking-and-Financial-Services-Fund-Regular-Growth",
+      "growwKey": "mirae-asset-banking-and-financial-services-fund-direct-growth",
+      "amfiKey": "148623",
+      "mftools_key": "Mirae Asset Banking and Fin Services Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Banking-and-Financial-Services-Fund-Growth",
+      "growwKey": "icici-prudential-banking-and-financial-services-fund-direct-growth",
+      "amfiKey": "120244",
+      "mftools_key": "ICICI Pru Banking and Fin Services Gr"
+    },
+    {
+      "akKey": "LIC-MF-Banking-And-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-banking-financial-services-fund-direct-growth",
+      "amfiKey": "134017",
+      "mftools_key": "LIC MF Banking And Fin Services Reg Gr"
+    },
+    {
+      "akKey": "SBI-Banking-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-banking-financial-services-fund-direct-growth",
+      "amfiKey": "133859",
+      "mftools_key": "SBI Banking and Fin Services Reg Gr"
+    },
+    {
+      "akKey": "Taurus-Banking-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "taurus-banking-financial-services-fund-direct-growth",
+      "amfiKey": "118868",
+      "mftools_key": "Taurus Banking & Fin Services Reg Gr"
+    },
+    {
+      "akKey": "Tata-Banking-And-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-banking-and-financial-services-fund-direct-growth",
+      "amfiKey": "135793",
+      "mftools_key": "Tata Banking And Fin Services Reg Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Banking-and-Financial-Services-Fund-Regular-Growth-Option",
+      "growwKey": "baroda-pioneer-banking-and-financial-services-fund-direct-growth",
+      "amfiKey": "119333",
+      "mftools_key": "Baroda BNP Paribas Banking and Fin Services Plan A Gr"
+    },
+    {
+      "akKey": "UTI-Banking-and-Financial-Services-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-banking-sector-fund-direct-growth",
+      "amfiKey": "120733",
+      "mftools_key": "UTI Banking and Fin Services Reg Gr"
+    },
+    {
+      "akKey": "ITI-Banking-and-Financial-Services-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-banking-and-financial-services-fund-direct-growth",
+      "amfiKey": "149321",
+      "mftools_key": "ITI Banking and Financial Services Fund Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Banking-Financial-Services-Fund-Regular-Plan-Growth",
+      "growwKey": "kotak-banking-financial-services-fund-direct-growth",
+      "amfiKey": "151384",
+      "mftools_key": "Kotak Banking & Financial Services Fund Reg Gr"
+    },
+    {
+      "akKey": "Quant-BFSI-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-bfsi-fund-direct-growth",
+      "amfiKey": "151791",
+      "mftools_key": "Quant BFSI Fund Reg Gr"
+    },
+    {
+      "akKey": "BANDHAN-FINANCIAL-SERVICES-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "bandhan-financial-services-fund-direct-growth",
+      "amfiKey": "151816",
+      "mftools_key": "Bandhan Financial Services Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-FMCG-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru FMCG Fund Gr"
+    },
+    {
+      "akKey": "HDFC-Infrastructure-Fund-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Infra Gr"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Manufacturing-Infrastructure-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Bank of India Mfg & Infra Gr"
+    },
+    {
+      "akKey": "Taurus-Infrastructure-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Taurus Infra Reg Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Infrastructure-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Motilal Oswal Infrastructure Fund Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Infrastructure-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Sundaram Infra Advtg (Erstwhile Sundaram Capex Opp) Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Power-Infra-Fund-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Nippon India Power & Infra Gr Gr"
+    },
+    {
+      "akKey": "DSP-Natural-Resources-And-New-Energy-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "DSP Natural Resources And New Energy Reg Gr"
+    },
+    {
+      "akKey": "SBI-Infrastructure-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI Infra Reg Gr"
+    },
+    {
+      "akKey": "BANDHAN-Infrastructure-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Bandhan Infra Reg Gr"
+    },
+    {
+      "akKey": "Franklin-Build-India-Fund-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Franklin Build India Gr"
+    },
+    {
+      "akKey": "HSBC-Infrastructure-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HSBC Infrastructure Fund Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Infrastructure-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Infra Gr"
+    },
+    {
+      "akKey": "Invesco-India-Infrastructure-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Invesco India Infra Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Infrastructure-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Infra Gr"
+    },
+    {
+      "akKey": "LIC-MF-Infrastructure-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "LIC MF Infra Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Infrastructure-Economic-Reform-Fund-Standard-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak Infra & Economic Reform Fund Standard  Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Infrastructure-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Canara Robeco Infra Reg Gr"
+    },
+    {
+      "akKey": "UTI-Infrastructure-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "UTI Infra Gr"
+    },
+    {
+      "akKey": "Tata-Infrastructure-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Tata Infra Reg Gr"
+    },
+    {
+      "akKey": "Quant-Infrastructure-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quant Infra Gr"
+    },
+    {
+      "akKey": "Nippon-India-Pharma-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-pharma-fund-direct-growth",
+      "amfiKey": "118759",
+      "mftools_key": "Nippon India Pharma Fund Gr Gr"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Pharma-and-Heathcare-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-pharma-and-healthcare-fund-direct-growth",
+      "amfiKey": "152349",
+      "mftools_key": "WhiteOak Capital Pharma and Heathcare Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "SBI-Healthcare-Opportunities-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-pharma-fund-direct-growth",
+      "amfiKey": "119783",
+      "mftools_key": "SBI HEALTHCARE Opportunities Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Pharma-and-Healthcare-Fund-Regular-Growth",
+      "growwKey": "aditya-birla-sun-life-pharma-healthcare-fund-direct-growth",
+      "amfiKey": "147409",
+      "mftools_key": "ABSL Pharma and Healthcare Reg Gr"
+    },
+    {
+      "akKey": "UTI-Healthcare-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-pharma-and-healthcare-fund-direct-growth",
+      "amfiKey": "120782",
+      "mftools_key": "UTI Healthcare Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Healthcare-Fund-Regular-Growth",
+      "growwKey": "mirae-asset-healthcare-fund-direct-growth",
+      "amfiKey": "143783",
+      "mftools_key": "Mirae Asset Healthcare Reg Gr"
+    },
+    {
+      "akKey": "ITI-Pharma-and-Healthcare-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-pharma-and-healthcare-fund-direct-growth",
+      "amfiKey": "149268",
+      "mftools_key": "ITI Pharma and Healthcare Fund Reg Gr"
+    },
+    {
+      "akKey": "LIC-MF-Healthcare-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-healthcare-fund-direct-growth",
+      "amfiKey": "152024",
+      "mftools_key": "LIC MF Healthcare Fund Reg Gr"
+    },
+    {
+      "akKey": "Quant-Healthcare-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-healthcare-fund-direct-growth",
+      "amfiKey": "151853",
+      "mftools_key": "Quant Healthcare Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Pharma-and-Healthcare-Fund-Growth-Option",
+      "growwKey": "hdfc-pharma-and-healthcare-fund-direct-growth",
+      "amfiKey": "152082",
+      "mftools_key": "HDFC Pharma and Healthcare Fund Gr"
+    },
+    {
+      "akKey": "Tata-India-Pharma-Healthcare-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-india-pharma-and-healthcare-fund-direct-growth",
+      "amfiKey": "135810",
+      "mftools_key": "Tata India Pharma & Healthcare Reg Gr"
+    },
+    {
+      "akKey": "DSP-Healthcare-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-healthcare-fund-direct-growth",
+      "amfiKey": "145454",
+      "mftools_key": "DSP Healthcare Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Nifty-Pharma-Index-Fund-Growth",
+      "growwKey": "icici-prudential-pharma-healthcare-and-diagnostics-(p.h.d)-fund-direct-growth",
+      "amfiKey": "143874"
+    },
+    {
+      "akKey": "Franklin-India-Technology-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Franklin India Technology Fund Gr"
+    },
+    {
+      "akKey": "Invesco-India-Technology-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Invesco India Technology Fund Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Global-X-Artificial-Intelligence-Technology-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Digital-India-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Digital India Gr Reg"
+    },
+    {
+      "akKey": "ICICI-Prudential-Technology-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Technology Fund Gr"
+    },
+    {
+      "akKey": "SBI-Technology-Opportunities-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI Technology Opportunities Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Technology-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Technology Fund Gr"
+    },
+    {
+      "akKey": "quant-Teck-Fund-Growth-Option-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quant Teck Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-Digital-India-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Tata Digital India Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Technology-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak Technology Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Technology-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Edelweiss Technology Reg Gr"
+    },
+    {
+      "akKey": "Motilal-Oswal-Small-Cap-Fund-Regular-Growth",
+      "growwKey": "motilal-oswal-small-cap-fund-direct-growth",
+      "amfiKey": "152237",
+      "mftools_key": "Motilal Oswal Small Cap Reg Gr"
+    },
+    {
+      "akKey": "QUANTUM-SMALL-CAP-FUND-REGULAR-PLAN-GROWTH-OPTION",
+      "growwKey": "quantum-small-cap-fund-direct-growth",
+      "amfiKey": "152107",
+      "mftools_key": "Quantum Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-Smallcap-Fund-Regular-Plan-Growth",
+      "growwKey": "invesco-india-smallcap-fund-direct-growth",
+      "amfiKey": "145137",
+      "mftools_key": "Invesco India Small Cap Reg Gr"
+    },
+    {
+      "akKey": "Axis-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-small-cap-fund-direct-growth",
+      "amfiKey": "125354",
+      "mftools_key": "Axis Small Cap Reg Gr"
+    },
+    {
+      "akKey": "BANDHAN-SMALL-CAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "bandhan-small-cap-fund-direct-growth",
+      "amfiKey": "147946",
+      "mftools_key": "Bandhan Small Cap Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Small-Cap-Fund-Growth-Option",
+      "growwKey": "hdfc-small-cap-fund-direct-growth",
+      "amfiKey": "130503",
+      "mftools_key": "HDFC Small Cap Reg Gr"
+    },
+    {
+      "akKey": "PGIM-India-Small-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "pgim-india-small-cap-fund-direct-growth",
+      "amfiKey": "149019",
+      "mftools_key": "PGIM India Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-smile-fund-direct-growth",
+      "amfiKey": "119589",
+      "mftools_key": "Sundaram Small Cap Reg Gr"
+    },
+    {
+      "akKey": "ITI-Small-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-small-cap-fund-direct-growth",
+      "amfiKey": "147919",
+      "mftools_key": "ITI Small Cap Reg Gr"
+    },
+    {
+      "akKey": "UTI-Small-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-small-cap-fund-direct-growth",
+      "amfiKey": "148618",
+      "mftools_key": "UTI Small Cap Reg Gr"
+    },
+    {
+      "akKey": "Union-Small-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-small-and-midcap-fund-direct-growth",
+      "amfiKey": "129649",
+      "mftools_key": "Union Small Cap Reg Gr"
+    },
+    {
+      "akKey": "DSP-Small-Cap-Fund-Regular-Growth",
+      "growwKey": "dsp-blackrock-micro-cap-fund-direct-growth",
+      "amfiKey": "119212",
+      "mftools_key": "DSP Small Cap Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "edelweiss-small-cap-fund-direct-growth",
+      "amfiKey": "146196",
+      "mftools_key": "Edelweiss Small Cap Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Small-Cap-Fund-GROWTH",
+      "growwKey": "birla-sun-life-small-midcap-fund-direct-growth",
+      "amfiKey": "119556",
+      "mftools_key": "ABSL Small Cap Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Smallcap-Fund-Growth",
+      "growwKey": "icici-prudential-indo-asia-equity-fund-direct-growth",
+      "amfiKey": "120591",
+      "mftools_key": "ICICI Pru Small Cap Gr"
+    },
+    {
+      "akKey": "JM-Small-Cap-Fund-Regular-Growth-Option",
+      "growwKey": "jm-small-cap-fund-direct-growth",
+      "amfiKey": "152614",
+      "mftools_key": "JM Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-small-cap-fund-direct-growth",
+      "amfiKey": "150915",
+      "mftools_key": "Mahindra Manulife Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Small-Cap-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-small-cap-fund-direct-growth",
+      "amfiKey": "118778",
+      "mftools_key": "Nippon India Small Cap Gr Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Small-Cap-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-small-cap-fund-direct-growth",
+      "amfiKey": "146130",
+      "mftools_key": "Canara Robeco Small Cap Reg Gr"
+    },
+    {
+      "akKey": "SBI-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-small-midcap-fund-direct-growth",
+      "amfiKey": "125497",
+      "mftools_key": "SBI Small Cap Reg Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Small-Cap-Fund-Regular-Plan-Growth-option",
+      "growwKey": "baroda-bnp-paribas-small-cap-fund-direct-growth",
+      "amfiKey": "152128",
+      "mftools_key": "Baroda BNP Paribas Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "Franklin-India-Small-Cap-Fund-Growth",
+      "growwKey": "franklin-india-small-cap-fund-direct-growth",
+      "amfiKey": "118525",
+      "mftools_key": "Franklin India Small Cap Fund Gr"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "bank-of-india-small-cap-fund-direct-growth",
+      "amfiKey": "145678",
+      "mftools_key": "Bank of India Small Cap Reg Gr"
+    },
+    {
+      "akKey": "Quant-Small-Cap-Fund-Growth-Regular-Plan",
+      "growwKey": "quant-small-cap-fund-direct-plan-growth",
+      "amfiKey": "120828",
+      "mftools_key": "Quant Small Cap Gr"
+    },
+    {
+      "akKey": "Kotak-Small-Cap-Fund-Growth",
+      "growwKey": "kotak-midcap-fund-direct-growth",
+      "amfiKey": "120164",
+      "mftools_key": "Kotak -Small Cap Gr"
+    },
+    {
+      "akKey": "LIC-MF-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-small-cap-fund-direct-growth",
+      "amfiKey": "152004",
+      "mftools_key": "LIC MF Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Small-Cap-Fund-Regular-Growth",
+      "growwKey": "hsbc-small-cap-fund-direct-growth",
+      "amfiKey": "151130",
+      "mftools_key": "HSBC Small Cap Fund Reg Growth"
+    },
+    {
+      "akKey": "Tata-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-small-cap-fund-direct-growth",
+      "amfiKey": "145206",
+      "mftools_key": "Tata Small Cap Reg Gr"
+    },
+    {
+      "akKey": "BAJAJ-FINSERV-SMALL-CAP-FUND-REGULAR-GROWTH",
+      "growwKey": "bajaj-finserv-small-cap-fund-direct-growth",
+      "amfiKey": "153612",
+      "mftools_key": "BAJAJ FINSERV SMALL CAP FUND Reg Gr"
+    },
+    {
+      "akKey": "Mirae-Asset-Small-Cap-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-small-cap-fund-direct-growth",
+      "amfiKey": "153196",
+      "mftools_key": "Mirae Asset Small Cap Fund Reg Gr"
+    },
+    {
+      "akKey": "TRUSTMF-SMALL-CAP-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "trustmf-small-cap-fund-direct-growth",
+      "amfiKey": "152939",
+      "mftools_key": "TRUSTMF SMALL CAP FUND REG GR"
+    },
+    {
+      "akKey": "Mirae-Asset-Great-Consumer-Fund-Regular-Plan-Growth-option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mirae Asset Great Consumer Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Bharat-Consumption-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Bharat Consumption Gr"
+    },
+    {
+      "akKey": "SBI-Consumption-Opportunities-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI Consumption Opportunities Reg Gr"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-India-Consumption-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "BARODA BNP PARIBAS India Consumption Fund Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Consumption-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mahindra Manulife Consumption Fund Reg Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Consumer-Trends-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Canara Robeco Consumer Trends Fund Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Consumption-Fund-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Nippon India Consumption Gr Gr"
+    },
+    {
+      "akKey": "Tata-India-Consumer-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Tata India Consumer Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-India-Gennext-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-India-Consumer-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "UTI India Consumer Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Non-Cyclical-Consumer-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Non-Cyclical Consumer Fund Gr"
+    },
+    {
+      "akKey": "HSBC-Consumption-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HSBC Consumption Fund Reg Gr"
+    },
+    {
+      "akKey": "Sundaram-Consumption-Fund-Formerly-Known-as-Sundaram-Rural-and-Consumption-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Sundaram Consumption Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Commodities-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Commodities Gr"
+    },
+    {
+      "akKey": "Kotak-Equity-Opportunities-Fund-Growth-Regular",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-ESG-FUND-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Quant-ESG-Equity-Fund-Growth-Option-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-ESG-Exclusionary-Strategy-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru ESG Exclusionary Strategy Gr"
+    },
+    {
+      "akKey": "Axis-ESG-Equity-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-ESG-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Magnum-Equity-ESG-Fund-REGULAR-PLAN-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-ESG-Opportunities-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-ESG-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "QUANTUM-ESG-BEST-IN-CLASS-STRATEGY-FUND-REGULAR-PLAN-GROWTH-OPTION",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quantum ESG Best In Class Strategy Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-US-Equity-Opportunites-Fund-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-US-Bluechip-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru US Bluechip Equity Gr"
+    },
+    {
+      "akKey": "Nippon-India-Japan-Equity-Fund-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Nippon India Japan Equity Gr Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-International-Equity-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Intl Equity Gr Reg"
+    },
+    {
+      "akKey": "Franklin-Asian-Equity-Fund-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Franklin Asian Equity Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-MNC-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru MNC Gr"
+    },
+    {
+      "akKey": "Kotak-MNC-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak MNC Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-PRUDENTIAL-TRANSPORTATION-AND-LOGISTICS-FUND-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Transportation and Logistics Fund Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-MNC-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL MNC Gr Reg"
+    },
+    {
+      "akKey": "SBI-Magnum-Global-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-MNC-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "UTI MNC Reg Gr"
+    },
+    {
+      "akKey": "HDFC-MNC-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC MNC Fund Gr"
+    },
+    {
+      "akKey": "Franklin-India-Opportunities-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Franklin India Opportunities Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Manufacturing-Fund-Cumulative-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Manufacturing Fund Cum"
+    },
+    {
+      "akKey": "ICICI-PRUDENTIAL-TRANSPORTATION-AND-LOGISTICS-FUND-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Transportation and Logistics Fund Gr"
+    },
+    {
+      "akKey": "BANDHAN-TRANSPORTATION-AND-LOGISTICS-FUND-GROWTH-REGULAR-PLAN",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Bandhan Transportation and LogisticsFund Reg GR"
+    },
+    {
+      "akKey": "Edelweiss-Recently-Listed-IPO-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Edelweiss Recently Listed IPO Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-India-Opportunities-Fund-Cumulative-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru India Opportunities Cum"
+    },
+    {
+      "akKey": "UTI-Transpotation-and-Logistics-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Transportation-and-Logistics-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "UTI Transportation and Logistics Gr"
+    },
+    {
+      "akKey": "Kotak-Pioneer-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak Pioneer Fund Reg Gr"
+    },
+    {
+      "akKey": "UTI-Transpotation-and-Logistics-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-PRUDENTIAL-TRANSPORTATION-AND-LOGISTICS-FUND-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Transportation and Logistics Fund Gr"
+    },
+    {
+      "akKey": "BANDHAN-TRANSPORTATION-AND-LOGISTICS-FUND-GROWTH-REGULAR-PLAN",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Bandhan Transportation and LogisticsFund Reg GR"
+    },
+    {
+      "akKey": "HDFC-Transportation-and-Logistics-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Transportation and Logistics Fund Gr"
+    },
+    {
+      "akKey": "HSBC-Business-Cycles-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HSBC Business Cycles Fund Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Manufacture-in-India-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak Manufacture in India Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Business-Cycle-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Business Cycle Fund Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Housing-Opportunities-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Prudential Housing Opportunities Fund Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Transportation-and-Logistics-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Transportation and Logistics Reg Gr"
+    },
+    {
+      "akKey": "SBI-Automotive-Opportunities-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI Automotive Opportunities Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Commodities-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Commodities Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Manufacturing-Equity-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Manufacturing Equity Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Exports-Services-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru Exports & Services Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Business-Cycle-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Baroda BNP Paribas Business Cycle Fund Reg Gr"
+    },
+    {
+      "akKey": "SBI-Equity-Minimum-Variance-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI Equity  Minimum Variance Fund Reg Gr"
+    },
+    {
+      "akKey": "SBI-Magnum-Comma-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Special-Situations-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Special-Opportunities-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Special Opp Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Business-Cycle-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Kotak Business Cycle Fund Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Business-Cycle-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL Business Cycle Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Business-Cycle-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Business Cycle Fund Gr"
+    },
+    {
+      "akKey": "Axis-Business-Cycles-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Axis Business Cycles Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Innovation-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Prudential Innovation Fund Gr"
+    },
+    {
+      "akKey": "quant-Business-Cycle-Fund-Growth-Option-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quant Business Cycle Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Defence-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Defence Fund Gr"
+    },
+    {
+      "akKey": "Samco-Active-Momentum-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Samco Active Momentum Fund Reg Gr"
+    },
+    {
+      "akKey": "quant-Manufacturing-Fund-Growth-Option-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quant Manufacturing Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Transportation-and-Logistics-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Transportation and Logistics Fund Gr"
+    },
+    {
+      "akKey": "Nippon-India-Innovation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Nippon India Innovation Fund Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Business-Cycle-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Mahindra Manulife Business Cycle Fund Reg Gr"
+    },
+    {
+      "akKey": "UTI-Innovation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "UTI Innovation Fund Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Housing-Opportunities-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "HDFC Housing Opportunities Reg Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-PSU-Equity-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL PSU Equity Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-PSU-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Invesco India PSU Equity Gr"
+    },
+    {
+      "akKey": "SBI-PSU-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI PSU Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-PSU-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru PSU Equity Fund Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-PSU-Equity-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ABSL PSU Equity Reg Gr"
+    },
+    {
+      "akKey": "Invesco-India-PSU-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Invesco India PSU Equity Gr"
+    },
+    {
+      "akKey": "SBI-PSU-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "SBI PSU Fund Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-PSU-Equity-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "ICICI Pru PSU Equity Fund Gr"
+    },
+    {
+      "akKey": "Quant-PSU-Fund-Growth-Option-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Quant PSU Fund Reg Gr"
+    },
+    {
+      "akKey": "DSP-Value-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-value-fund-direct-growth",
+      "amfiKey": "148595",
+      "mftools_key": "DSP Value Reg Gr"
+    },
+    {
+      "akKey": "ICICI-Prudential-Value-Fund-erstwhile-Value-Discovery-Fund-Growth",
+      "growwKey": "icici-prudential-value-direct-growth",
+      "amfiKey": "120323",
+      "mftools_key": "ICICI Pru Value Fund Gr"
+    },
+    {
+      "akKey": "Groww-Value-Fund-formerly-known-as-Indiabulls-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "groww-value-fund-direct-growth",
+      "amfiKey": "135341",
+      "mftools_key": "Groww Value Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Value-Fund-Growth-Plan",
+      "growwKey": "hdfc-value-fund-direct-plan-growth",
+      "amfiKey": "118935",
+      "mftools_key": "HDFC Value Fund Gr"
+    },
+    {
+      "akKey": "JM-Value-Fund-Regular-Growth-Option",
+      "growwKey": "jm-basic-fund-direct-growth",
+      "amfiKey": "120486",
+      "mftools_key": "JM Value Gr"
+    },
+    {
+      "akKey": "Axis-Value-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-value-fund-direct-growth",
+      "amfiKey": "149166",
+      "mftools_key": "Axis Value Fund Reg Gr"
+    },
+    {
+      "akKey": "HSBC-Value-Fund-Regular-Growth",
+      "growwKey": "hsbc-value-fund-direct-growth",
+      "amfiKey": "151113",
+      "mftools_key": "HSBC Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Union-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN,
+      "mftools_key": "Union Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Nippon-India-Value-Fund-Growth-Plan",
+      "growwKey": "nippon-india-value-fund-direct-growth",
+      "amfiKey": "118784",
+      "mftools_key": "Nippon India Value Gr"
+    },
+    {
+      "akKey": "UTI-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-value-fund-direct-growth",
+      "amfiKey": "120751",
+      "mftools_key": "UTI Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Canara-Robeco-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-value-fund-direct-growth",
+      "amfiKey": "149085",
+      "mftools_key": "Canara Robeco Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Templeton-India-Value-Fund-Growth-Plan",
+      "growwKey": "templeton-india-growth-fund-direct-growth",
+      "amfiKey": "118494",
+      "mftools_key": "Templeton India Value Gr"
+    },
+    {
+      "akKey": "Bandhan-Value-Fund-Regular-Plan-Growth",
+      "growwKey": "bandhan-value-fund-direct-growth",
+      "amfiKey": "118481",
+      "mftools_key": "Bandhan Value Fund Reg Gr"
+    },
+    {
+      "akKey": "ITI-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-value-fund-direct-growth",
+      "amfiKey": "148972",
+      "mftools_key": "ITI Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Quantum-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "quantum-value-fund-direct-growth",
+      "amfiKey": NaN,
+      "mftools_key": "Quantum Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "tata-value-fund-direct-growth",
+      "amfiKey": "119231",
+      "mftools_key": "Tata Value Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Value-Fund-Growth-Option",
+      "growwKey": "aditya-birla-sun-life-value-direct-fund-growth",
+      "amfiKey": "119659",
+      "mftools_key": "ABSL Value Fund Gr"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Value-Fund-Regular-Plan-Growth-option",
+      "growwKey": "baroda-bnp-paribas-value-fund-direct-growth",
+      "amfiKey": "151755",
+      "mftools_key": "Baroda BNP Paribas Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Quant-Value-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-value-fund-direct-growth",
+      "amfiKey": "149335",
+      "mftools_key": "Quant Value Fund Reg Gr"
+    },
+    {
+      "akKey": "LIC-MF-Value-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-value-fund-direct-growth",
+      "amfiKey": "152018",
+      "mftools_key": "LIC MF Value Fund Reg Gr"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Value-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-value-fund-direct-growth",
+      "amfiKey": "153303",
+      "mftools_key": "Mahindra Manulife Value Fund Reg Plan Gr"
+    },
+    {
+      "akKey": "Quantum-Value-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "quantum-value-fund-direct-growth",
+      "amfiKey": "103490",
+      "mftools_key": "Quantum Value Fund Reg Gr"
+    },
+    {
+      "akKey": "SBI-Equity-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-magnum-balanced-fund-direct-growth",
+      "amfiKey": "119609"
+    },
+    {
+      "akKey": "Bandhan-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "bandhan-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "140382"
+    },
+    {
+      "akKey": "ICICI-Prudential-Equity-Debt-Fund-Growth",
+      "growwKey": "icici-prudential-balanced-direct-growth",
+      "amfiKey": "120251"
+    },
+    {
+      "akKey": "PGIM-India-Aggressive-Hybrid-Equity-Fund-Growth-Option",
+      "growwKey": "pgim-india-aggressive-hybrid-equity-fund-direct-growth",
+      "amfiKey": "138386"
+    },
+    {
+      "akKey": "Mirae-Asset-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "134813"
+    },
+    {
+      "akKey": "Edelweiss-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "edelweiss-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "118624"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "147446"
+    },
+    {
+      "akKey": "Kotak-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "kotak-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "133035"
+    },
+    {
+      "akKey": "Union-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "148592"
+    },
+    {
+      "akKey": "HSBC-Aggressive-Hybrid-Fund-Regular-Growth",
+      "growwKey": "hsbc-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "151122"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Equity-Hybrid95-Fund-Regular-Plan-Growth",
+      "growwKey": "birla-sun-life-balanced-95-direct-growth",
+      "amfiKey": "120517"
+    },
+    {
+      "akKey": "Nippon-India-Aggressive-Hybrid-Fund-Growth-Plan",
+      "growwKey": "nippon-india-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "118794"
+    },
+    {
+      "akKey": "HDFC-Hybrid-Equity-Fund-Growth-Plan",
+      "growwKey": "hdfc-premier-multi-cap-fund-direct-growth",
+      "amfiKey": "119062"
+    },
+    {
+      "akKey": "Franklin-India-Aggressive-Hybrid-Fund-Growth-Plan",
+      "growwKey": "franklin-india-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "118546"
+    },
+    {
+      "akKey": "Canara-Robeco-Equity-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-balance-direct-growth",
+      "amfiKey": "118272"
+    },
+    {
+      "akKey": "Axis-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "axis-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "144394"
+    },
+    {
+      "akKey": "Sundaram-Aggressive-Hybrid-Fund-Formerly-Known-as-Principal-Hybrid-Equity-Fund-Growth",
+      "growwKey": "sundaram-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "149601"
+    },
+    {
+      "akKey": "DSP-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "119019"
+    },
+    {
+      "akKey": "LIC-MF-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-balanced-direct-growth",
+      "amfiKey": "120261"
+    },
+    {
+      "akKey": "UTI-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "uti-balanced-fund-direct-growth",
+      "amfiKey": "120674"
+    },
+    {
+      "akKey": "quant-Aggressive-Hybrid-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "120819"
+    },
+    {
+      "akKey": "Navi-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "tata-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "119053"
+    },
+    {
+      "akKey": "Groww-Aggressive-Hybrid-Fund-formerly-known-as-Indiabulls-Equity-Hybrid-Fund-Regular-Plan-Growth-option",
+      "growwKey": "groww-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "145599"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Aggressive-Hybrid-Fund-REGULAR-PLAN-GROWTH-OPTION",
+      "growwKey": "baroda-bnp-paribas-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "150260"
+    },
+    {
+      "akKey": "Invesco-India-Aggressive-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "invesco-india-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "143537"
+    },
+    {
+      "akKey": "Shriram-Aggressive-Hybrid-Fund-Regular-Growth",
+      "growwKey": "shriram-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "125711"
+    },
+    {
+      "akKey": "JM-Aggressive-Hybrid-Fund-Regular-Growth-Option",
+      "growwKey": "jm-aggressive-hybrid-fund-direct-growth",
+      "amfiKey": "120484"
+    },
+    {
+      "akKey": "HDFC-Hybrid-Debt-Fund-Growth-Plan",
+      "growwKey": "hdfc-monthly-i-come-plan-long-term-plan-direct-growth",
+      "amfiKey": "119118"
+    },
+    {
+      "akKey": "BANDHAN-Conservative-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "bandhan-conservative-hybrid-fund-direct-plan-growth",
+      "amfiKey": "118491"
+    },
+    {
+      "akKey": "Tata-Retirement-Savings-Fund-Conservative-Plan-Regular-Plan-Growth-Option",
+      "growwKey": "tata-retirement-savings-fund-conservative-plan-direct",
+      "amfiKey": "119256"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Conservative-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "boi-axa-regular-return-fund-direct-growth",
+      "amfiKey": "119393"
+    },
+    {
+      "akKey": "SBI-Conservative-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-magnum-monthly-i-come-plan-direct-growth",
+      "amfiKey": "119839"
+    },
+    {
+      "akKey": "Kotak-Debt-Hybrid-Growth",
+      "growwKey": "kotak-debt-hybrid-fund-direct-growth",
+      "amfiKey": "120154"
+    },
+    {
+      "akKey": "UTI-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-mis-advantage-fund-direct-growth",
+      "amfiKey": "120779"
+    },
+    {
+      "akKey": "ICICI-Prudential-Regular-Savings-Fund-Plan-Growth",
+      "growwKey": "icici-prudential-regular-savings-fund-direct-growth",
+      "amfiKey": "120616"
+    },
+    {
+      "akKey": "Parag-Parikh-Conservative-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "parag-parikh-conservative-hybrid-fund-direct-growth",
+      "amfiKey": "148958"
+    },
+    {
+      "akKey": "Axis-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "axis-conservative-hybrid-fund-direct-growth",
+      "amfiKey": "120480"
+    },
+    {
+      "akKey": "Sundaram-Conservative-Hybrid-Fund-Formerly-Known-as-Sundaram-Debt-Oriented-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-conservative-hybrid-fund-direct-plan-growth",
+      "amfiKey": "119635"
+    },
+    {
+      "akKey": "Nippon-India-Conservative-Hybrid-Fund-Growth-Plan",
+      "growwKey": "nippon-india-conservative-hybrid-fund-direct-growth",
+      "amfiKey": "118726"
+    },
+    {
+      "akKey": "Franklin-India-Conservative-Hybrid-Fund-Growth",
+      "growwKey": "franklin-india-conservative-hybrid-fund-a-direct-growth",
+      "amfiKey": "118574"
+    },
+    {
+      "akKey": "BARODA-BNP-PARIBAS-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-conservative-hybrid-fund-direct-growth",
+      "amfiKey": "150206"
+    },
+    {
+      "akKey": "Canara-Robeco-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-monthly-i-come-plan-direct-growth",
+      "amfiKey": "118309"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Conservative-Hybrid-Active-FOF-Regular-Plan-Growth-Option",
+      "growwKey": "aditya-birla-sun-life-conservative-hybrid-active-fof-direct-growth",
+      "amfiKey": "132183"
+    },
+    {
+      "akKey": "LIC-MF-Conservative-Hybrid-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-monthly-i-come-plan-direct-cumulative",
+      "amfiKey": "120276"
+    },
+    {
+      "akKey": "HDFC-Balanced-Advantage-Fund-Growth-Plan",
+      "growwKey": "hdfc-balanced-advantage-fund-direct-growth",
+      "amfiKey": "118968"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-balanced-advantage-fund-direct-growth",
+      "amfiKey": "145396"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "birla-sun-life-balanced-advantage-fund-direct-growth",
+      "amfiKey": "131670"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-balanced-advantage-fund-direct-growth",
+      "amfiKey": "151267"
+    },
+    {
+      "akKey": "SBI-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-balanced-advantage-fund-direct-growth",
+      "amfiKey": "149134"
+    },
+    {
+      "akKey": "Mirae-Asset-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-balanced-advantage-fund-direct-growth",
+      "amfiKey": "150470"
+    },
+    {
+      "akKey": "UTI-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-balanced-advantage-fund-direct-growth",
+      "amfiKey": "151885"
+    },
+    {
+      "akKey": "Nippon-India-Balanced-Advantage-Fund-Growth-Plan-Growth-Option",
+      "growwKey": "nippon-india-balanced-advantage-fund-direct-growth",
+      "amfiKey": "118736"
+    },
+    {
+      "akKey": "DSP-Dynamic-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "dsp-blackrock-dynamic-asset-allocation-fund-direct-growth",
+      "amfiKey": "126393"
+    },
+    {
+      "akKey": "Kotak-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "kotak-balanced-advantage-fund-direct-growth",
+      "amfiKey": "144335"
+    },
+    {
+      "akKey": "Union-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-balanced-advantage-fund-direct-growth",
+      "amfiKey": "142038"
+    },
+    {
+      "akKey": "Franklin-India-Balanced-Advantage-Fund-Growth",
+      "growwKey": "franklin-india-balanced-advantage-fund-direct-growth",
+      "amfiKey": "150481"
+    },
+    {
+      "akKey": "Axis-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "axis-balanced-advantage-fund-direct-growth",
+      "amfiKey": "141642"
+    },
+    {
+      "akKey": "Bajaj-Finserv-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "bajaj-finserv-balanced-advantage-fund-direct-growth",
+      "amfiKey": "152194"
+    },
+    {
+      "akKey": "Helios-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "helios-balanced-advantage-fund-direct-growth",
+      "amfiKey": "152509"
+    },
+    {
+      "akKey": "Parag-Parikh-Dynamic-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "parag-parikh-dynamic-asset-allocation-fund-direct-growth",
+      "amfiKey": "152468"
+    },
+    {
+      "akKey": "BANDHAN-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "idfc-dynamic-equity-fund-direct-growth",
+      "amfiKey": "131355"
+    },
+    {
+      "akKey": "Edelweiss-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "edelweiss-absolute-return-fund-direct-growth",
+      "amfiKey": "118615"
+    },
+    {
+      "akKey": "PGIM-India-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "pgim-india-balanced-advantage-fund-direct-growth",
+      "amfiKey": "148658"
+    },
+    {
+      "akKey": "LIC-MF-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Balanced-Advantage-Fund-Formerly-Known-as-Principal-Balanced-Advantage-Fund-Growth-Option",
+      "growwKey": "sundaram-balanced-advantage-fund-direct-growth",
+      "amfiKey": "149717"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-balanced-advantage-fund-direct-growth",
+      "amfiKey": "149406"
+    },
+    {
+      "akKey": "ITI-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "iti-balanced-advantage-fund-direct-growth",
+      "amfiKey": "147789"
+    },
+    {
+      "akKey": "Tata-Balanced-Advantage-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-balanced-advantage-fund-direct-growth",
+      "amfiKey": "146010"
+    },
+    {
+      "akKey": "BANK-OF-INDIA-BALANCED-ADVANTAGE-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": "boi-axa-equity-debt-rebalancer-fund-direct-growth",
+      "amfiKey": "127850"
+    },
+    {
+      "akKey": "Invesco-India-Balanced-Advantage-Fund-Growth",
+      "growwKey": "invesco-india-dynamic-equity-fund-direct-growth",
+      "amfiKey": "120333"
+    },
+    {
+      "akKey": "Canara-Robeco-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "canara-robeco-balanced-advantage-fund-direct-growth",
+      "amfiKey": "152688"
+    },
+    {
+      "akKey": "HSBC-Balanced-Advantage-Fund-Regular-Growth",
+      "growwKey": "hsbc-balanced-advantage-fund-direct-growth",
+      "amfiKey": "151129"
+    },
+    {
+      "akKey": "Quant-Dynamic-Asset-Allocation-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-dynamic-asset-allocation-fund-direct-growth",
+      "amfiKey": "151713"
+    },
+    {
+      "akKey": "Shriram-Balanced-Advantage-Fund-Regular-Growth",
+      "growwKey": "shriram-balanced-advantage-fund-direct-growth",
+      "amfiKey": "147406"
+    },
+    {
+      "akKey": "NJ-Balanced-Advantage-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "nj-balanced-advantage-fund-direct-growth",
+      "amfiKey": "149264"
+    },
+    {
+      "akKey": "Samco-Dynamic-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "samco-dynamic-asset-allocation-fund-direct-growth",
+      "amfiKey": "152188"
+    },
+    {
+      "akKey": "Motilal-Oswal-Balanced-Advantage-Fund-MOFDYNAMIC-Regular-Plan-Growth-Option",
+      "growwKey": "motilal-oswal-balanced-advantage-fund-direct-growth",
+      "amfiKey": "139872"
+    },
+    {
+      "akKey": "Unifi-Dynamic-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "unifi-dynamic-asset-allocation-fund-direct-growth",
+      "amfiKey": "153376"
+    },
+    {
+      "akKey": "ICICI-Prudential-Balanced-Advantage-Fund-Growth",
+      "growwKey": "icici-prudential-balanced-advantage-fund-direct-growth",
+      "amfiKey": "120377"
+    },
+    {
+      "akKey": "SBI-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "PGIM-India-Equity-Savings-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Equity-Savings-Fund-Formerly-Known-as-Principal-Equity-Savings-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "WhiteOak-Capital-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HSBC-Equity-Savings-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Equity-Savings-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Equity-Savings-Fund-Formerly-Known-as-Principal-Equity-Savings-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Equity-Savings-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Equity-Savings-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Equity-Savings-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Equity-Savings-Fund-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mahindra-Manulife-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Equity-Savings-Fund-GROWTH-PLAN",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Equity-Savings-Fund-Cumulative-option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Equity-Saver-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Equity-Savings-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BANDHAN-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Equity-Savings-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Multi-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "dsp-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152056"
+    },
+    {
+      "akKey": "Mahindra-Manulife-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "mahindra-manulife-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152443"
+    },
+    {
+      "akKey": "WhiteOak-Capital-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "whiteoak-capital-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "151745"
+    },
+    {
+      "akKey": "Nippon-India-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "nippon-india-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "148457"
+    },
+    {
+      "akKey": "Union-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "union-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152787"
+    },
+    {
+      "akKey": "Sundaram-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "sundaram-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152314"
+    },
+    {
+      "akKey": "Mirae-Asset-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "mirae-asset-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152344"
+    },
+    {
+      "akKey": "ICICI-Prudential-Multi-Asset-Fund-Growth",
+      "growwKey": "icici-prudential-dynamic-plan-direct-growth",
+      "amfiKey": "GROWWEH"
+    },
+    {
+      "akKey": "Kotak-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "kotak-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152064"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Multi-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "aditya-birla-sun-life-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "151307"
+    },
+    {
+      "akKey": "SBI-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-magnum-monthly-i-come-plan-floater-direct-growth",
+      "amfiKey": "GROWWEH"
+    },
+    {
+      "akKey": "Bandhan-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "bandhan-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152324"
+    },
+    {
+      "akKey": "Axis-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "axis-multi-asset-allocation-direct-plan-growth",
+      "amfiKey": "GROWWEH"
+    },
+    {
+      "akKey": "Bajaj-Finserv-Multi-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "bajaj-finserv-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152639"
+    },
+    {
+      "akKey": "quant-Multi-Asset-Allocation-Fund-GROWTH-OPTION-Regular-Plan",
+      "growwKey": "quant-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "GROWWDB"
+    },
+    {
+      "akKey": "Tata-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "148053"
+    },
+    {
+      "akKey": "HDFC-Multi-Asset-Fund-Growth-Option",
+      "growwKey": "hdfc-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "GROWWEH"
+    },
+    {
+      "akKey": "HSBC-Multi-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "hsbc-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152380"
+    },
+    {
+      "akKey": "Quantum-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "quantum-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152474"
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Multi-Asset-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "baroda-bnp-paribas-multi-asset-fund-direct-growth",
+      "amfiKey": "150865"
+    },
+    {
+      "akKey": "UTI-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "uti-wealth-builder-fund-direct-growth",
+      "amfiKey": "GROWWEH"
+    },
+    {
+      "akKey": "Bank-of-India-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "bank-of-india-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152396"
+    },
+    {
+      "akKey": "Edelweiss-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "edelweiss-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "151792"
+    },
+    {
+      "akKey": "Shriram-Multi-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "shriram-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "152051"
+    },
+    {
+      "akKey": "360-ONE-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "360-one-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153774"
+    },
+    {
+      "akKey": "Canara-Robeco-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "canara-robeco-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153465"
+    },
+    {
+      "akKey": "Franklin-India-Multi-Asset-Allocation-Fund-Growth",
+      "growwKey": "franklin-india-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153731"
+    },
+    {
+      "akKey": "Groww-Multi-Asset-Allocation-Fund-Regular-Growth",
+      "growwKey": "groww-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153821"
+    },
+    {
+      "akKey": "Invesco-India-Multi-Asset-Allocation-Fund-Growth",
+      "growwKey": "invesco-india-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153047"
+    },
+    {
+      "akKey": "LIC-MF-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "lic-mf-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153246"
+    },
+    {
+      "akKey": "Samco-Multi-Asset-Allocation-Fund-Regular-Plan-Growth",
+      "growwKey": "samco-multi-asset-allocation-fund-direct-growth",
+      "amfiKey": "153092"
+    },
+    {
+      "akKey": "Franklin-India-Technology-Fund-Growth",
+      "growwKey": "franklin-india-technology-fund-direct-growth",
+      "amfiKey": "118537",
+      "mftools_key": "Franklin India Technology Fund Gr"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Digital-India-Fund-Growth-Regular-Plan",
+      "growwKey": "birla-sun-life-new-millennium-direct-growth",
+      "amfiKey": "120539",
+      "mftools_key": "ABSL Digital India Gr Reg"
+    },
+    {
+      "akKey": "ICICI-Prudential-Technology-Fund-Growth",
+      "growwKey": "icici-prudential-technology-fund-direct-growth",
+      "amfiKey": "120594",
+      "mftools_key": "ICICI Pru Technology Fund Gr"
+    },
+    {
+      "akKey": "SBI-Technology-Opportunities-Fund-Regular-Plan-Growth",
+      "growwKey": "sbi-it-fund-direct-growth",
+      "amfiKey": "120578",
+      "mftools_key": "SBI Technology Opportunities Reg Gr"
+    },
+    {
+      "akKey": "HDFC-Technology-Fund-Growth-Option",
+      "growwKey": "hdfc-technology-fund-direct-growth",
+      "amfiKey": "152059",
+      "mftools_key": "HDFC Technology Fund Gr"
+    },
+    {
+      "akKey": "Quant-Teck-Fund-Growth-Option-Regular-Plan",
+      "growwKey": "quant-teck-fund-direct-growth",
+      "amfiKey": "152067",
+      "mftools_key": "Quant Teck Fund Reg Gr"
+    },
+    {
+      "akKey": "Tata-Digital-India-Fund-Regular-Plan-Growth",
+      "growwKey": "tata-digital-india-fund-direct-growth",
+      "amfiKey": "135800",
+      "mftools_key": "Tata Digital India Reg Gr"
+    },
+    {
+      "akKey": "Kotak-Technology-Fund-Regular-Plan-Growth-Option",
+      "growwKey": "kotak-technology-fund-direct-growth",
+      "amfiKey": "152462",
+      "mftools_key": "Kotak Technology Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-Technology-Fund-Regular-Plan-Growth",
+      "growwKey": "edelweiss-technology-fund-direct-growth",
+      "amfiKey": "152437",
+      "mftools_key": "Edelweiss Technology Reg Gr"
+    },
+    {
+      "akKey": "Edelweiss-US-Technology-Equity-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": "edelweiss-us-technology-equity-fof-direct-growth",
+      "amfiKey": "148063"
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Retirement-Fund-The-30s-Plan-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Retirement-Fund-The-40s-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Retirement-Fund-The-50s-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Retirement-Fund-The-50s-Plus-Debt-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Pension-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Retirement-Savings-Fund-Equity-Plan-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Retirement-Savings-Fund-Hybrid-Debt-Plan-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Retirement-Savings-Fund-Hybrid-Equity-Plan-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Retirement-Fund-Hybrid-Aggressive-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Retirement-Fund-Hybrid-Conservative-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Retirement-Fund-Pure-Debt-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Retirement-Fund-Pure-Equity-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Retirement-Fund-Income-Generation-Scheme-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Retirement-Fund-Wealth-Creation-Scheme-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Retirement-Benefit-Fund-Aggressive-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Retirement-Savings-Fund-Progressive-Plan-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Asset-Allocator-Fund-FOF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HSBC-Managed-Solutions-Growth-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Multi-Asset-Allocator-Fund-of-Fund-Dynamic-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Equity-allocator-Fund-Of-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Asset-Allocator-FoF-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Index-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bandhan-Nifty-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Equal-Nifty-50-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Nifty-50-Index-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Nifty-Next-50-Index-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Index-Fund-Nifty-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Index-FundSensex-Plan-FV-Rs-32-161",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Index-Fund-Nifty-50-Plan-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Sensex-Index-Fund-Cumulative-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Nifty-Index-Fund-Cumulative-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Nifty-Next-50-Index-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Index-Fund-Sensex-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Index-Fund-Nifty-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Nifty-500-Fund-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Nifty-Bank-Index-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Nifty-Midcap-150-Index-Fund-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Nifty-Smallcap-250-Index-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Index-Fund-Sensex-Plan-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Index-Fund-Nifty-Plan-Growth-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-NIFTY-INDEX-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Index-Fund-Nifty-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Index-Fund-Sensex-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-NIFTY-Index-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-NIFTY-Index-Fund-Regular-Plan-Income-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Nifty-Next-50-Index-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Silver-ETF-FOF-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Gold-ETF-Fund-of-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Silver-ETF-Fund-of-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Gold-and-Silver-ETF-FOF-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Nifty-Bank-ETF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Nifty500-Multicap-Momentum-Quality-50-ETF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-BSE-Capital-Markets-Insurance-ETF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Groww-Nifty-EV-New-Age-Automotive-ETF-FOF-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Groww-Nifty-India-Defence-ETF-FOF-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Groww-Gold-ETF-FOF-REGULAR-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Groww-Nifty-EV-New-Age-Automotive-ETF-FOF-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-NIFTY100-Low-Volatility-30-ETF-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-NIFTY-IT-ETF-Growth-option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Silver-ETF-Fund-of-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-NIFTY-Private-Bank-ETF-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-NIFTY200-MOMENTUM-30-ETF-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Nifty-100-Low-Volatility-30-ETF-FOF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Nifty-Alpha-Low-Volatility-30-ETF-FOF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-BSE-500-ETF-FOF-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Silver-ETF-Fund-of-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Gold-ETF-Fund-of-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Invesco-EQQQ-Nasdaq-100-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Silver-ETF-Fund-of-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Gold-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Nifty-India-New-Age-Consumption-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Nifty200-Alpha-30-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Gold-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Nifty-MidSmallcap400-Momentum-Quality-100-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Developed-Market-Ex-US-ETFs-Fund-of-Funds-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Quantum-Nifty-50-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Silver-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Nifty-India-Digital-ETF-Fund-of-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Gold-ETF-Fund-of-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Silver-ETF-Fund-of-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Union-Gold-ETF-Fund-of-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Gold-ETF-Fund-of-Fund-Regular-Plan-Growth-Opton",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Silver-ETF-Fund-of-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bandhan-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Baroda-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Overnight-fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Indiabulls-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Overnight-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HSBC-Overnight-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Overnight-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ITI-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Ovrnight-Fund-Regular-plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mahindra-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "PGIM-India-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-OVERNIGHT-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Overnight-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Union-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Overnight-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Liquid-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Liquid-Fund-Discipline-Advantage-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Liquid-Fund-Retail-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Liquid-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Liquid-Fund-Retail-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bandhan-Cash-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bandhan-Cash-Fund-Unclaimed-Redemption-Less-than-Three-Years",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bandhan-Cash-Fund-Unclaimed-Redemption-More-than-Three-Years",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BOI-AXA-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BARODA-LIQUID-FUND-Plan-A-GROWTH-OPTION",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BARODA-LIQUID-FUND-Regular-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Liquid-Fund-Regular-Plan-Daily-Div-Reinvest",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Liquid-Fund-Regular-Plan-Monthly-Div-Reinvest",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Liquid-Fund-Regular-Plan-Weekly-Div-Reinvest",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Liquidity-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Liquid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Liquid-Fund-Retail-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Liquid-Fund-Unclaimed-Redemption-Investor-Education-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Liquid-Fund-Unclaimed-Redemption-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Indiabulls-Liquid-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Liquid-Fund-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Liquid-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Liquid-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Liquid-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Liquid-Fund-Unclaimed-Redemption-Plan-Above-3-Years",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Liquid-Fund-Unclaimed-Redemption-Plan-Below-3-years",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ITI-Liquid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "JM-Liquid-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Liquid-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mahindra-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Cash-Management-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Liquid-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Liquid-Fund-Unclaimed-Redemption-Upto-3-years",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Essel-Liquid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Liquid-Fund-Retail-Option-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Liquid-Fund-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Parag-Parikh-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "PGIM-India-Insta-Cash-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Quant-Liquid-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Quantum-Liquid-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Liquid-Fund-REGULAR-PLAN-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Liquid-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Taurus-Investor-Education-Pool-Unclaimed-Redemption-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Taurus-Unclaimed-Redemption-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Union-Liquid-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Liquid-Cash-Plan-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Liquid-Cash-Plan-Discontinued-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "YES-Liquid-Fund-Regular-plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Savings-Fund-Discipline-Advantage-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Savings-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Savings-Fund-Daily-Dividend-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BANK-OF-INDIA-Ultra-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Savings-Fund-Retail-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Ultra-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Ultra-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BANDHAN-Bond-Fund-Short-Term-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Ultra-Short-Term-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Ultra-Short-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Ultra-Short-Duration-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HSBC-Ultra-Short-Duration-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Ultra-Short-Duration-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ITI-Ultra-Short-Duration-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Ultra-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mahindra-Manulife-Ultra-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Ultra-Short-Duration-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "PGIM-India-Ultra-Short-Duration-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Ultra-Short-Duration-Fund-Formerly-Known-as-Principal-Ultra-Short-Term-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "UTI-Ultra-Short-Duration-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Ultra-Short-Term-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Ultra-Short-Term-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Short-Duration-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Savings-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mahindra-Ultra-Short-Term-Yojana-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Motilal-Oswal-Ultra-Short-Term-Fund-MOFUSTF-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Ultra-Short-Duration-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "PGIM-India-Ultra-Short-Term-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-MAGNUM-ULTRA-SHORT-DURATION-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Ultra-Short-Term-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Short-Term-Opportunities-Fund-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Short-Term-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Short-Term-Fund-Retail-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bandhan-Bond-Fund-Short-Term-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BOI-AXA-Short-Term-Income-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Ultra-Short-Term-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Short-Duration-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Short-Term-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Franklin-India-Short-Term-Income-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Groww-Short-Duration-Fund-formerly-known-as-Indiabulls-Short-Term-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Short-Term-Debt-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Short-Term-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Ultra-Short-Duration-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Bond-Short-Term-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Mirae-Asset-Short-Duration-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Short-Term-Fund-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-SHORT-HORIZON-DEBT-FUND-SHORT-TERM-FUND-RETAIL-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-SHORT-TERM-DEBT-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Short-Term-Bond-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Aditya-Birla-Sun-Life-Medium-Term-Plan-Growth-Regular-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Strategic-Bond-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "BANDHAN-Bond-Fund-Medium-Term-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "DSP-Bond-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Medium-Term-Debt-Fund-Fortnightly-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Medium-Term-Debt-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Medium-Term-Bond-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Medium-Term-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Nippon-India-Strategic-Debt-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-MAGNUM-MEDIUM-DURATION-FUND-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Medium-Duration-Fund-Formerly-Known-as-Sundaram-Medium-Term-Bond-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Childrens-Fund-No-Lock-in-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Childrens-Fund-Lock-in-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Childrens-Fund-Growth-Plan",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "LIC-MF-Childrens-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Magnum-Childrens-Benefit-Fund-Savings-Plan-REGULAR-PLAN-GROWTH",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "SBI-Magnum-Childrens-Benefit-Fund-Investment-Plan-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Tata-Young-Citizens-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Arbitrage-Fund-Retail-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Canara-Robeco-Banking-and-PSU-Debt-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Axis-Banking-PSU-Debt-Fund-Regular-Plan-Growth-option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Bajaj-Finserv-Banking-and-PSU-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Baroda-BNP-Paribas-Banking-and-PSU-Bond-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Edelweiss-Banking-and-PSU-Debt-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HDFC-Banking-and-PSU-Debt-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "HSBC-Banking-and-PSU-Debt-Fund-Regular-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ICICI-Prudential-Banking-and-PSU-Debt-Fund-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Invesco-India-Banking-and-PSU-Fund-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "ITI-Banking-PSU-Debt-Fund-Regular-Plan-Growth-Option",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Kotak-Banking-and-PSU-Debt-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    },
+    {
+      "akKey": "Sundaram-Banking-PSU-Fund-Formerly-Known-as-Sundaram-Banking-and-PSU-Debt-Fund-Regular-Plan-Growth",
+      "growwKey": NaN,
+      "amfiKey": NaN
+    }
+  ],
+  "categories": [
+    "Equity: Large Cap",
+    "Equity: Focused",
+    "Equity: Large and Mid Cap",
+    "Equity: Mid Cap",
+    "Equity: Small Cap",
+    "Equity: Contra",
+    "Equity: Value",
+    "Equity: Flexi Cap",
+    "Equity: Multi Cap",
+    "Hybrid: Multi Asset Allocation",
+    "Hybrid: Dynamic Asset Allocation",
+    "Hybrid: Aggressive",
+    "Hybrid: Conservative",
+    "Equity: ELSS",
+    "Hybrid: Arbitrage",
+    "Hybrid: Equity Savings",
+    "Equity: Sectoral-Pharma and Healthcare",
+    "Equity: Sectoral-FMCG",
+    "Equity: Thematic-Consumption",
+    "Equity: Thematic-ESG",
+    "Equity: Thematic-Others",
+    "Equity: Sectoral-Infrastructure",
+    "Equity: Sectoral-Technology",
+    "Equity: Dividend Yield",
+    "Equity: Thematic-Manufacturing",
+    "Equity: Sectoral-Banking and Financial Services",
+    "Equity: Thematic-PSU",
+    "Equity: Thematic-MNC",
+    "Equity: Thematic-International",
+    "Debt: Ultra Short Duration",
+    "Debt: Short Duration",
+    "Debt: Medium Duration",
+    "Debt: Liquid",
+    "Debt: Overnight",
+    "Debt: Banking and PSU",
+    "ETFs",
+    "Index Fund",
+    "Retirement Fund",
+    "Childrens Fund"
+  ]
+}
