@@ -498,4 +498,4 @@ if __name__ == "__main__":
     print(f"\033[91m{len(funds_with_no_data)} funds have no data. These are, {funds_with_no_data}.\033[0m")
 
     # export CSV file (existing behavior)
-    export_to_file(data_sorted_by_alpha)
+    export_to_file(extracted_data)
