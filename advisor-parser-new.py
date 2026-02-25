@@ -5,8 +5,6 @@ import yaml
 import json
 from bs4 import BeautifulSoup
 from datetime import datetime
-from collections import defaultdict
-import threading
 import re
 import argparse
 import os
