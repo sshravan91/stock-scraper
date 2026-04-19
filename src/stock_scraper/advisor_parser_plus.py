@@ -1,10 +1,16 @@
 import os
-import subprocess
-import sys
 
-import login
-from mftdownloader import download_report
-from mftreturnsconsolidator import consolidate_mft_returns
+from stock_scraper import login
+from stock_scraper.advisor_parser_new import run as run_advisor_parser
+from stock_scraper.mftdownloader import download_report
+from stock_scraper.mftreturnsconsolidator import consolidate_mft_returns
+
+
+def file_size(path: str) -> int:
+    try:
+        return os.path.getsize(path)
+    except OSError:
+        return -1
 
 
 def main():
@@ -32,23 +38,23 @@ def main():
 
     # 5) Download trailing returns XLS to ./trailing-returns.xls
     trailing_out_path = os.path.join(os.getcwd(), "trailing-returns.xls")
-    trailing_saved = download_report("trailing-returns", jsessionid, session_cookie, trailing_out_path)
-    print(f"✅ Trailing returns downloaded to: {trailing_saved}")
+    trailing_candidate = download_report("trailing-returns", jsessionid, session_cookie, trailing_out_path)
+    print(f"✅ Trailing returns downloaded to: {trailing_candidate}")
 
-    # Issue with trailing returns download
-    # # 6) Consolidate trailing returns + risk ratios into one XLS
-    # consolidated_out_path = os.path.join(os.getcwd(), "consolidated-mft-returns.xls")
-    # consolidated_saved = consolidate_mft_returns(trailing_saved, saved, consolidated_out_path)
-    # print(f"✅ Consolidated returns generated at: {consolidated_saved}")
+    # 6) Consolidate trailing returns + risk ratios into one XLS
+    consolidated_out_path = os.path.join(os.getcwd(), "consolidated-mft-returns.xls")
+    consolidated_saved = consolidate_mft_returns(trailing_candidate, saved, consolidated_out_path)
+    print(f"✅ Consolidated returns generated at: {consolidated_saved}")
 
-    # 7) Invoke advisor-parser-new with the downloaded risk-ratios path
-    script_dir = os.path.dirname(os.path.abspath(__file__))
-    apn_path = os.path.join(script_dir, "advisor-parser-new.py")
-    try:
-        subprocess.run([sys.executable, apn_path, "--risk-ratios", saved], check=True)
-        print("✅ advisor-parser-new completed")
-    except subprocess.CalledProcessError as e:
-        print(f"⚠️ advisor-parser-new failed with code {e.returncode}")
+    # 7) Invoke advisor parser with consolidated + benchmark + category monitor
+    mftools_json = os.path.join(os.getcwd(), "resources", "funds_and_categories_with_mftools.json")
+    run_advisor_parser(
+        consolidated=consolidated_saved,
+        benchmark_returns=benchmark_saved,
+        category_monitor=category_saved,
+        mftools_json=mftools_json,
+    )
+    print("✅ advisor-parser-new completed")
 
 
 if __name__ == "__main__":

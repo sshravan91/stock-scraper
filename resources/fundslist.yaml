@@ -1,0 +1,702 @@
+funds:
+# Equity:Contra
+- SBI-Contra-Fund-Regular-Plan-Growth:sbi-contra-fund-direct-growth
+- Kotak-Contra-Fund-Regular-Plan-Growth:kotak-contra-fund-direct-growth
+- Invesco-India-Contra-Fund-Growth:invesco-india-contra-fund-direct-growth
+#Equity:ELSS
+- Motilal-Oswal-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- 360-ONE-ELSS-Tax-Saver-Nifty-50-Index-Fund-Regular-Plan-Growth
+- BAJAJ-FINSERV-ELSS-TAX-SAVER-FUND-REGULAR-GROWTH
+- BARODA-BNP-PARIBAS-ELSS-Tax-Saver-Fund-Regular-Growth-Option
+- Edelweiss-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- Groww-ELSS-Tax-Saver-Fund-formerly-known-as-Indiabulls-Tax-Savings-Fund-Regular-Plan-Growth-Option
+- Mahindra-Manulife-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- Navi-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- BANK-OF-INDIA-ELSS-Tax-Saver-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-ELSS-Tax-Saver-Fund-Growth-Option
+- NJ-ELSS-Tax-Saver-Scheme-Regular-Growth
+- PGIM-India-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- Quantum-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- Taurus-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- Union-ELSS-Tax-Saver-Fund-Growth-Option
+- Shriram-ELSS-Tax-Saver-Fund-Regular-Growth
+- Sundaram-ELSS-Tax-Saver-Fund-Regular-Growth
+- Tata-ELSS-Tax-Saver-Fund-Growth-Regular-Plan
+- JM-ELSS-Tax-Saver-Fund-Regular-Growth-option
+- SBI-ELSS-Tax-Saver-FUND-REGULAR-PLAN-GROWTH
+- ITI-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- WhiteOak-Capital-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- HDFC-ELSS-Tax-saver-Growth-Plan
+- DSP-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- Invesco-India-ELSS-Tax-Saver-Fund-Growth
+- BANDHAN-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- Franklin-India-ELSS-Tax-Saver-Fund-Growth
+- HSBC-ELSS-Tax-saver-Fund-Regular-Growth
+- Parag-Parikh-ELSS-Tax-Saver-Fund-Regular-Growth
+- BARODA-BNP-PARIBAS-ELSS-Fund-Regular-Growth-Option
+- LIC-MF-ELSS-Tax-Saver-Regular-Plan-Growth
+- Nippon-India-Tax-Saver-ELSS-Fund-Growth-Plan-Growth-Option
+- Quant-ELSS-Tax-Saver-Fund-Growth-Option-Regular-Plan
+- Kotak-Tax-Saver-Scheme-Growth
+- HSBC-Tax-Saver-Equity-Fund-Growth
+- Mirae-Asset-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- Mahindra-Manulife-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- Axis-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- ICICI-Prudential-ELSS-Tax-Saver-Fund-Growth
+- Edelweiss-Long-Term-Equity-Fund-Tax-Savings-Regular-Plan-Growth-Option
+- UTI-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- Axis-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+- CANARA-ROBECO-ELSS-TAX-SAVER-REGULAR-PLAN-GROWTH-OPTION
+- Aditya-Birla-Sun-Life-ELSS-Tax-Saver-Fund-Growth-Option
+- Samco-ELSS-Tax-Saver-Fund-Regular-Plan-Growth-Option
+- Mirae-Asset-ELSS-Tax-Saver-Fund-Regular-Plan-Growth
+# Equity:Retirement savings Fund
+- ICICI-Prudential-Retirement-Fund-Pure-Equity-Growth-Option
+- Tata-Retirement-Savings-Fund-Progressive-Plan-Regular-Plan-Growth-Option
+- HDFC-Retirement-Savings-Fund-Equity-Plan-Growth-Option
+- ICICI-Prudential-Retirement-Fund-Hybrid-Aggressive-Growth-Option
+- SBI-Retirement-Benefit-Fund-Aggressive-Plan-Regular-Plan-Growth
+- Nippon-India-Retirement-Fund-Wealth-Creation-Scheme-Growth-Plan-Growth-Option
+- SBI-Retirement-Benefit-Fund-Aggressive-Hybrid-Plan-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Retirement-Fund-The-30s-Plan-Regular-Growth
+- HDFC-Retirement-Savings-Fund-Hybrid-Equity-Plan-Growth-Option
+#Equity:Flexi-Cap
+- Helios-Flexi-Cap-Fund-Regular-Plan-Growth-Option:helios-flexi-cap-fund-direct-growth
+- HDFC-Flexi-Cap-Fund-Growth-Plan:hdfc-equity-fund-direct-growth
+- Kotak-Flexicap-Fund-Growth:kotak-select-focus-fund-direct-growth
+- Parag-Parikh-Flexi-Cap-Fund-Regular-Plan-Growth:parag-parikh-long-term-value-fund-direct-growth
+- Mirae-Asset-Flexi-Cap-Fund-Regular-Plan-Growth:mirae-asset-flexi-cap-fund-direct-growth
+- ICICI-Prudential-Flexicap-Fund-Growth:icici-prudential-flexicap-fund-direct-growth
+- Aditya-Birla-Sun-Life-Flexi-Cap-Fund-Growth-Regular-Plan:birla-sun-life-equity-fund-direct-growth
+- Bajaj-Finserv-Flexi-Cap-Fund-Regular-Plan-Growth:bajaj-finserv-flexi-cap-fund-direct-growth
+- WhiteOak-Capital-Flexi-Cap-Fund-Regular-Plan-Growth:whiteoak-capital-flexi-cap-fund-direct-growth
+- Canara-Robeco-Flexicap-Fund-Regular-Plan-Growth-Option:canara-robeco-equity-diversified-direct-growth
+- BANDHAN-Flexi-Cap-Fund-Regular-Plan-Growth:idfc-premier-equity-fund-direct-growth
+- PGIM-India-Flexi-Cap-Fund-Regular-Plan-Growth-Option:pgim-india-flexi-cap-fund-direct-growth
+- Sundaram-Flexicap-Fund-Regular-Growth:sundaram-flexi-cap-fund-direct-growth
+- Invesco-India-Flexi-Cap-Fund-Growth:invesco-india-flexi-cap-fund-direct-growth
+- Axis-Flexi-Cap-Fund-Regular-Plan-Growth:axis-flexi-cap-fund-direct-growth
+- Tata-Flexi-Cap-Fund-Regular-Plan-Growth:tata-flexi-cap-fund-direct-growth
+- Mahindra-Manulife-Flexi-Cap-Fund-Regular-Plan-Growth:mahindra-manulife-flexi-cap-fund-direct-growth
+- Motilal-Oswal-Flexi-Cap-Fund-Regular-Plan-Growth-Option:motilal-oswal-most-focused-multicap-35-fund-direct-growth
+- Union-Flexi-Cap-Fund-Growth-Option:union-equity-fund-direct-growth
+- Franklin-India-Flexi-Cap-Fund-Growth:franklin-india-prima-plus-direct-growth
+- HSBC-Flexi-Cap-Fund-Regular-Growth:hsbc-india-opportunities-fund-direct-growth
+- UTI-Flexi-Cap-Fund-Growth-Option:uti-equity-fund-direct-growth
+- SBI-Flexicap-Fund-REGULAR-PLAN-Growth-Option:sbi-flexicap-fund-direct-growth
+- Edelweiss-Flexi-Cap-Fund-Regular-Plan-Growth-Option:edelweiss-economic-resurgence-fund-direct-growth
+- LIC-MF-Flexi-Cap-Fund-Regular-Plan-Growth:lic-mf-equity-fund-direct-growth
+- Navi-Flexi-Cap-Fund-Regular-Plan-Growth:navi-flexi-cap-fund-direct-growth
+- Baroda-BNP-Paribas-Flexi-Cap-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-flexi-cap-fund-direct-growth
+- Nippon-India-Flexi-Cap-Fund-Regular-Plan-Growth-Plan-Growth-Option:nippon-india-flexi-cap-fund-direct-growth
+- 360-ONE-FLEXICAP-FUND-REGULAR-PLAN-GROWTH:360-one-flexicap-fund-direct-growth
+- BANK-OF-INDIA-Flexi-Cap-Fund-Regular-Plan-Growth:bank-of-india-flexi-cap-fund-direct-growth
+- ITI-Flexi-Cap-Fund-Regular-Plan-Growth:iti-flexi-cap-fund-direct-growth
+- Taurus-Flexi-Cap-Fund-Regular-Plan-Growth:taurus-flexi-cap-fund-direct-growth
+- TRUSTMF-Flexi-Cap-Fund-Regular-Plan-Growth:trustmf-flexi-cap-fund-direct-growth
+- Quant-Flexi-Cap-Fund-Growth-Option-Regular-Plan:quant-flexi-cap-fund-direct-growth
+- JM-Flexicap-Fund-Regular-Growth-option:jm-multi-strategy-fund-direct-growth
+- Shriram-Flexi-Cap-Fund-Regular-Growth:shriram-flexi-cap-fund-direct-growth
+- NJ-Flexi-Cap-Fund-Regular-Plan-Growth-Option:nj-flexi-cap-fund-direct-growth
+- Samco-Flexi-Cap-Fund-Regular-Plan-Growth-Option:samco-flexi-cap-fund-direct-growth
+- CAPITALMIND-FLEXI-CAP-FUND-REGULAR-GROWTH:capitalmind-flexi-cap-fund-direct-growth
+- DSP-Flexi-Cap-Fund-Regular-Plan-Growth:dsp-blackrock-equity-fund-direct-growth
+- THE-WEALTH-COMPANY-FLEXI-CAP-FUND-REGULAR-GROWTH:the-wealth-company-flexi-cap-fund-direct-growth
+- Unifi-Flexi-Cap-Fund-Regular-Growth:unifi-flexi-cap-fund-direct-growth
+#Equity:Focused
+- SBI-FOCUSED-FUND-REGULAR-PLAN-GROWTH:sbi-focused-fund-direct-plan-growth
+- ICICI-Prudential-Focused-Equity-Fund-Growth:icici-prudential-select-large-cap-fund-direct-growth
+- HDFC-Focused-Fund-GROWTH-PLAN:hdfc-focused-fund-direct-growth
+- Kotak-Focused-Fund-Regular-plan-Growth-Option:kotak-focused-fund-direct-growth
+- Canara-Robeco-Focused-Fund-Regular-Plan-Growth-Option:canara-robeco-focused-fund-direct-growth
+- ITI-Focused-Fund-Regular-Plan-Growth:iti-focused-fund-direct-growth
+- Aditya-Birla-Sun-Life-Focused-Fund-Growth-Option:birla-sun-life-top-100-fund-direct-growth
+- Nippon-India-Focused-Fund-Growth-Plan-Growth-Option:nippon-india-focused-fund-direct-growth
+- Axis-Focused-Fund-Regular-Plan-Growth-Option:axis-focused-direct-plan-growth
+- Bandhan-Focused-Fund-Regular-Plan-Growth:bandhan-focused-fund-direct-growth
+- Union-Focused-Fund-Regular-Plan-Growth-Option:union-focused-fund-direct-growth
+- Franklin-India-Focused-Equity-Fund-Growth-Plan:franklin-india-high-growth-companies-fund-direct-growth
+- Mahindra-Manulife-Focused-Fund-Regular-Plan-Growth:mahindra-manulife-focused-fund-direct-growth
+- DSP-Focused-Fund-Regular-Plan-Growth:dsp-focused-direct-plan-growth
+- UTI-Focused-Fund-Regular-Plan-Growth-Option:uti-focused-fund-direct-growth
+- Mirae-Asset-Focused-Fund-Regular-Plan-Growth:mirae-asset-focused-fund-direct-growth
+- Edelweiss-Focused-Fund-Regular-Plan-Growth:edelweiss-focused-fund-direct-growth
+- LIC-MF-Focused-Fund-Regular-Plan-Growth:lic-mf-focused-fund-direct-growth
+- BARODA-BNP-PARIBAS-Focused-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-focused-fund-direct-growth
+- Motilal-Oswal-Focused-Fund-Regular-Plan-Growth-Option:motilal-oswal-most-focused-25-fund-direct-growth
+- 360-ONE-Focused-Fund-Regular-Plan-Growth:360-one-focused-fund-direct-growth
+- HSBC-Focused-Fund-Regular-Growth:hsbc-focused-fund-direct-growth
+- Sundaram-Focused-Fund-Formerly-Known-as-Principal-Focused-Multicap-Fund-Growth-Option:sundaram-focused-fund-direct-growth
+- Old-Bridge-Focused-Fund-Regular-Growth:old-bridge-focused-fund-direct-growth
+- JM-Focused-Fund-Regular-Growth-Option:jm-core-11-fund-direct-growth
+- Quant-Focused-Fund-Growth-Option-Regular-Plan:quant-focused-fund-direct-growth
+- Invesco-India-Focused-Fund-Growth:invesco-india-focused-fund-direct-growth
+- Motilal-Oswal-Focused-25-Fund-MOF25-Regular-Plan-Growth-Option:motilal-oswal-most-focused-25-fund-direct-growth
+- Tata-Focused-Fund-Regular-Plan-Growth:tata-focused-fund-direct-growth
+#Equity:Large-and-Mid-Cap
+- Invesco-India-Large-Mid-Cap-Fund-Growth:invesco-india-large-mid-cap-fund-direct-growth
+- Helios-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option:helios-large-mid-cap-fund-direct-growth
+- ICICI-Prudential-Large-Mid-Cap-Fund-Growth:icici-prudential-top-100-fund-direct-growth
+- Whiteoak-Capital-Large-Mid-Cap-Fund-Regular-Plan-Growth:whiteoak-capital-large-mid-cap-fund-direct-growth
+- Bandhan-Large-Mid-Cap-Fund-Regular-Plan-Growth:bandhan-large-mid-cap-fund-direct-growth
+- PGIM-India-Large-and-Midcap-Fund-Regular-Plan-Growth-Option:pgim-india-large-and-mid-cap-fund-direct-growth
+- Mirae-Asset-Large-Midcap-Fund-Regular-Plan-Growth:mirae-asset-large-midcap-fund-direct-growth
+- Franklin-India-Large-Mid-Cap-Fund-Growth-Plan:franklin-india-large-mid-cap-fund-direct-growth
+- Nippon-India-Vision-Fund-Growth-Plan-Growth-Option:nippon-india-vision-large-mid-cap-direct-growth
+- SBI-Large-MIDCap-Fund-Regular-Plan-Growth:sbi-magnum-multiplier-fund-direct-growth
+- HDFC-Large-and-Mid-Cap-Fund-Growth-Option:hdfc-large-and-mid-cap-fund-direct-growth
+- Axis-Large-Mid-Cap-Fund-Regular-Plan-Growth:axis-large-mid-cap-fund-direct-growth
+- Union-Large-Midcap-Fund-Regular-Plan-Growth-Option:union-large-midcap-fund-direct-growth
+- Kotak-Large-Midcap-Fund-Growth-Regular:kotak-large-midcap-fund-direct-growth 
+- CANARA-ROBECO-LARGE-AND-MID-CAP-FUND-REGULAR-PLAN-GROWTH-OPTION:canara-robeco-large-and-mid-cap-fund-direct-growth
+- Sundaram-Large-and-Midcap-Fund-Regular-Plan-Growth:sundaram-equity-multiplier-fund-direct-growth
+- Bajaj-Finserv-Large-and-Mid-Cap-Fund-Regular-Plan-Growth:bajaj-finserv-large-and-mid-cap-fund-direct-growth
+- Aditya-Birla-Sun-Life-Large-Mid-Cap-Fund-Regular-Growth:aditya-birla-sun-life-large-mid-cap-fund-direct-growth
+- UTI-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option:uti-large-mid-cap-fund-direct-growth
+- DSP-Large-Mid-Cap-Fund-Regular-Plan-Growth:dsp-large-mid-cap-fund-direct-plan-growth
+- BANK-OF-INDIA-Large-Mid-Cap-Fund-Eco-Plan-Growth:bank-of-india-large-mid-cap-fund-direct-growth
+- Edelweiss-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option:edelweiss-equity-opportunities-fund-direct-growth
+- HSBC-Large-Mid-Cap-Fund-Regular-Growth:hsbc-large-and-mid-cap-fund-direct-growth
+- Mahindra-Manulife-Large-Mid-Cap-Fund-Regular-Plan-Growth:mahindra-manulife-large-mid-cap-fund-direct-growth
+- Navi-Large-Midcap-Fund-Regular-Plan-Growth-Option:navi-large-midcap-fund-direct-growth
+- LIC-MF-Large-Mid-Cap-Fund-Regular-Plan-Growth:lic-mf-large-midcap-fund-direct-growth
+- ITI-LARGE-MIDCAP-FUND-REGULAR-PLAN-GROWTH:iti-large-mid-cap-fund-direct-growth
+- Baroda-BNP-Paribas-Large-and-Mid-Cap-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-large-mid-cap-fund-direct-growth
+- Nippon-India-Vision-Large-Midcap-Fund-GROWTH-PLAN-Growth-Option:nippon-india-vision-large-mid-cap-direct-growth
+- Tata-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option:tata-equity-opportunities-fund-direct-growth
+- Quant-Large-Mid-Cap-Fund-Growth-Option:quant-large-and-mid-cap-fund-direct-growth
+- JM-Large-Mid-Cap-Fund-Regular-Growth-Option:jm-large-mid-cap-fund-direct-growth
+- Samco-Large-Mid-Cap-Fund-Regular-Plan-Growth-Option:samco-large-mid-cap-fund-direct-growth
+- Motilal-Oswal-Large-and-Midcap-Fund-Regular-Plan-Growth:motilal-oswal-large-and-midcap-fund-direct-growth
+# Equity:Large-Cap
+- Motilal-Oswal-Large-Cap-Regular-Plan-Growth:motilal-oswal-large-cap-fund-direct-growth
+- Nippon-India-Large-Cap-Fund-Growth-Plan-Growth-Option:nippon-india-large-cap-fund-direct-growth
+- Mirae-Asset-Large-Cap-Fund-Growth-Plan:mirae-asset-large-cap-fund-direct-growth
+- ICICI-Prudential-Large-Cap-Fund-erstwhile-Bluechip-Fund-Growth:icici-prudential-large-cap-fund-direct-growth
+- PGIM-India-Large-Cap-Fund-Growth:pgim-india-large-cap-fund-direct-growth
+- BANDHAN-Large-Cap-Fund-Regular-Plan-Growth:idfc-equity-fund-direct-growth
+- Kotak-Large-Cap-Fund-Growth:kotak-large-cap-fund-direct-growth
+- Invesco-India-Largecap-Fund-Growth:invesco-india-business-leaders-fund-direct-growth
+- WhiteOak-Capital-Large-Cap-Fund-Regular-Plan-Growth:whiteoak-capital-large-cap-fund-direct-growth
+- CANARA-ROBECO-LARGE-CAP-FUND-REGULAR-PLAN-GROWTH-OPTION:canara-robeco-large-cap-fund-direct-growth
+- Axis-Large-Cap-Fund-Regular-Plan-Growth:axis-large-cap-fund-direct-growth
+- Aditya-Birla-Sun-Life-Large-Cap-Fund-Growth:aditya-birla-sun-life-large-cap-direct-fund-growth
+- Franklin-India-Large-Cap-Fund-Growth:franklin-india-large-cap-fund-direct-growth
+- UTI-Large-Cap-Fund-Regular-Plan-Growth-Option:uti-unit-scheme-1986-mastershare-direct-growth
+- Tata-Large-Cap-Fund-Regular-Plan-Growth-Option:tata-large-cap-fund-direct-growth
+- SBI-Large-Cap-FUND-REGULAR-PLAN-GROWTH:sbi-large-cap-direct-plan-growth
+- BAJAJ-FINSERV-LARGE-CAP-FUND-REGULAR-PLAN-GROWTH:bajaj-finserv-large-cap-fund-direct-growth
+- Mahindra-Manulife-Large-Cap-Fund-Regular-Plan-Growth:mahindra-manulife-large-cap-fund-direct-growth
+- Groww-Largecap-Fund-formerly-known-as-Indiabulls-Blue-Chip-Fund-Regular-Plan-Growth-Option:groww-large-cap-fund-direct-growth
+- LIC-MF-Large-Cap-Fund-Regular-Plan-Growth:lic-mf-growth-fund-direct-growth
+- Taurus-Large-Cap-Fund-Regular-Plan-Growth:taurus-large-cap-fund-direct-growth
+- Union-Largecap-Fund-Regular-Plan-Growth-Option:union-largecap-fund-direct-growth
+- DSP-Large-Cap-Fund-Regular-Plan-Growth:dsp-large-cap-fund-direct-growth
+- HDFC-Large-Cap-Fund-Growth-Option-Regular-Plan:hdfc-large-cap-fund-direct-growth
+- BANK-OF-INDIA-Large-Cap-Fund-Regular-Plan-Growth:bank-of-india-large-cap-fund-direct-growth
+- ITI-Large-Cap-Fund-Regular-Plan-Growth-Option:iti-large-cap-fund-direct-growth
+- Edelweiss-Large-Cap-Fund-Regular-Plan-Growth-Option:edelweiss-large-cap-fund-direct-growth
+- Sundaram-Large-Cap-Fund-Formerly-Known-as-Sundaram-Blue-Chip-Fund-Regular-Plan-Growth:sundaram-large-cap-fund-direct-growth
+- HSBC-Large-Cap-Fund-Regular-Growth:hsbc-equity-fund-direct-growth
+- BARODA-BNP-PARIBAS-LARGE-CAP-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-large-cap-fund-direct-growth
+- JM-Large-Cap-Fund-Regular-Growth-Option:jm-equity-direct-growth
+- Quant-Large-Cap-Fund-Growth-Option-Regular-Plan:quant-large-cap-fund-direct-growth
+- Samco-Large-Cap-Fund-Regular-Plan-Growth-Option:samco-large-cap-fund-direct-growth
+#Equity:Mid-Cap
+- Invesco-India-Midcap-Fund-Growth-Option:invesco-india-mid-cap-fund-direct-growth
+- WhiteOak-Capital-Mid-Cap-Fund-Regular-Plan-Growth:whiteoak-capital-mid-cap-fund-direct-growth
+- ICICI-Prudential-MidCap-Fund-Growth:icici-prudential-midcap-fund-direct-growth
+- Mirae-Asset-Midcap-Fund-Regular-Plan-Growth-Option:mirae-asset-midcap-fund-direct-growth
+- HDFC-Mid-Cap-Fund-Growth-Plan:hdfc-mid-cap-fund-direct-growth
+- Canara-Robeco-Mid-Cap-Fund-Regular-Plan-Growth-Option:canara-robeco-mid-cap-fund-direct-growth
+- Union-Midcap-Fund-Regular-Plan-Growth-Option:union-midcap-fund-direct-growth
+- Sundaram-Mid-Cap-Fund-Regular-Plan-Growth:sundaram-select-midcap-direct-growth
+- Kotak-Midcap-Fund-Regular-Plan-Growth:kotak-emerging-equity-scheme-direct-growth
+- Edelweiss-Mid-Cap-Fund-Regular-Plan-Growth-Option:edelweiss-mid-and-small-cap-fund-direct-growth
+- NIPPON-INDIA-GROWTH-MID-CAP-FUND-Growth-Plan-Growth-Option:nippon-india-growth-mid-cap-fund-direct-growth
+- Axis-Midcap-Fund-Regular-Plan-Growth:axis-midcap-fund-direct-growth
+- PGIM-India-Midcap-Fund-Regular-Plan-Growth-Option:pgim-india-midcap-fund-direct-growth
+- Franklin-India-Mid-Cap-Fund-Growth:franklin-india-mid-cap-fund-direct-growth
+- DSP-Midcap-Fund-Regular-Plan-Growth:dsp-blackrock-small-and-midcap-fund-direct-growth
+- BANDHAN-MIDCAP-FUND-GROWTH-REGULAR-PLAN:bandhan-midcap-fund-direct-growth
+- Tata-Mid-Cap-Fund-Regular-Plan-Growth-Option:tata-mid-cap-direct-plan-growth
+- BARODA-BNP-PARIBAS-Mid-Cap-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-midcap-fund-direct-growth
+- HSBC-Midcap-Fund-Regular-Growth:hsbc-midcap-fund-direct-growth
+- Taurus-Mid-Cap-Fund-Regular-Plan-Growth:taurus-mid-cap-fund-direct-growth
+- ITI-Mid-Cap-Fund-Regular-Plan-Growth-Option:iti-mid-cap-fund-direct-growth
+- Aditya-Birla-Sun-Life-MidCap-Fund-Growth:birla-sun-life-mid-cap-fund-plan-a-direct-growth
+- UTI-Mid-Cap-Fund-Growth-Option:uti-mid-cap-fund-direct-growth
+- LIC-MF-Mid-Cap-Fund-Regular-Plan-Growth:lic-mf-midcap-fund-direct-growth
+- Mahindra-Manulife-Mid-Cap-Fund-Regular-Plan-Growth:mahindra-manulife-mid-cap-fund-direct-growth
+- Motilal-Oswal-Midcap-Fund-Regular-Plan-Growth-Option:motilal-oswal-most-focused-midcap-30-fund-direct-growth
+- JM-Midcap-Fund-Regular-Growth:jm-midcap-fund-direct-growth
+- SBI-MIDCAP-FUND-REGULAR-PLAN-GROWTH:sbi-mid-cap-direct-plan-growth
+- Quant-Mid-Cap-Fund-Growth-Option-Regular-Plan:quant-mid-cap-fund-direct-growth
+- Bank-of-India-Mid-Cap-Fund-Regular-Plan-Growth:bank-of-india-mid-cap-fund-direct-growth
+- Helios-Mid-Cap-Fund-Regular-Plan-Growth-Plan:helios-mid-cap-fund-direct-growth
+#Equity:Multi-Cap
+- HDFC-Multi-Cap-Fund-Growth-Option:hdfc-multi-cap-fund-direct-growth
+- DSP-Multicap-Fund-Regular-Growth:dsp-multicap-fund-direct-growth
+- Nippon-India-Multi-Cap-Fund-Growth-Plan-Growth-Option:nippon-india-multi-cap-fund-direct-growth
+- Kotak-Multicap-Fund-Regular-Plan-Growth:kotak-multicap-fund-direct-growth
+- Axis-Multicap-Fund-Regular-Plan-Growth:axis-multicap-fund-direct-growth
+- ICICI-Prudential-Multicap-Fund-Growth:icici-prudential-multicap-fund-direct-growth
+- Baroda-BNP-Paribas-MULTI-CAP-FUND-Regular-Plan-Growth-Option:baroda-bnp-paribas-multi-cap-fund-direct-growth
+- LIC-MF-Multi-Cap-Fund-Regular-Plan-Growth:lic-mf-multi-cap-fund-direct-growth
+- BANDHAN-MULTI-CAP-FUND-GROWTH-REGULAR-PLAN:bandhan-multi-cap-fund-direct-growth
+- Bank-of-India-Multi-Cap-Fund-Regular-Plan-Growth:bank-of-india-multi-cap-fund-direct-growth
+- SBI-Multicap-Fund-Regular-Plan-Growth-Option:sbi-multicap-fund-direct-growth
+- quant-Multi-Cap-Fund-GROWTH-OPTION-Regular-Plan:quant-multi-cap-fund-direct-growth
+- Motilal-Oswal-Multi-Cap-Fund-Regular-Plan-Growth:motilal-oswal-multi-cap-fund-direct-growth
+- WhiteOak-Capital-Multi-Cap-Fund-Regular-Plan-Growth:whiteoak-capital-multi-cap-fund-direct-growth
+- Mirae-Asset-Multicap-Fund-Regular-Plan-Growth:mirae-asset-multicap-fund-direct-growth
+- Franklin-India-Multi-Cap-Fund-Growth:franklin-india-multi-cap-fund-direct-growth
+- Sundaram-Multi-Cap-Fund-Formerly-Known-as-Principal-Multi-Cap-Growth-Fund-Growth-Option:sundaram-multi-cap-fund-direct-growth
+- PGIM-India-Multi-Cap-Fund-Regular-Plan-Growth-Option:pgim-india-multi-cap-fund-direct-growth
+- Union-Multicap-Fund-Regular-Plan-Growth-Option:union-multicap-fund-direct-growth
+- Mahindra-Manulife-Multi-Cap-Fund-Regular-Plan-Growth:mahindra-manulife-multi-cap-fund-direct-growth
+- Canara-Robeco-Multi-Cap-Fund-Regular-Plan-Growth-Option:canara-robeco-multi-cap-fund-direct-growth
+- HSBC-Multi-Cap-Fund-Regular-Growth:hsbc-multi-cap-fund-direct-growth
+- Aditya-Birla-Sun-Life-Multi-Cap-Fund-Regular-Growth:aditya-birla-sun-life-multi-cap-fund-direct-growth
+- Edelweiss-Multi-Cap-Fund-Regular-Plan-Growth:edelweiss-multi-cap-fund-direct-growth
+- ITI-Multi-Cap-Fund-Regular-Plan-Growth-Option:iti-multi-cap-fund-direct-growth
+- Tata-Multicap-Fund-Regular-Plan-Growth:tata-multicap-fund-direct-growth
+- Invesco-India-Multicap-Fund-Growth-Option:invesco-india-mid-n-small-cap-fund-direct-growth
+- BAJAJ-FINSERV-MULTI-CAP-FUND-REGULAR-GROWTH:bajaj-finserv-multi-cap-fund-direct-growth
+- Groww-Multicap-Fund-Regular-Growth:groww-multicap-fund-direct-growth
+- Samco-Multi-Cap-Fund-Regular-Plan-Growth:samco-multi-cap-fund-direct-growth
+- TRUSTMF-MULTI-CAP-FUND-REGULAR-PLAN-GROWTH:trustmf-multi-cap-fund-direct-growth
+- UTI-Multi-Cap-Fund-Regular-Plan-Growth-Option:uti-multi-cap-fund-direct-growth
+#Equity:Sectoral-Banking-and-Financial-Services
+- Invesco-India-Financial-Services-Fund-Regular-Plan-Growth:invesco-india-banking-fund-direct-growth
+- DSP-Banking-Financial-Services-Fund-Regular-Growth:dsp-banking-financial-services-fund-direct-growth
+- Nippon-India-Banking-and-Financial-Services-Fund-Growth-Plan-Growth-Option:nippon-india-banking-financial-services-fund-direct-growth
+- Groww-Banking-Financial-Services-Fund-Regular-Growth:groww-banking-financial-services-fund-direct-growth
+- Motilal-Oswal-BSE-Financials-ex-Bank-30-Index-Fund-Regular-Growth:motilal-oswal-bse-financials-ex-bank-30-index-fund-direct-growth
+- WhiteOak-Capital-Banking-Financial-Services-Fund-Regular-Growth:whiteoak-capital-banking-financial-services-fund-direct-growth
+- Sundaram-Financial-Services-Opportunities-Fund-Regular-Plan-Growth:sundaram-financial-services-opportunities-fund-direct-growth
+- Aditya-Birla-Sun-Life-Banking-and-Financial-Services-Fund-Regular-Plan-Growth:birla-sun-life-banking-and-financial-services-fund-direct-growth
+- HDFC-Banking-Financial-Services-Fund-Growth-Option:hdfc-banking-financial-services-fund-direct-growth
+- Mirae-Asset-Banking-and-Financial-Services-Fund-Regular-Growth:mirae-asset-banking-and-financial-services-fund-direct-growth
+- ICICI-Prudential-Banking-and-Financial-Services-Fund-Growth:icici-prudential-banking-and-financial-services-fund-direct-growth
+- LIC-MF-Banking-And-Financial-Services-Fund-Regular-Plan-Growth:lic-mf-banking-financial-services-fund-direct-growth
+- SBI-Banking-Financial-Services-Fund-Regular-Plan-Growth:sbi-banking-financial-services-fund-direct-growth
+- Taurus-Banking-Financial-Services-Fund-Regular-Plan-Growth:taurus-banking-financial-services-fund-direct-growth
+- Tata-Banking-And-Financial-Services-Fund-Regular-Plan-Growth:tata-banking-and-financial-services-fund-direct-growth
+- Baroda-BNP-Paribas-Banking-and-Financial-Services-Fund-Regular-Growth-Option:baroda-pioneer-banking-and-financial-services-fund-direct-growth
+- UTI-Banking-and-Financial-Services-Fund-Regular-Plan-Growth-Option:uti-banking-sector-fund-direct-growth
+- ITI-Banking-and-Financial-Services-Fund-Regular-Plan-Growth-Option:iti-banking-and-financial-services-fund-direct-growth
+- Kotak-Banking-Financial-Services-Fund-Regular-Plan-Growth:kotak-banking-financial-services-fund-direct-growth
+- Quant-BFSI-Fund-Growth-Option-Regular-Plan:quant-bfsi-fund-direct-growth
+- BANDHAN-FINANCIAL-SERVICES-FUND-REGULAR-PLAN-GROWTH:bandhan-financial-services-fund-direct-growth
+#Equity:Sectoral-FMCG
+- ICICI-Prudential-FMCG-Fund-Growth
+#Equity:Sectoral-Infrastructure
+- HDFC-Infrastructure-Fund-Growth-Plan
+#- DSP-India-T-I-G-E-R-Fund-Regular-Plan-Growth
+- BANK-OF-INDIA-Manufacturing-Infrastructure-Fund-Growth
+- Taurus-Infrastructure-Fund-Regular-Plan-Growth
+- Motilal-Oswal-Infrastructure-Fund-Regular-Growth
+- Sundaram-Infrastructure-Advantage-Fund-Regular-Plan-Growth
+#- DSP-India-T-I-G-E-R-Fund-Regular-Plan-Growth
+- Nippon-India-Power-Infra-Fund-Growth-Plan-Growth-Option
+- DSP-Natural-Resources-And-New-Energy-Fund-Regular-Growth
+- SBI-Infrastructure-Fund-Regular-Plan-Growth
+- BANDHAN-Infrastructure-Fund-Regular-Plan-Growth
+- Franklin-Build-India-Fund-Growth-Plan
+- HSBC-Infrastructure-Fund-Regular-Growth
+- Aditya-Birla-Sun-Life-Infrastructure-Fund-Growth
+- Invesco-India-Infrastructure-Fund-Growth-Option
+- ICICI-Prudential-Infrastructure-Fund-Growth
+- LIC-MF-Infrastructure-Fund-Regular-Plan-Growth
+- Kotak-Infrastructure-Economic-Reform-Fund-Standard-Plan-Growth
+- Canara-Robeco-Infrastructure-Fund-Regular-Plan-Growth-Option
+- UTI-Infrastructure-Fund-Growth-Option
+- Tata-Infrastructure-Fund-Regular-Plan-Growth-Option
+- Quant-Infrastructure-Fund-Growth-Option
+#Equity:Sectoral-Pharma-and-Healthcare
+- Nippon-India-Pharma-Fund-Growth-Plan-Growth-Option:nippon-india-pharma-fund-direct-growth
+- WhiteOak-Capital-Pharma-and-Heathcare-Fund-Regular-Plan-Growth:whiteoak-capital-pharma-and-healthcare-fund-direct-growth
+- SBI-Healthcare-Opportunities-Fund-Regular-Plan-Growth:sbi-pharma-fund-direct-growth
+- Aditya-Birla-Sun-Life-Pharma-and-Healthcare-Fund-Regular-Growth:aditya-birla-sun-life-pharma-healthcare-fund-direct-growth
+- UTI-Healthcare-Fund-Regular-Plan-Growth-Option:uti-pharma-and-healthcare-fund-direct-growth
+- Mirae-Asset-Healthcare-Fund-Regular-Growth:mirae-asset-healthcare-fund-direct-growth
+- ITI-Pharma-and-Healthcare-Fund-Regular-Plan-Growth-Option:iti-pharma-and-healthcare-fund-direct-growth
+- LIC-MF-Healthcare-Fund-Regular-Plan-Growth:lic-mf-healthcare-fund-direct-growth
+- Quant-Healthcare-Fund-Growth-Option-Regular-Plan:quant-healthcare-fund-direct-growth
+- HDFC-Pharma-and-Healthcare-Fund-Growth-Option:hdfc-pharma-and-healthcare-fund-direct-growth
+- Tata-India-Pharma-Healthcare-Fund-Regular-Plan-Growth:tata-india-pharma-and-healthcare-fund-direct-growth
+- DSP-Healthcare-Fund-Regular-Plan-Growth:dsp-healthcare-fund-direct-growth
+- ICICI-Prudential-Nifty-Pharma-Index-Fund-Growth:icici-prudential-pharma-healthcare-and-diagnostics-(p.h.d)-fund-direct-growth
+#Equity:Sectoral-Technology
+- Franklin-India-Technology-Fund-Growth
+- Invesco-India-Technology-Fund-Regular-Growth
+- Mirae-Asset-Global-X-Artificial-Intelligence-Technology-ETF-Fund-of-Fund-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Digital-India-Fund-Growth-Regular-Plan
+- ICICI-Prudential-Technology-Fund-Growth
+- SBI-Technology-Opportunities-Fund-Regular-Plan-Growth
+- HDFC-Technology-Fund-Growth-Option
+- quant-Teck-Fund-Growth-Option-Regular-Plan
+- Tata-Digital-India-Fund-Regular-Plan-Growth
+- Kotak-Technology-Fund-Regular-Plan-Growth-Option
+- Edelweiss-Technology-Fund-Regular-Plan-Growth
+#Equity:Small-Cap
+- Motilal-Oswal-Small-Cap-Fund-Regular-Growth:motilal-oswal-small-cap-fund-direct-growth
+- QUANTUM-SMALL-CAP-FUND-REGULAR-PLAN-GROWTH-OPTION:quantum-small-cap-fund-direct-growth
+- Invesco-India-Smallcap-Fund-Regular-Plan-Growth:invesco-india-smallcap-fund-direct-growth
+- Axis-Small-Cap-Fund-Regular-Plan-Growth:axis-small-cap-fund-direct-growth
+- BANDHAN-SMALL-CAP-FUND-REGULAR-PLAN-GROWTH:bandhan-small-cap-fund-direct-growth
+- HDFC-Small-Cap-Fund-Growth-Option:hdfc-small-cap-fund-direct-growth
+- PGIM-India-Small-Cap-Fund-Regular-Plan-Growth-Option:pgim-india-small-cap-fund-direct-growth
+- Sundaram-Small-Cap-Fund-Regular-Plan-Growth:sundaram-smile-fund-direct-growth
+- ITI-Small-Cap-Fund-Regular-Plan-Growth-Option:iti-small-cap-fund-direct-growth
+- UTI-Small-Cap-Fund-Regular-Plan-Growth-Option:uti-small-cap-fund-direct-growth
+- Union-Small-Cap-Fund-Regular-Plan-Growth-Option:union-small-and-midcap-fund-direct-growth
+- DSP-Small-Cap-Fund-Regular-Growth:dsp-blackrock-micro-cap-fund-direct-growth
+- Edelweiss-Small-Cap-Fund-Regular-Plan-Growth:edelweiss-small-cap-fund-direct-growth
+- Aditya-Birla-Sun-Life-Small-Cap-Fund-GROWTH:birla-sun-life-small-midcap-fund-direct-growth
+- ICICI-Prudential-Smallcap-Fund-Growth:icici-prudential-indo-asia-equity-fund-direct-growth
+- JM-Small-Cap-Fund-Regular-Growth-Option:jm-small-cap-fund-direct-growth
+- Mahindra-Manulife-Small-Cap-Fund-Regular-Plan-Growth:mahindra-manulife-small-cap-fund-direct-growth
+- Nippon-India-Small-Cap-Fund-Growth-Plan-Growth-Option:nippon-india-small-cap-fund-direct-growth
+- Canara-Robeco-Small-Cap-Fund-Regular-Plan-Growth-Option:canara-robeco-small-cap-fund-direct-growth
+- SBI-Small-Cap-Fund-Regular-Plan-Growth:sbi-small-midcap-fund-direct-growth
+- Baroda-BNP-Paribas-Small-Cap-Fund-Regular-Plan-Growth-option:baroda-bnp-paribas-small-cap-fund-direct-growth
+- Helios-Small-Cap-Fund-Regular-Plan-Growth-Option:helios-small-cap-fund-direct-growth
+- Franklin-India-Small-Cap-Fund-Growth:franklin-india-small-cap-fund-direct-growth
+- BANK-OF-INDIA-Small-Cap-Fund-Regular-Plan-Growth:bank-of-india-small-cap-fund-direct-growth
+- Quant-Small-Cap-Fund-Growth-Regular-Plan:quant-small-cap-fund-direct-plan-growth
+- Kotak-Small-Cap-Fund-Growth:kotak-midcap-fund-direct-growth
+- LIC-MF-Small-Cap-Fund-Regular-Plan-Growth:lic-mf-small-cap-fund-direct-growth
+- HSBC-Small-Cap-Fund-Regular-Growth:hsbc-small-cap-fund-direct-growth
+- Tata-Small-Cap-Fund-Regular-Plan-Growth:tata-small-cap-fund-direct-growth
+- BAJAJ-FINSERV-SMALL-CAP-FUND-REGULAR-GROWTH:bajaj-finserv-small-cap-fund-direct-growth
+- Mirae-Asset-Small-Cap-Fund-Regular-Plan-Growth:mirae-asset-small-cap-fund-direct-growth
+- TRUSTMF-SMALL-CAP-FUND-REGULAR-PLAN-GROWTH:trustmf-small-cap-fund-direct-growth
+#Equity:Thematic-Consumption
+- Mirae-Asset-Great-Consumer-Fund-Regular-Plan-Growth-option
+- ICICI-Prudential-Bharat-Consumption-Fund-Growth-Option
+- SBI-Consumption-Opportunities-Fund-Regular-Growth
+- BARODA-BNP-PARIBAS-India-Consumption-Fund-Regular-Plan-Growth-Option
+- Mahindra-Manulife-Consumption-Fund-Regular-Plan-Growth
+- Canara-Robeco-Consumer-Trends-Fund-Regular-Plan-Growth-Option
+- Nippon-India-Consumption-Fund-Growth-Plan-Growth-Option
+- Tata-India-Consumer-Fund-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-India-Gennext-Fund-Growth-Option
+- UTI-India-Consumer-Fund-Regular-Plan-Growth-Option
+- HDFC-Non-Cyclical-Consumer-Fund-Growth-Option
+- HSBC-Consumption-Fund-Regular-Growth
+- Sundaram-Consumption-Fund-Formerly-Known-as-Sundaram-Rural-and-Consumption-Fund-Regular-Plan-Growth
+- ICICI-Prudential-Commodities-Fund-Growth-Option
+- Kotak-Equity-Opportunities-Fund-Growth-Regular
+#Equity:Thematic-ESG
+- ICICI-Prudential-ESG-FUND-Growth
+- Quant-ESG-Equity-Fund-Growth-Option-Regular-Plan
+- ICICI-Prudential-ESG-Exclusionary-Strategy-Fund-Growth
+- Axis-ESG-Equity-Fund-Regular-Plan-Growth-Option
+- Invesco-India-ESG-Equity-Fund-Growth
+- SBI-Magnum-Equity-ESG-Fund-REGULAR-PLAN-Growth
+- Kotak-ESG-Opportunities-Fund-Regular-Plan-Growth-Option
+- Aditya-Birla-Sun-Life-ESG-Fund-Regular-Plan-Growth
+- QUANTUM-ESG-BEST-IN-CLASS-STRATEGY-FUND-REGULAR-PLAN-GROWTH-OPTION
+#Equity:Thematic-International
+- Nippon-India-US-Equity-Opportunites-Fund-Growth-Plan-Growth-Option
+- ICICI-Prudential-US-Bluechip-Equity-Fund-Growth
+- Nippon-India-Japan-Equity-Fund-Growth-Plan-Growth-Option
+- Aditya-Birla-Sun-Life-International-Equity-Fund-Growth-Regular-Plan
+- Franklin-Asian-Equity-Fund-Growth-Plan
+#Equity:Thematic-MNC
+- ICICI-Prudential-MNC-Fund-Growth-Option
+- Kotak-MNC-Fund-Regular-Plan-Growth
+- ICICI-PRUDENTIAL-TRANSPORTATION-AND-LOGISTICS-FUND-Growth
+- Aditya-Birla-Sun-Life-MNC-Fund-Growth-Regular-Plan
+- SBI-Magnum-Global-Fund-Regular-Plan-Growth
+- UTI-MNC-Fund-Regular-Plan-Growth-Option
+- HDFC-MNC-Fund-Growth-Option
+#Equity:Thematic-Others
+- Franklin-India-Opportunities-Fund-Growth
+- ICICI-Prudential-Manufacturing-Fund-Cumulative-Option
+- ICICI-PRUDENTIAL-TRANSPORTATION-AND-LOGISTICS-FUND-Growth
+- BANDHAN-TRANSPORTATION-AND-LOGISTICS-FUND-GROWTH-REGULAR-PLAN
+- Edelweiss-Recently-Listed-IPO-Fund-Regular-Plan-Growth
+- ICICI-Prudential-India-Opportunities-Fund-Cumulative-Option
+- UTI-Transpotation-and-Logistics-Fund-Growth-Option
+- UTI-Transportation-and-Logistics-Fund-Growth-Option
+- Kotak-Pioneer-Fund-Regular-Plan-Growth-Option
+- UTI-Transpotation-and-Logistics-Fund-Growth-Option
+- ICICI-PRUDENTIAL-TRANSPORTATION-AND-LOGISTICS-FUND-Growth
+- BANDHAN-TRANSPORTATION-AND-LOGISTICS-FUND-GROWTH-REGULAR-PLAN
+- HDFC-Transportation-and-Logistics-Fund-Growth-Option
+- HSBC-Business-Cycles-Fund-Regular-Growth
+- Kotak-Manufacture-in-India-Fund-Regular-Plan-Growth
+- ICICI-Prudential-Business-Cycle-Fund-Growth
+- ICICI-Prudential-Housing-Opportunities-Fund-Growth
+- Aditya-Birla-Sun-Life-Transportation-and-Logistics-Fund-Regular-Growth
+- SBI-Automotive-Opportunities-Fund-Regular-Plan-Growth
+- ICICI-Prudential-Commodities-Fund-Growth-Option
+- Aditya-Birla-Sun-Life-Manufacturing-Equity-Fund-Regular-Plan-Growth
+- ICICI-Prudential-Exports-Services-Fund-Growth
+- Baroda-BNP-Paribas-Business-Cycle-Fund-Regular-Plan-Growth
+- SBI-Equity-Minimum-Variance-Fund-Regular-Plan-Growth
+- SBI-Magnum-Comma-Fund-Regular-Plan-Growth
+- Axis-Special-Situations-Fund-Regular-Plan-Growth-Option
+- Aditya-Birla-Sun-Life-Special-Opportunities-Fund-Regular-Plan-Growth
+- Kotak-Business-Cycle-Fund-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Business-Cycle-Fund-Regular-Growth
+- HDFC-Business-Cycle-Fund-Growth-Option
+- Axis-Business-Cycles-Fund-Regular-Plan-Growth
+- ICICI-Prudential-Innovation-Fund-Growth
+- quant-Business-Cycle-Fund-Growth-Option-Regular-Plan
+- HDFC-Defence-Fund-Growth-Option
+- Samco-Active-Momentum-Fund-Regular-Plan-Growth-Option
+- quant-Manufacturing-Fund-Growth-Option-Regular-Plan
+- HDFC-Transportation-and-Logistics-Fund-Growth-Option
+- Nippon-India-Innovation-Fund-Regular-Plan-Growth-Option
+- Mahindra-Manulife-Business-Cycle-Fund-Regular-Plan-Growth
+- UTI-Innovation-Fund-Regular-Plan-Growth-Option
+- HDFC-Housing-Opportunities-Fund-Growth-Option
+#Equity:Thematic-PSU
+- Aditya-Birla-Sun-Life-PSU-Equity-Fund-Regular-Plan-Growth
+- Invesco-India-PSU-Equity-Fund-Growth
+- SBI-PSU-Fund-Regular-Plan-Growth
+- ICICI-Prudential-PSU-Equity-Fund-Growth
+#Equity:Thematic-Quantitative
+- Aditya-Birla-Sun-Life-PSU-Equity-Fund-Regular-Plan-Growth
+- Invesco-India-PSU-Equity-Fund-Growth
+- SBI-PSU-Fund-Regular-Plan-Growth
+- ICICI-Prudential-PSU-Equity-Fund-Growth
+- Quant-PSU-Fund-Growth-Option-Regular-Plan
+#Equity:Value
+- DSP-Value-Fund-Regular-Plan-Growth:dsp-value-fund-direct-growth
+- ICICI-Prudential-Value-Fund-erstwhile-Value-Discovery-Fund-Growth:icici-prudential-value-direct-growth
+- Groww-Value-Fund-formerly-known-as-Indiabulls-Value-Fund-Regular-Plan-Growth-Option:groww-value-fund-direct-growth
+- HDFC-Value-Fund-Growth-Plan:hdfc-value-fund-direct-plan-growth
+- JM-Value-Fund-Regular-Growth-Option:jm-basic-fund-direct-growth
+- Axis-Value-Fund-Regular-Plan-Growth:axis-value-fund-direct-growth
+- HSBC-Value-Fund-Regular-Growth:hsbc-value-fund-direct-growth
+- Union-Value-Fund-Regular-Plan-Growth-Option
+- Nippon-India-Value-Fund-Growth-Plan:nippon-india-value-fund-direct-growth
+- UTI-Value-Fund-Regular-Plan-Growth-Option:uti-value-fund-direct-growth
+- Canara-Robeco-Value-Fund-Regular-Plan-Growth-Option:canara-robeco-value-fund-direct-growth
+- Templeton-India-Value-Fund-Growth-Plan:templeton-india-growth-fund-direct-growth
+- Bandhan-Value-Fund-Regular-Plan-Growth:bandhan-value-fund-direct-growth
+- ITI-Value-Fund-Regular-Plan-Growth-Option:iti-value-fund-direct-growth
+- Quantum-Value-Fund-Regular-Plan-Growth-Option:quantum-value-fund-direct-growth
+- Tata-Value-Fund-Regular-Plan-Growth-Option:tata-value-fund-direct-growth
+- Aditya-Birla-Sun-Life-Value-Fund-Growth-Option:aditya-birla-sun-life-value-direct-fund-growth
+- Baroda-BNP-Paribas-Value-Fund-Regular-Plan-Growth-option:baroda-bnp-paribas-value-fund-direct-growth
+- Quant-Value-Fund-Growth-Option-Regular-Plan:quant-value-fund-direct-growth
+- LIC-MF-Value-Fund-Regular-Plan-Growth:lic-mf-value-fund-direct-growth
+- Mahindra-Manulife-Value-Fund-Regular-Plan-Growth:mahindra-manulife-value-fund-direct-growth
+- Quantum-Value-Fund-Regular-Plan-Growth-Option:quantum-value-fund-direct-growth
+#Hybrid:Aggressive
+- SBI-Equity-Hybrid-Fund-Regular-Plan-Growth:sbi-magnum-balanced-fund-direct-growth
+- Bandhan-Aggressive-Hybrid-Fund-Regular-Plan-Growth:bandhan-aggressive-hybrid-fund-direct-growth
+- ICICI-Prudential-Equity-Debt-Fund-Growth:icici-prudential-balanced-direct-growth
+- PGIM-India-Aggressive-Hybrid-Equity-Fund-Growth-Option:pgim-india-aggressive-hybrid-equity-fund-direct-growth
+- Mirae-Asset-Aggressive-Hybrid-Fund-Regular-Plan-Growth:mirae-asset-aggressive-hybrid-fund-direct-growth
+- Edelweiss-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option:edelweiss-aggressive-hybrid-fund-direct-growth
+- Mahindra-Manulife-Aggressive-Hybrid-Fund-Regular-Plan-Growth:mahindra-manulife-aggressive-hybrid-fund-direct-growth
+- Kotak-Aggressive-Hybrid-Fund-Regular-Plan-Growth:kotak-aggressive-hybrid-fund-direct-growth
+- Union-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option:union-aggressive-hybrid-fund-direct-growth
+- HSBC-Aggressive-Hybrid-Fund-Regular-Growth:hsbc-aggressive-hybrid-fund-direct-growth
+- Aditya-Birla-Sun-Life-Equity-Hybrid95-Fund-Regular-Plan-Growth:birla-sun-life-balanced-95-direct-growth
+- Nippon-India-Aggressive-Hybrid-Fund-Growth-Plan:nippon-india-aggressive-hybrid-fund-direct-growth
+- HDFC-Hybrid-Equity-Fund-Growth-Plan:hdfc-premier-multi-cap-fund-direct-growth
+- Franklin-India-Aggressive-Hybrid-Fund-Growth-Plan:franklin-india-aggressive-hybrid-fund-direct-growth
+- Canara-Robeco-Equity-Hybrid-Fund-Regular-Plan-Growth-Option:canara-robeco-balance-direct-growth
+- Axis-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option:axis-aggressive-hybrid-fund-direct-growth
+- Sundaram-Aggressive-Hybrid-Fund-Formerly-Known-as-Principal-Hybrid-Equity-Fund-Growth:sundaram-aggressive-hybrid-fund-direct-growth
+- DSP-Aggressive-Hybrid-Fund-Regular-Plan-Growth:dsp-aggressive-hybrid-fund-direct-growth
+- LIC-MF-Aggressive-Hybrid-Fund-Regular-Plan-Growth:lic-mf-balanced-direct-growth
+- UTI-Aggressive-Hybrid-Fund-Regular-Plan-Growth:uti-balanced-fund-direct-growth
+- quant-Aggressive-Hybrid-Fund-Growth-Option-Regular-Plan:quant-aggressive-hybrid-fund-direct-growth
+- Navi-Aggressive-Hybrid-Fund-Regular-Plan-Growth
+- Tata-Aggressive-Hybrid-Fund-Regular-Plan-Growth-Option:tata-aggressive-hybrid-fund-direct-growth
+- Groww-Aggressive-Hybrid-Fund-formerly-known-as-Indiabulls-Equity-Hybrid-Fund-Regular-Plan-Growth-option:groww-aggressive-hybrid-fund-direct-growth
+- Baroda-BNP-Paribas-Aggressive-Hybrid-Fund-REGULAR-PLAN-GROWTH-OPTION:baroda-bnp-paribas-aggressive-hybrid-fund-direct-growth
+- Invesco-India-Aggressive-Hybrid-Fund-Regular-Plan-Growth:invesco-india-aggressive-hybrid-fund-direct-growth
+- Shriram-Aggressive-Hybrid-Fund-Regular-Growth:shriram-aggressive-hybrid-fund-direct-growth
+- JM-Aggressive-Hybrid-Fund-Regular-Growth-Option:jm-aggressive-hybrid-fund-direct-growth
+#Hybrid:Conservative
+- HDFC-Hybrid-Debt-Fund-Growth-Plan:hdfc-monthly-i-come-plan-long-term-plan-direct-growth
+- BANDHAN-Conservative-Hybrid-Fund-Regular-Plan-Growth:bandhan-conservative-hybrid-fund-direct-plan-growth
+- Tata-Retirement-Savings-Fund-Conservative-Plan-Regular-Plan-Growth-Option:tata-retirement-savings-fund-conservative-plan-direct
+- BANK-OF-INDIA-Conservative-Hybrid-Fund-Regular-Plan-Growth:boi-axa-regular-return-fund-direct-growth
+- SBI-Conservative-Hybrid-Fund-Regular-Plan-Growth:sbi-magnum-monthly-i-come-plan-direct-growth
+- Kotak-Debt-Hybrid-Growth:kotak-debt-hybrid-fund-direct-growth
+- UTI-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option:uti-mis-advantage-fund-direct-growth
+- ICICI-Prudential-Regular-Savings-Fund-Plan-Growth:icici-prudential-regular-savings-fund-direct-growth
+- Parag-Parikh-Conservative-Hybrid-Fund-Regular-Plan-Growth:parag-parikh-conservative-hybrid-fund-direct-growth
+- Axis-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option:axis-conservative-hybrid-fund-direct-growth
+- Sundaram-Conservative-Hybrid-Fund-Formerly-Known-as-Sundaram-Debt-Oriented-Hybrid-Fund-Regular-Plan-Growth:sundaram-conservative-hybrid-fund-direct-plan-growth
+- Nippon-India-Conservative-Hybrid-Fund-Growth-Plan:nippon-india-conservative-hybrid-fund-direct-growth
+- Franklin-India-Conservative-Hybrid-Fund-Growth:franklin-india-conservative-hybrid-fund-a-direct-growth
+- BARODA-BNP-PARIBAS-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-conservative-hybrid-fund-direct-growth
+- Canara-Robeco-Conservative-Hybrid-Fund-Regular-Plan-Growth-Option:canara-robeco-monthly-i-come-plan-direct-growth
+- Aditya-Birla-Sun-Life-Conservative-Hybrid-Active-FOF-Regular-Plan-Growth-Option:aditya-birla-sun-life-conservative-hybrid-active-fof-direct-growth
+- LIC-MF-Conservative-Hybrid-Fund-Regular-Plan-Growth:lic-mf-monthly-i-come-plan-direct-cumulative
+#Hybrid:Dynamic-Asset-Allocation
+- HDFC-Balanced-Advantage-Fund-Growth-Plan:hdfc-balanced-advantage-fund-direct-growth
+- Baroda-BNP-Paribas-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-balanced-advantage-fund-direct-growth
+- Aditya-Birla-Sun-Life-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:birla-sun-life-balanced-advantage-fund-direct-growth
+- WhiteOak-Capital-Balanced-Advantage-Fund-Regular-Plan-Growth:whiteoak-capital-balanced-advantage-fund-direct-growth
+- SBI-Balanced-Advantage-Fund-Regular-Plan-Growth:sbi-balanced-advantage-fund-direct-growth
+- Mirae-Asset-Balanced-Advantage-Fund-Regular-Plan-Growth:mirae-asset-balanced-advantage-fund-direct-growth
+- UTI-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:uti-balanced-advantage-fund-direct-growth
+- Nippon-India-Balanced-Advantage-Fund-Growth-Plan-Growth-Option:nippon-india-balanced-advantage-fund-direct-growth
+- DSP-Dynamic-Asset-Allocation-Fund-Regular-Plan-Growth:dsp-blackrock-dynamic-asset-allocation-fund-direct-growth
+- Kotak-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:kotak-balanced-advantage-fund-direct-growth
+- Union-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:union-balanced-advantage-fund-direct-growth
+- Franklin-India-Balanced-Advantage-Fund-Growth:franklin-india-balanced-advantage-fund-direct-growth
+- Axis-Balanced-Advantage-Fund-Regular-Plan-Growth:axis-balanced-advantage-fund-direct-growth
+- Bajaj-Finserv-Balanced-Advantage-Fund-Regular-Plan-Growth:bajaj-finserv-balanced-advantage-fund-direct-growth
+- Helios-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:helios-balanced-advantage-fund-direct-growth
+- Parag-Parikh-Dynamic-Asset-Allocation-Fund-Regular-Plan-Growth:parag-parikh-dynamic-asset-allocation-fund-direct-growth
+- BANDHAN-Balanced-Advantage-Fund-Regular-Plan-Growth:idfc-dynamic-equity-fund-direct-growth
+- Edelweiss-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:edelweiss-absolute-return-fund-direct-growth
+- PGIM-India-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:pgim-india-balanced-advantage-fund-direct-growth
+- LIC-MF-Balanced-Advantage-Fund-Regular-Plan-Growth
+- Sundaram-Balanced-Advantage-Fund-Formerly-Known-as-Principal-Balanced-Advantage-Fund-Growth-Option:sundaram-balanced-advantage-fund-direct-growth
+- Mahindra-Manulife-Balanced-Advantage-Fund-Regular-Plan-Growth:mahindra-manulife-balanced-advantage-fund-direct-growth
+- ITI-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:iti-balanced-advantage-fund-direct-growth
+- Tata-Balanced-Advantage-Fund-Regular-Plan-Growth:tata-balanced-advantage-fund-direct-growth
+- BANK-OF-INDIA-BALANCED-ADVANTAGE-FUND-REGULAR-PLAN-GROWTH:boi-axa-equity-debt-rebalancer-fund-direct-growth
+- Invesco-India-Balanced-Advantage-Fund-Growth:invesco-india-dynamic-equity-fund-direct-growth
+- Canara-Robeco-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:canara-robeco-balanced-advantage-fund-direct-growth
+- HSBC-Balanced-Advantage-Fund-Regular-Growth:hsbc-balanced-advantage-fund-direct-growth
+- Quant-Dynamic-Asset-Allocation-Fund-Growth-Option-Regular-Plan:quant-dynamic-asset-allocation-fund-direct-growth
+- Shriram-Balanced-Advantage-Fund-Regular-Growth:shriram-balanced-advantage-fund-direct-growth
+- NJ-Balanced-Advantage-Fund-Regular-Plan-Growth-Option:nj-balanced-advantage-fund-direct-growth
+- Samco-Dynamic-Asset-Allocation-Fund-Regular-Plan-Growth-Option:samco-dynamic-asset-allocation-fund-direct-growth
+- Motilal-Oswal-Balanced-Advantage-Fund-MOFDYNAMIC-Regular-Plan-Growth-Option:motilal-oswal-balanced-advantage-fund-direct-growth
+- Unifi-Dynamic-Asset-Allocation-Fund-Regular-Growth:unifi-dynamic-asset-allocation-fund-direct-growth
+- ICICI-Prudential-Balanced-Advantage-Fund-Growth:icici-prudential-balanced-advantage-fund-direct-growth
+#Hybrid:Equity-Savings
+- SBI-Equity-Savings-Fund-Regular-Plan-Growth
+- DSP-Equity-Savings-Fund-Regular-Plan-Growth
+- PGIM-India-Equity-Savings-Fund-Growth-Option
+- Sundaram-Equity-Savings-Fund-Formerly-Known-as-Principal-Equity-Savings-Fund-Growth-Option
+- WhiteOak-Capital-Equity-Savings-Fund-Regular-Plan-Growth
+- HSBC-Equity-Savings-Fund-Regular-Growth
+- Tata-Equity-Savings-Fund-Regular-Plan-Growth-Option
+- Sundaram-Equity-Savings-Fund-Formerly-Known-as-Principal-Equity-Savings-Fund-Growth-Option
+- Invesco-India-Equity-Savings-Fund-Regular-Plan-Growth
+- Kotak-Equity-Savings-Fund-Regular-Growth
+- UTI-Equity-Savings-Fund-Regular-Plan-Growth-Option
+- Edelweiss-Equity-Savings-Fund-Regular-Plan-Growth-Option
+- Nippon-India-Equity-Savings-Fund-Growth-Plan-Growth-Option
+- Mahindra-Manulife-Equity-Savings-Fund-Regular-Plan-Growth
+- HDFC-Equity-Savings-Fund-GROWTH-PLAN
+- Mirae-Asset-Equity-Savings-Fund-Regular-Plan-Growth
+- ICICI-Prudential-Equity-Savings-Fund-Cumulative-option
+- Baroda-BNP-Paribas-Equity-Savings-Fund-Regular-Plan-Growth
+- Aditya-Birla-Sun-Life-Equity-Savings-Fund-Regular-Plan-Growth
+- Axis-Equity-Saver-Fund-Regular-Plan-Growth
+- Axis-Equity-Savings-Fund-Regular-Plan-Growth
+- Franklin-India-Equity-Savings-Fund-Growth
+- BANDHAN-Equity-Savings-Fund-Regular-Plan-Growth
+- LIC-MF-Equity-Savings-Fund-Regular-Plan-Growth
+#Hybrid:Multi-Asset-Allocation
+- DSP-Multi-Asset-Allocation-Fund-Regular-Growth:dsp-multi-asset-allocation-fund-direct-growth
+- Mahindra-Manulife-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:mahindra-manulife-multi-asset-allocation-fund-direct-growth
+- WhiteOak-Capital-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:whiteoak-capital-multi-asset-allocation-fund-direct-growth
+- Nippon-India-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option:nippon-india-multi-asset-allocation-fund-direct-growth
+- Union-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option:union-multi-asset-allocation-fund-direct-growth
+- Sundaram-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:sundaram-multi-asset-allocation-fund-direct-growth
+- Mirae-Asset-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:mirae-asset-multi-asset-allocation-fund-direct-growth
+- ICICI-Prudential-Multi-Asset-Fund-Growth:icici-prudential-dynamic-plan-direct-growth
+- Kotak-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option:kotak-multi-asset-allocation-fund-direct-growth
+- Aditya-Birla-Sun-Life-Multi-Asset-Allocation-Fund-Regular-Growth:aditya-birla-sun-life-multi-asset-allocation-fund-direct-growth
+- SBI-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:sbi-magnum-monthly-i-come-plan-floater-direct-growth
+- Bandhan-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:bandhan-multi-asset-allocation-fund-direct-growth
+- Axis-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option:axis-multi-asset-allocation-direct-plan-growth
+- Bajaj-Finserv-Multi-Asset-Allocation-Fund-Regular-Growth:bajaj-finserv-multi-asset-allocation-fund-direct-growth
+- quant-Multi-Asset-Allocation-Fund-GROWTH-OPTION-Regular-Plan:quant-multi-asset-allocation-fund-direct-growth
+- Tata-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:tata-multi-asset-allocation-fund-direct-growth
+- HDFC-Multi-Asset-Fund-Growth-Option:hdfc-multi-asset-allocation-fund-direct-growth
+- HSBC-Multi-Asset-Allocation-Fund-Regular-Growth:hsbc-multi-asset-allocation-fund-direct-growth
+- Quantum-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option:quantum-multi-asset-allocation-fund-direct-growth
+- Baroda-BNP-Paribas-Multi-Asset-Fund-Regular-Plan-Growth-Option:baroda-bnp-paribas-multi-asset-fund-direct-growth
+- UTI-Multi-Asset-Allocation-Fund-Regular-Plan-Growth-Option:uti-wealth-builder-fund-direct-growth
+- Bank-of-India-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:bank-of-india-multi-asset-allocation-fund-direct-growth
+- Edelweiss-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:edelweiss-multi-asset-allocation-fund-direct-growth 
+- Shriram-Multi-Asset-Allocation-Fund-Regular-Growth:shriram-multi-asset-allocation-fund-direct-growth
+- 360-ONE-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:360-one-multi-asset-allocation-fund-direct-growth
+- Canara-Robeco-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:canara-robeco-multi-asset-allocation-fund-direct-growth
+- Franklin-India-Multi-Asset-Allocation-Fund-Growth:franklin-india-multi-asset-allocation-fund-direct-growth
+- Groww-Multi-Asset-Allocation-Fund-Regular-Growth:groww-multi-asset-allocation-fund-direct-growth
+- Invesco-India-Multi-Asset-Allocation-Fund-Growth:invesco-india-multi-asset-allocation-fund-direct-growth
+- LIC-MF-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:lic-mf-multi-asset-allocation-fund-direct-growth
+- Samco-Multi-Asset-Allocation-Fund-Regular-Plan-Growth:samco-multi-asset-allocation-fund-direct-growth
+#Equity:Sectoral-Technology
+- Franklin-India-Technology-Fund-Growth:franklin-india-technology-fund-direct-growth
+- Aditya-Birla-Sun-Life-Digital-India-Fund-Growth-Regular-Plan:birla-sun-life-new-millennium-direct-growth
+- ICICI-Prudential-Technology-Fund-Growth:icici-prudential-technology-fund-direct-growth
+- SBI-Technology-Opportunities-Fund-Regular-Plan-Growth:sbi-it-fund-direct-growth
+- HDFC-Technology-Fund-Growth-Option:hdfc-technology-fund-direct-growth
+- Quant-Teck-Fund-Growth-Option-Regular-Plan:quant-teck-fund-direct-growth
+- Tata-Digital-India-Fund-Regular-Plan-Growth:tata-digital-india-fund-direct-growth
+- Kotak-Technology-Fund-Regular-Plan-Growth-Option:kotak-technology-fund-direct-growth
+- Edelweiss-Technology-Fund-Regular-Plan-Growth:edelweiss-technology-fund-direct-growth
+- Edelweiss-US-Technology-Equity-Fund-of-Fund-Regular-Plan-Growth:edelweiss-us-technology-equity-fof-direct-growth
+#equity: FOF Domestic
+- ICICI-Prudential-Asset-Allocator-Fund-FOF-Growth
+- HSBC-Managed-Solutions-Growth-Growth
+- Kotak-Multi-Asset-Allocator-Fund-of-Fund-Dynamic-Growth
+- Mirae-Asset-Equity-allocator-Fund-Of-Fund-Regular-Growth
+- Nippon-India-Asset-Allocator-FoF-Regular-Plan-Growth-Option
+#Banking and PSU Debt Fund
+- Canara-Robeco-Banking-and-PSU-Debt-Fund-Regular-Plan-Growth-Option
+- Axis-Banking-PSU-Debt-Fund-Regular-Plan-Growth-option
+- Bajaj-Finserv-Banking-and-PSU-Fund-Regular-Plan-Growth
+- Baroda-BNP-Paribas-Banking-and-PSU-Bond-Fund-Regular-Plan-Growth-Option
+- Edelweiss-Banking-and-PSU-Debt-Fund-Regular-Plan-Growth-Option
+- HDFC-Banking-and-PSU-Debt-Fund-Growth-Option
+- HSBC-Banking-and-PSU-Debt-Fund-Regular-Growth
+- ICICI-Prudential-Banking-and-PSU-Debt-Fund-Growth
+- Invesco-India-Banking-and-PSU-Fund-Growth-Option
+- ITI-Banking-PSU-Debt-Fund-Regular-Plan-Growth-Option
+- Kotak-Banking-and-PSU-Debt-Growth
+- Sundaram-Banking-PSU-Fund-Formerly-Known-as-Sundaram-Banking-and-PSU-Debt-Fund-Regular-Plan-Growth
+
+categories:
+- 'Equity: Large Cap'
+- 'Equity: Focused'
+- 'Equity: Large and Mid Cap'
+- 'Equity: Mid Cap'
+- 'Equity: Small Cap'
+- 'Equity: Contra'
+- 'Equity: Value'
+- 'Equity: Flexi Cap'
+- 'Equity: Multi Cap'
+- 'Hybrid: Multi Asset Allocation'
+- 'Hybrid: Dynamic Asset Allocation'
+- 'Hybrid: Aggressive'
+- 'Hybrid: Conservative'
+- 'Equity: ELSS'
+- 'Hybrid: Arbitrage'
+- 'Hybrid: Equity Savings'
+- 'Equity: Sectoral-Pharma and Healthcare'
+- 'Equity: Sectoral-FMCG'
+- 'Equity: Thematic-Consumption'
+- 'Equity: Thematic-ESG'
+- 'Equity: Thematic-Others'
+- 'Equity: Sectoral-Infrastructure'
+- 'Equity: Sectoral-Technology'
+- 'Equity: Dividend Yield'
+- 'Equity: Thematic-Manufacturing'
+- 'Equity: Sectoral-Banking and Financial Services'
+- 'Equity: Thematic-PSU'
+- 'Equity: Thematic-MNC'
+- 'Equity: Thematic-International'
+- 'Debt: Ultra Short Duration'
+- 'Debt: Short Duration'
+- 'Debt: Medium Duration'
+- 'Debt: Liquid'
+- 'Debt: Overnight'
+- 'Debt: Banking and PSU'
+- 'ETFs'
+- 'Index Fund'
+- 'Retirement Fund'
+- 'Childrens Fund'
