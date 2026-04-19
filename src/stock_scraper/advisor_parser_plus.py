@@ -1,9 +1,20 @@
 import os
+import sys
 
-from stock_scraper import login
-from stock_scraper.advisor_parser_new import run as run_advisor_parser
-from stock_scraper.mftdownloader import download_report
-from stock_scraper.mftreturnsconsolidator import consolidate_mft_returns
+try:
+    from . import login
+    from .advisor_parser_new import run as run_advisor_parser
+    from .mftdownloader import download_report
+    from .mftreturnsconsolidator import consolidate_mft_returns
+except ImportError:
+    # Allow direct execution: python src/stock_scraper/advisor_parser_plus.py
+    module_dir = os.path.abspath(os.path.dirname(__file__))
+    if module_dir not in sys.path:
+        sys.path.insert(0, module_dir)
+    import login
+    from advisor_parser_new import run as run_advisor_parser
+    from mftdownloader import download_report
+    from mftreturnsconsolidator import consolidate_mft_returns
 
 
 def file_size(path: str) -> int:
